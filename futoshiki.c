@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// globals.h
+#define bool char
+#define TRUE 1
+#define FALSE 0
+
 
 typedef struct cell {
 
@@ -25,12 +30,34 @@ BOARD* initBoard(int n) {
         board->matrix[i] = (CELL*)malloc(sizeof(CELL) * n);
         for (j = 0; j < n; j++) {
             board->matrix[i][j].value = 0;
-
             board->matrix[i][j].x = 0;
             board->matrix[i][j].y = 0;
         }
     }
     return board;
+}
+
+void printBoard(BOARD* board) {
+    int i, j;
+    for (i = 0; i < board->n; i++) {
+        for (j = 0; j < board->n; j++) {
+            printf("[%d]", &board->matrix[i][j].value);
+        }
+        printf("\n");
+    }
+}
+
+// game functions
+bool isValid(BOARD* board, int x, int y) {
+    int i;
+    int value = board->matrix[x][y].value;
+    for (i = 0; i < board->n; i++) {
+        // check horizontally
+        if (board->matrix[x][i].value != value) return FALSE;
+        // check vertically
+        if (board->matrix[i][y].value != value) return FALSE;
+    }
+    return TRUE;
 }
 
 int main(int argc, char const *argv[]) {
