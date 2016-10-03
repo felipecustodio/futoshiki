@@ -1,5 +1,5 @@
 
-//EI EI EI SALSICHAO EH O REI
+//EI EI EI SALSICHAO EH O REI rei rei
 #include <stdio.h>
 #include <stdlib.h>
 
