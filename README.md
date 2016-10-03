@@ -1,10 +1,5 @@
-<<<<<<<
-# futoshiki
-Futoshiki puzzle solver using backtracking heuristics
-=======
 # futoshiki 不等式 puzzle solver
 ### Featuring backtracking heuristics.
->>>>>>>
 
 ![](http://www.atksolutions.com/games/futoshiki.jpg)
 
