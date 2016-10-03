@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// globals.h
+#define bool char
+#define TRUE 1
+#define FALSE 0
+
 
 typedef struct cell {
 
@@ -31,6 +36,15 @@ BOARD* initBoard(int n) {
         }
     }
     return board;
+}
+
+void printBoard(BOARD* board) {
+    int i, j;
+    for (i = 0; i < board->n; i++) {
+        for (j = 0; j < board->n; j++) {
+            
+        }
+    }
 }
 
 int main(int argc, char const *argv[]) {
