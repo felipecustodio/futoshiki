@@ -1,5 +1,4 @@
 
-//EI EI EI SALSICHAO EH O REI
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -7,7 +6,6 @@
 #define bool char
 #define TRUE 1
 #define FALSE 0
-
 
 typedef struct cell {
 
@@ -43,14 +41,8 @@ void printBoard(BOARD* board) {
     int i, j;
     for (i = 0; i < board->n; i++) {
         for (j = 0; j < board->n; j++) {
-<<<<<<< HEAD
-            
-        }
-    }
-}
+            printf("[%d]", board->matrix[i][j].value);
 
-=======
-            printf("[%d]", &board->matrix[i][j].value);
         }
         printf("\n");
     }
@@ -69,7 +61,6 @@ bool isValid(BOARD* board, int x, int y) {
     return TRUE;
 }
 
->>>>>>> master
 int main(int argc, char const *argv[]) {
 
     int i, j, k;
