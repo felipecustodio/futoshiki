@@ -24,19 +24,18 @@ typedef struct board {
 /*
 * board functions
 */
-BOARD* initBoard(int n) {
+void initBoard(BOARD** board, int n) {
     int i, j;
-    BOARD* board = (BOARD*)malloc(sizeof(BOARD));
-    board->matrix = (CELL**)malloc(sizeof(CELL*) * n);
+    board = (BOARD**)malloc(sizeof(BOARD*));
+    (*board)->matrix = (CELL**)malloc(sizeof(CELL*) * n);
     for (i = 0; i < n; i++) {
-        board->matrix[i] = (CELL*)malloc(sizeof(CELL) * n);
+        (*board)->matrix[i] = (CELL*)malloc(sizeof(CELL) * n);
         for (j = 0; j < n; j++) {
-            board->matrix[i][j].value = 0;
-            board->matrix[i][j].x = 0;
-            board->matrix[i][j].y = 0;
+            (*board)->matrix[i][j].value = 0;
+            (*board)->matrix[i][j].x = 0;
+            (*board)->matrix[i][j].y = 0;
         }
     }
-    return board;
 }
 
 void printBoard(BOARD* board) {
@@ -75,13 +74,42 @@ bool isValid(BOARD* board, int x, int y) {
     return TRUE;
 }
 
-int main(int argc, char const *argv[]) {
 
+bool backtrack_simple(BOARD** b, int x, int y) {
+
+    int i;
+    // check if has reached end of board
+    if (x >= (*b)->n && y >= (*b)->n) return TRUE;
+    // try possible values
+    for (i = 1; i <= (*b)->n; i++) {
+        // check if has existing value
+        if ((*b)->matrix[x][y].value == 0) {
+            (*b)->matrix[x][y].value = i;
+        }
+        if (isValid(*b, x, y)) {
+            if (y == (*b)->n-1) {
+                // goes to next line
+                if (backtrack_simple(b, x+1, 0)) {
+                    return TRUE;
+                }
+            } else {
+                // goes to next column
+                if (backtrack_simple(b, x, y+1)) {
+                    return TRUE;
+                }
+            }
+        }
+        (*b)->matrix[x][y].value = 0;
+    }
+    return FALSE;
+}
+
+int main(int argc, char const *argv[]) {
     int i, j, k;
     int n, d, r;
+
     int x1, y1, x2, y2;
     BOARD* board = NULL;
-    printf("Number of tests: ");
     scanf("%d", &n); // number of tests to run
 
     // tests cycle
@@ -94,11 +122,13 @@ int main(int argc, char const *argv[]) {
         }
 
         scanf("%d", &d); // board dimensions
-        BOARD* board = initBoard(d);
+        printf("Initializing board...\n");
+        initBoard(&board, d);
         scanf("%d", &r); // number of restrictions
         // read board
         for (j = 0; j < d; j++) {
             for (k = 0; k < d; k++) {
+                printf("O erro é aqui\n");
                 scanf("%d", &(board->matrix[j][k].value));
             }
         }
