@@ -21,6 +21,9 @@ typedef struct board {
 
 } BOARD;
 
+/*
+* board functions
+*/
 BOARD* initBoard(int n) {
     int i, j;
     BOARD* board = (BOARD*)malloc(sizeof(BOARD));
@@ -47,16 +50,28 @@ void printBoard(BOARD* board) {
     }
 }
 
-// game functions
+/*
+* game functions
+*/
 bool isValid(BOARD* board, int x, int y) {
     int i;
+    int bigger; // store the value in the constraint coordinate
     int value = board->matrix[x][y].value;
+    // check if value already exists
     for (i = 0; i < board->n; i++) {
         // check horizontally
-        if (board->matrix[x][i].value != value) return FALSE;
+        if (i != y && board->matrix[x][i].value == value) return FALSE;
         // check vertically
-        if (board->matrix[i][y].value != value) return FALSE;
+        if (i != x && board->matrix[i][y].value == value) return FALSE;
     }
+    // check if value respects constraint
+    bigger = board->matrix[board->matrix[x][y].x][board->matrix[x][y].y].value;
+
+    if (bigger > 0 && board->matrix[x][y].value > bigger) {
+        return FALSE;
+    }
+
+    // all conditions were valid
     return TRUE;
 }
 
