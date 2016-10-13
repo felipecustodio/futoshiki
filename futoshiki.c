@@ -26,11 +26,15 @@ typedef struct board {
 */
 void initBoard(BOARD** board, int n) {
     int i, j;
+    printf("Allocating board\n");
     board = (BOARD**)malloc(sizeof(BOARD*));
+    printf("Allocating lines\n");
     (*board)->matrix = (CELL**)malloc(sizeof(CELL*) * n);
     for (i = 0; i < n; i++) {
+        printf("Allocating columns\n");
         (*board)->matrix[i] = (CELL*)malloc(sizeof(CELL) * n);
         for (j = 0; j < n; j++) {
+            printf("Reset values\n");
             (*board)->matrix[i][j].value = 0;
             (*board)->matrix[i][j].x = 0;
             (*board)->matrix[i][j].y = 0;
@@ -74,9 +78,8 @@ bool isValid(BOARD* board, int x, int y) {
     return TRUE;
 }
 
-
-bool backtrack_simple(BOARD** b, int x, int y) {
-
+// BACKTRACKING - SIMPLE, NO HEURISTICS
+bool futoshiki(BOARD** b, int x, int y) {
     int i;
     // check if has reached end of board
     if (x >= (*b)->n && y >= (*b)->n) return TRUE;
@@ -89,12 +92,12 @@ bool backtrack_simple(BOARD** b, int x, int y) {
         if (isValid(*b, x, y)) {
             if (y == (*b)->n-1) {
                 // goes to next line
-                if (backtrack_simple(b, x+1, 0)) {
+                if (futoshiki(b, x+1, 0)) {
                     return TRUE;
                 }
             } else {
                 // goes to next column
-                if (backtrack_simple(b, x, y+1)) {
+                if (futoshiki(b, x, y+1)) {
                     return TRUE;
                 }
             }
@@ -103,6 +106,9 @@ bool backtrack_simple(BOARD** b, int x, int y) {
     }
     return FALSE;
 }
+
+
+
 
 int main(int argc, char const *argv[]) {
     int i, j, k;
@@ -125,6 +131,7 @@ int main(int argc, char const *argv[]) {
         printf("Initializing board...\n");
         initBoard(&board, d);
         scanf("%d", &r); // number of restrictions
+
         // read board
         for (j = 0; j < d; j++) {
             for (k = 0; k < d; k++) {
