@@ -42,11 +42,23 @@ BOARD* initBoard(BOARD* board, int n) {
     for (i = 0; i < n; i++) {
         board->matrix[i] = (CELL*)malloc(sizeof(CELL) * n);
         for (j = 0; j < n; j++) {
-            board->matrix[i][j].value = 0;
-            board->matrix[i][j].x = 0;
-            board->matrix[i][j].y = 0;
+            board->matrix[i][j].value = -1;
+            board->matrix[i][j].x = -1;
+            board->matrix[i][j].y = -1;
         }
     }
+    return board;
+}
+
+BOARD* destroyBoard(BOARD* board) {
+    int i;
+    for (i = 0; i < board->n; i++) {
+        free(board->matrix[i]);
+        board->matrix[i] = NULL;
+    }
+    free(board->matrix);
+    free(board);
+    board = NULL;
     return board;
 }
 
@@ -61,16 +73,22 @@ bool isValid(BOARD* board, int x, int y) {
     // check if value already exists
     for (i = 0; i < board->n; i++) {
         // check horizontally
-        if (i != y && board->matrix[x][i].value == value) return FALSE;
+        if (i != y && board->matrix[x][i].value == value) {
+            return FALSE;
+        }
         // check vertically
-        if (i != x && board->matrix[i][y].value == value) return FALSE;
+        if (i != x && board->matrix[i][y].value == value) {
+            return FALSE;
+        }
     }
 
-    // check if value respects constraint
-    bigger = board->matrix[board->matrix[x][y].x][board->matrix[x][y].y].value;
-
-    if (bigger > 0 && board->matrix[x][y].value > bigger) {
-        return FALSE;
+    // check if position has constraint
+    if (board->matrix[x][y].x != -1 && board->matrix[x][y].y != -1) {
+        // check if value respects constraint
+        bigger = board->matrix[board->matrix[x][y].x][board->matrix[x][y].y].value;
+        if (bigger >= 0 && board->matrix[x][y].value > bigger) {
+            return FALSE;
+        }
     }
 
     // all conditions were valid
@@ -80,32 +98,26 @@ bool isValid(BOARD* board, int x, int y) {
 // BACKTRACKING - SIMPLE, NO HEURISTICS
 bool futoshiki_simple(BOARD** b, int x, int y) {
     int i;
-    printf("Entered solver at [%d][%d]\n", x, y);
     // check if has reached end of board
-    if (x > (*b)->n && y > (*b)->n) {
-        printf("Reached end of board\n");
+    if (x >= (*b)->n || y >= (*b)->n) {
         return TRUE;
     }
     // try possible values
     for (i = 1; i <= (*b)->n; i++) {
         // check if cell is occupied
         if ((*b)->matrix[x][y].value == 0) {
-            printf("Placing %d at [%d][%d]\n", i, x, y);
             (*b)->matrix[x][y].value = i;
         }
         // check if value isn't already used
         if (isValid(*b, x, y)) {
-            printf("Value is valid!\n");
             // checks if reached last column
             if (y == (*b)->n-1) {
-                printf("Call function to next line\n");
                 // goes to next line
                 if (futoshiki_simple(b, x+1, 0)) {
                     // placement was successful
                     return TRUE;
                 }
             } else {
-                printf("Call function to next column\n");
                 // goes to next column
                 if (futoshiki_simple(b, x, y+1)) {
                     // placement was sucessful
@@ -113,9 +125,7 @@ bool futoshiki_simple(BOARD** b, int x, int y) {
                 }
             }
         }
-        printf("Value not valid!\n");
         // reset current value
-        printf("Resetting [%d][%d]\n", x, y);
         (*b)->matrix[x][y].value = 0;
     }
     // none of the placements were successful
@@ -142,10 +152,14 @@ int main(int argc, char const *argv[]) {
     // tests cycle
     for (i = 0; i < n; i++) {
         printf("Test Cycle #%d\n", i);
+
         // reset board
         if (board != NULL) {
-            free(board);
-            board = NULL;
+            printf("Resetting board\n");
+            board = destroyBoard(board);
+            if (board == NULL) {
+                printf("Destruction successful\n");
+            }
         }
 
         scanf("%d", &d); // board dimensions
@@ -168,9 +182,12 @@ int main(int argc, char const *argv[]) {
 
         // solve current board
         printf("Starting Backtracking\n");
-        futoshiki_simple(&board, 0, 0);
-
-        printBoard(board);
+        if (futoshiki_simple(&board, 0, 0)) {
+            printf("Board solved!\n");
+            printBoard(board);
+        } else {
+            printf("NO SOLUTION!\n");
+        }
         printf("\n");
     }
 

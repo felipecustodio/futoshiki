@@ -5,15 +5,13 @@ BINARY = ./build/futoshiki
 all: clean compile run
 
 run:
-	$(BINARY) < ./test/test1.in
+	$(BINARY) < ./test/futoshiki.dat
 
 clean:
-	rm *.o clear
+	rm *.o
 
 compile: futoshiki.o
-	$(CC) -g -o $(BINARY) futoshiki.o 
+	$(CC) -g -o $(BINARY) futoshiki.o
 
 futoshiki.o:
-	$(CC) -c ./src/futoshiki.c 
-
-
+	$(CC) -c ./src/futoshiki.c
