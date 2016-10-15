@@ -36,9 +36,9 @@ void printBoard(BOARD* board) {
     }
 }
 
-BOARD* initBoard(BOARD* board, int n) {
+BOARD* initBoard(int n) {
     int i, j;
-    board = (BOARD*)malloc(sizeof(BOARD));
+    BOARD* board = (BOARD*)malloc(sizeof(BOARD));
     board->n = n;
     board->matrix = (CELL**)malloc(sizeof(CELL*) * n);
     for (i = 0; i < n; i++) {
@@ -148,58 +148,108 @@ bool futoshiki_simple(BOARD** b, int x, int y) {
 
 // Backtrack with Minimal Conflicts
 
-int main(int argc, char const *argv[]) {
+// READ BOARDS
+BOARD** readBoards(int n) {
     int i, j, k;
-    // input
-    int n, d, r;
-    // restriction coordinates
+    BOARD** b = NULL;
+    int d, r;
     int x1, y1, x2, y2;
-    // futoshiki board
-    BOARD* board = NULL;
 
-    scanf("%d", &n); // number of tests to run
-    // tests cycle
+    b = (BOARD**)malloc(sizeof(BOARD*) * n);
     for (i = 0; i < n; i++) {
-        printf("Board #%d\n", i+1);
-
-        // reset board
-        if (board != NULL) {
-            board = destroyBoard(board);
-            if (board == NULL) {
-            }
-        }
-
-        scanf("%d", &d); // board dimensions
-        board = initBoard(board, d); // allocate memory
-        scanf("%d", &r); // number of restrictions
-
+        // get size of board
+        scanf("%d", &d);
+        // allocate memory for new board
+        b[i] = initBoard(d);
+        // get number of restrictions
+        scanf("%d", &r);
         // read board
         for (j = 0; j < d; j++) {
             for (k = 0; k < d; k++) {
-                scanf("%d", &(board->matrix[j][k].value));
-                if (board->matrix[j][k].value != 0) {
-                    board->matrix[j][k].filled = TRUE;
+                scanf("%d", &(b[i]->matrix[j][k].value));
+                if (b[i]->matrix[j][k].value != 0) {
+                    b[i]->matrix[j][k].filled = TRUE;
                 }
             }
         }
-
         // read restrictions
         for (j = 0; j < r; j++) {
             scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
-            board->matrix[x1-1][y1-1].x = x2-1;
-            board->matrix[x1-1][y1-1].y = y2-1;
+            b[i]->matrix[x1-1][y1-1].x = x2-1;
+            b[i]->matrix[x1-1][y1-1].y = y2-1;
         }
+    }
+    return b;
+}
 
-        // solve current board
-        printf("Starting Backtracking\n");
-        if (futoshiki_simple(&board, 0, 0)) {
-            printf("%d\n", i);
-            printBoard(board);
+int main(int argc, char const *argv[]) {
+    printf("\tFUTOSHIKI 不等式\n");
+    // int i, j, k;
+    // input
+    // int n, d, r;
+    // restriction coordinates
+    // int x1, y1, x2, y2;
+    // futoshiki board
+    // BOARD* board =
+    int i;
+    int n = 0;
+    scanf("%d", &n);
+    BOARD** boards = readBoards(n);
+    for (i = 0; i < n; i++) {
+        printf("::: Board %d\n", i);
+        printBoard(boards[i]);
+        if (futoshiki_simple(&boards[i], 0, 0)) {
+            printBoard(boards[i]);
         } else {
             printf("NO SOLUTION!\n");
         }
         printf("\n");
     }
+
+
+    // scanf("%d", &n); // number of tests to run
+    // // tests cycle
+    // for (i = 0; i < n; i++) {
+    //     printf("::: Board #%d\n", i+1);
+    //
+    //     // TODO: this is probably wrong
+    //     if (board != NULL) {
+    //         board = destroyBoard(board);
+    //         if (board == NULL) {
+    //         }
+    //     }
+    //
+    //     scanf("%d", &d); // board dimensions
+    //     board = initBoard(board, d); // allocate memory
+    //     scanf("%d", &r); // number of restrictions
+    //
+    //     // read board
+    //     for (j = 0; j < d; j++) {
+    //         for (k = 0; k < d; k++) {
+    //             scanf("%d", &(board->matrix[j][k].value));
+    //             if (board->matrix[j][k].value != 0) {
+    //                 board->matrix[j][k].filled = TRUE;
+    //             }
+    //         }
+    //     }
+    //
+    //     // read restrictions
+    //     for (j = 0; j < r; j++) {
+    //         scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
+    //         board->matrix[x1-1][y1-1].x = x2-1;
+    //         board->matrix[x1-1][y1-1].y = y2-1;
+    //     }
+    //
+    //     // solve current board
+    //     printf("Starting Backtracking\n");
+    //     if (futoshiki_simple(&board, 0, 0)) {
+    //         printf("%d\n", i);
+    //         printBoard(board);
+    //     } else {
+    //         printf("NO SOLUTION!\n");
+    //     }
+    //     printf("\n");
+    // }
 
     return 0;
 }
