@@ -11,11 +11,13 @@ typedef struct cell {
     // restriction coordinates
     int x, y;
     int value;
+    bool filled; // determines if cell is pre-filled
 
 } CELL;
 
 typedef struct board {
 
+    // board size
     int n;
     CELL** matrix;
 
@@ -45,6 +47,7 @@ BOARD* initBoard(BOARD* board, int n) {
             board->matrix[i][j].value = -1;
             board->matrix[i][j].x = -1;
             board->matrix[i][j].y = -1;
+            board->matrix[i][j].filled = FALSE;
         }
     }
     return board;
@@ -86,7 +89,7 @@ bool isValid(BOARD* board, int x, int y) {
     if (board->matrix[x][y].x != -1 && board->matrix[x][y].y != -1) {
         // check if value respects constraint
         bigger = board->matrix[board->matrix[x][y].x][board->matrix[x][y].y].value;
-        if (bigger >= 0 && board->matrix[x][y].value > bigger) {
+        if (board->matrix[x][y].value > bigger) {
             return FALSE;
         }
     }
@@ -106,7 +109,10 @@ bool futoshiki_simple(BOARD** b, int x, int y) {
     for (i = 1; i <= (*b)->n; i++) {
         // check if cell is occupied
         if ((*b)->matrix[x][y].value == 0) {
-            (*b)->matrix[x][y].value = i;
+            // don't change pre-filled values
+            if (!((*b)->matrix[x][y].filled)) {
+                (*b)->matrix[x][y].value = i;
+            }
         }
         // check if value isn't already used
         if (isValid(*b, x, y)) {
@@ -126,7 +132,10 @@ bool futoshiki_simple(BOARD** b, int x, int y) {
             }
         }
         // reset current value
-        (*b)->matrix[x][y].value = 0;
+        // don't change pre-filled values
+        if (!((*b)->matrix[x][y].filled)) {
+            (*b)->matrix[x][y].value = 0;
+        }
     }
     // none of the placements were successful
     // something must be wrong, backtrack
@@ -151,26 +160,26 @@ int main(int argc, char const *argv[]) {
     scanf("%d", &n); // number of tests to run
     // tests cycle
     for (i = 0; i < n; i++) {
-        printf("Test Cycle #%d\n", i);
+        printf("Board #%d\n", i+1);
 
         // reset board
         if (board != NULL) {
-            printf("Resetting board\n");
             board = destroyBoard(board);
             if (board == NULL) {
-                printf("Destruction successful\n");
             }
         }
 
         scanf("%d", &d); // board dimensions
         board = initBoard(board, d); // allocate memory
         scanf("%d", &r); // number of restrictions
-        printf("Board of size %d with %d restrictions\n", d, r);
 
         // read board
         for (j = 0; j < d; j++) {
             for (k = 0; k < d; k++) {
                 scanf("%d", &(board->matrix[j][k].value));
+                if (board->matrix[j][k].value != 0) {
+                    board->matrix[j][k].filled = TRUE;
+                }
             }
         }
 
@@ -180,9 +189,6 @@ int main(int argc, char const *argv[]) {
             board->matrix[x1-1][y1-1].x = x2-1;
             board->matrix[x1-1][y1-1].y = y2-1;
         }
-
-        printf("Board:\n");
-        printBoard(board);
 
         // solve current board
         printf("Starting Backtracking\n");

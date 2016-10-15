@@ -5,7 +5,7 @@ BINARY = ./build/futoshiki
 all: clean compile run
 
 run:
-	$(BINARY) < ./test/test1.in
+	$(BINARY) < ./test/futoshiki.dat
 
 clean:
 	rm *.o
