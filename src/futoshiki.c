@@ -57,6 +57,7 @@ bool isValid(BOARD* board, int x, int y) {
     int i;
     int bigger; // store the value in the constraint coordinate
     int value = board->matrix[x][y].value;
+
     // check if value already exists
     for (i = 0; i < board->n; i++) {
         // check horizontally
@@ -64,6 +65,7 @@ bool isValid(BOARD* board, int x, int y) {
         // check vertically
         if (i != x && board->matrix[i][y].value == value) return FALSE;
     }
+
     // check if value respects constraint
     bigger = board->matrix[board->matrix[x][y].x][board->matrix[x][y].y].value;
 
@@ -156,6 +158,7 @@ int main(int argc, char const *argv[]) {
                 scanf("%d", &(board->matrix[j][k].value));
             }
         }
+
         // read restrictions
         for (j = 0; j < r; j++) {
             scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
