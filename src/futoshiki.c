@@ -165,6 +165,7 @@ int main(int argc, char const *argv[]) {
         scanf("%d", &d); // board dimensions
         board = initBoard(board, d); // allocate memory
         scanf("%d", &r); // number of restrictions
+        printf("Board of size %d with %d restrictions\n", d, r);
 
         // read board
         for (j = 0; j < d; j++) {
@@ -180,10 +181,13 @@ int main(int argc, char const *argv[]) {
             board->matrix[x1-1][y1-1].y = y2-1;
         }
 
+        printf("Board:\n");
+        printBoard(board);
+
         // solve current board
         printf("Starting Backtracking\n");
         if (futoshiki_simple(&board, 0, 0)) {
-            printf("Board solved!\n");
+            printf("%d\n", i);
             printBoard(board);
         } else {
             printf("NO SOLUTION!\n");
