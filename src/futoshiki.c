@@ -243,6 +243,8 @@ BOARD** readBoards(int n) {
             b[i]->matrix[x1-1][y1-1].restrictions[b[i]->matrix[x1-1][y1-1].r][1] = y2-1;
             b[i]->matrix[x1-1][y1-1].r += 1;
         }
+        // malloc na lista de forward checking de tamanho b[i]->n
+        // colocar n valores na lista
     }
     return b;
 }
