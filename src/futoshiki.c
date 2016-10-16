@@ -54,8 +54,12 @@ BOARD* initBoard(int n) {
 
 // TODO: This is probably very wrong
 BOARD* destroyBoard(BOARD* board) {
-    int i;
+    int i, j;
     for (i = 0; i < board->n; i++) {
+        // percorrer colunas
+        for (j = 0; j < board->n; j++) {
+            // liberar restrictions de [i][j]
+        }
         free(board->matrix[i]);
         board->matrix[i] = NULL;
     }
@@ -208,11 +212,15 @@ int main(int argc, char const *argv[]) {
             printBoard(boards[i]);
         } else {
             if (calls >= OVERFLOW) {
-                printf("Overflow. Took %d calls.\n", calls);
+                printf("Overflow! :: %d calls.\n", calls);
             }
-            printf("NO SOLUTION!\n");
+            printf("Can't solve this board!\n");
         }
         printf("\n");
+    }
+
+    for (i = 0; i < n; i++) {
+        boards[i] = destroyBoard(boards[i]);
     }
 
     return 0;
