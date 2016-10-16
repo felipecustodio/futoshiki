@@ -5,4 +5,6 @@
 #define TRUE 1
 #define FALSE 0
 
+#define OVERFLOW 1000000
+
 #endif

@@ -89,7 +89,7 @@ bool isValid(BOARD* board, int x, int y) {
         // check constraints
         for (i = 0; i < board->matrix[x][y].r; i++) {
             bigger = board->matrix[board->matrix[x][y].restrictions[i][0]][board->matrix[x][y].restrictions[i][1]].value;
-            if (board->matrix[x][y].value > bigger) {
+            if (bigger > 0 && board->matrix[x][y].value > bigger) {
                 return FALSE;
             }
         }
@@ -100,8 +100,12 @@ bool isValid(BOARD* board, int x, int y) {
 }
 
 // BACKTRACKING - SIMPLE, NO HEURISTICS
-bool futoshiki_simple(BOARD** b, int x, int y) {
+bool futoshiki_simple(BOARD** b, int x, int y, int* calls) {
     int i;
+    // check if recursive calls reached overflow
+    if (*calls >= OVERFLOW) {
+        return FALSE;
+    }
     // check if has reached end of board
     if (x >= (*b)->n || y >= (*b)->n) {
         return TRUE;
@@ -113,6 +117,7 @@ bool futoshiki_simple(BOARD** b, int x, int y) {
             // don't change pre-filled values
             if (!((*b)->matrix[x][y].filled)) {
                 (*b)->matrix[x][y].value = i;
+                (*calls)++;
             }
         }
         // check if value isn't already used
@@ -120,13 +125,13 @@ bool futoshiki_simple(BOARD** b, int x, int y) {
             // checks if reached last column
             if (y == (*b)->n-1) {
                 // goes to next line
-                if (futoshiki_simple(b, x+1, 0)) {
+                if (futoshiki_simple(b, x+1, 0, calls)) {
                     // placement was successful
                     return TRUE;
                 }
             } else {
                 // goes to next column
-                if (futoshiki_simple(b, x, y+1)) {
+                if (futoshiki_simple(b, x, y+1, calls)) {
                     // placement was sucessful
                     return TRUE;
                 }
@@ -189,14 +194,18 @@ BOARD** readBoards(int n) {
 int main(int argc, char const *argv[]) {
     printf("\tFUTOSHIKI 不等式\n\n");
     int i;
+    int calls;
     int n = 0;
     scanf("%d", &n);
     BOARD** boards = readBoards(n);
     for (i = 0; i < n; i++) {
+        calls = 0;
         printf("::: Board %d\n", i);
-        if (futoshiki_simple(&boards[i], 0, 0)) {
+        if (futoshiki_simple(&boards[i], 0, 0, &calls)) {
+            printf("Took %d calls\n", calls);
             printBoard(boards[i]);
         } else {
+            printf("Took %d calls.\n", calls);
             printf("NO SOLUTION!\n");
         }
         printf("\n");
