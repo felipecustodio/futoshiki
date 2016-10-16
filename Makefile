@@ -1,11 +1,11 @@
 CC = gcc
-INCLUDES = ./includes/
+INCLUDES = ./includes
 BINARY = ./build/futoshiki
 
 all: clean compile clear run
 
 run:
-	$(BINARY) < ./test/futoshiki.dat
+	$(BINARY) < ./test/test2.in
 
 clean:
 	rm *.o
@@ -17,4 +17,4 @@ compile: futoshiki.o
 	$(CC) -g -o $(BINARY) futoshiki.o
 
 futoshiki.o:
-	$(CC) -c ./src/futoshiki.c
+	$(CC) -c -I $(INCLUDES) ./src/futoshiki.c

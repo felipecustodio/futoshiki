@@ -1,15 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-// globals.h
-#define bool char
-#define TRUE 1
-#define FALSE 0
+#include "globals.h"
 
 typedef struct cell {
 
+    // number of restrictions
+    int r;
     // restriction coordinates
-    int x, y;
+    int** restrictions;
     int value;
     bool filled; // determines if cell is pre-filled
 
@@ -45,14 +43,15 @@ BOARD* initBoard(int n) {
         board->matrix[i] = (CELL*)malloc(sizeof(CELL) * n);
         for (j = 0; j < n; j++) {
             board->matrix[i][j].value = -1;
-            board->matrix[i][j].x = -1;
-            board->matrix[i][j].y = -1;
+            board->matrix[i][j].r = 0;
+            board->matrix[i][j].restrictions = NULL;
             board->matrix[i][j].filled = FALSE;
         }
     }
     return board;
 }
 
+// TODO: This is probably very wrong
 BOARD* destroyBoard(BOARD* board) {
     int i;
     for (i = 0; i < board->n; i++) {
@@ -86,11 +85,13 @@ bool isValid(BOARD* board, int x, int y) {
     }
 
     // check if position has constraint
-    if (board->matrix[x][y].x != -1 && board->matrix[x][y].y != -1) {
-        // check if value respects constraint
-        bigger = board->matrix[board->matrix[x][y].x][board->matrix[x][y].y].value;
-        if (board->matrix[x][y].value > bigger) {
-            return FALSE;
+    if (board->matrix[x][y].restrictions != NULL) {
+        // check constraints
+        for (i = 0; i < board->matrix[x][y].r; i++) {
+            bigger = board->matrix[board->matrix[x][y].restrictions[i][0]][board->matrix[x][y].restrictions[i][1]].value;
+            if (board->matrix[x][y].value > bigger) {
+                return FALSE;
+            }
         }
     }
 
@@ -175,22 +176,24 @@ BOARD** readBoards(int n) {
         // read restrictions
         for (j = 0; j < r; j++) {
             scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
-            b[i]->matrix[x1-1][y1-1].x = x2-1;
-            b[i]->matrix[x1-1][y1-1].y = y2-1;
+            b[i]->matrix[x1-1][y1-1].restrictions = (int**)realloc(b[i]->matrix[x1-1][y1-1].restrictions, sizeof(int*) * b[i]->matrix[x1-1][y1-1].r + 1);
+            b[i]->matrix[x1-1][y1-1].restrictions[b[i]->matrix[x1-1][y1-1].r] = (int*)malloc(sizeof(int) * 2);
+            b[i]->matrix[x1-1][y1-1].restrictions[b[i]->matrix[x1-1][y1-1].r][0] = x2-1;
+            b[i]->matrix[x1-1][y1-1].restrictions[b[i]->matrix[x1-1][y1-1].r][1] = y2-1;
+            b[i]->matrix[x1-1][y1-1].r += 1;
         }
     }
     return b;
 }
 
 int main(int argc, char const *argv[]) {
-    printf("\tFUTOSHIKI 不等式\n");
+    printf("\tFUTOSHIKI 不等式\n\n");
     int i;
     int n = 0;
     scanf("%d", &n);
     BOARD** boards = readBoards(n);
     for (i = 0; i < n; i++) {
         printf("::: Board %d\n", i);
-        printBoard(boards[i]);
         if (futoshiki_simple(&boards[i], 0, 0)) {
             printBoard(boards[i]);
         } else {
