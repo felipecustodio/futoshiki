@@ -54,11 +54,17 @@ BOARD* initBoard(int n) {
 
 // TODO: This is probably very wrong
 BOARD* destroyBoard(BOARD* board) {
-    int i, j;
+    int i, j, k;
+    int aux;
     for (i = 0; i < board->n; i++) {
         // percorrer colunas
         for (j = 0; j < board->n; j++) {
             // liberar restrictions de [i][j]
+            aux = board->matrix[i][j].r;
+            for(k = 0; k < aux; k++){
+                free(board->matrix[i][j].restrictions[k]);
+            }
+            free(board->matrix[i][j].restrictions);
         }
         free(board->matrix[i]);
         board->matrix[i] = NULL;
