@@ -1,6 +1,7 @@
 # futoshiki 不等式 puzzle solver
 > Featuring backtracking heuristics!
 
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 ![](http://www.atksolutions.com/games/futoshiki.jpg)
 
