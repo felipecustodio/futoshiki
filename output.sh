@@ -5,6 +5,9326 @@ clear
 [H[2J./build/futoshiki < ./test/futoshiki.dat
 	FUTOSHIKI 不等式
 
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	2	3	4	
+List of [0][2]
+1	2	3	4	
+List of [0][3]
+1	2	3	4	
+List of [1][0]
+1	2	3	4	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+1	2	3	4	
+List of [2][0]
+1	2	3	4	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	3	4	
+List of [2][3]
+1	2	3	4	
+List of [3][0]
+1	2	3	4	
+List of [3][1]
+1	2	3	4	
+List of [3][2]
+1	2	3	4	
+List of [3][3]
+1	2	3	4	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	2	3	4	
+List of [0][2]
+1	2	3	4	
+List of [0][3]
+1	2	3	4	
+List of [1][0]
+1	2	3	4	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+1	2	3	4	
+List of [2][0]
+1	2	3	4	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	3	4	
+List of [2][3]
+1	2	3	4	
+List of [3][0]
+1	2	3	4	
+List of [3][1]
+1	2	3	4	
+List of [3][2]
+1	2	3	4	
+List of [3][3]
+1	2	3	4	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	2	3	4	
+List of [0][2]
+1	2	3	4	
+List of [0][3]
+1	2	3	4	
+List of [1][0]
+1	2	3	4	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+1	2	3	4	
+List of [2][0]
+1	2	3	4	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	3	4	
+List of [2][3]
+1	2	3	4	
+List of [3][0]
+1	2	3	4	
+List of [3][1]
+1	0	3	
+List of [3][2]
+1	0	3	
+List of [3][3]
+1	0	3	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	0	3	
+List of [0][2]
+1	0	3	
+List of [0][3]
+1	0	3	
+List of [1][0]
+1	0	3	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+1	2	0	
+List of [2][0]
+1	0	3	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	0	
+List of [2][3]
+1	2	3	4	
+List of [3][0]
+1	0	3	
+List of [3][1]
+1	2	3	4	
+List of [3][2]
+1	2	0	
+List of [3][3]
+1	2	3	4	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	2	3	4	
+List of [0][2]
+1	2	3	4	
+List of [0][3]
+1	2	3	4	
+List of [1][0]
+1	2	3	4	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+1	2	3	4	
+List of [2][0]
+1	2	3	4	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	3	4	
+List of [2][3]
+1	2	3	4	
+List of [3][0]
+1	2	3	4	
+List of [3][1]
+1	2	3	4	
+List of [3][2]
+1	2	3	4	
+List of [3][3]
+1	2	3	4	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	2	3	4	
+List of [0][2]
+1	2	3	4	
+List of [0][3]
+1	2	3	4	
+List of [1][0]
+1	2	3	4	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+1	2	3	4	
+List of [2][0]
+1	2	3	4	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	3	4	
+List of [2][3]
+1	2	3	4	
+List of [3][0]
+1	2	3	4	
+List of [3][1]
+1	2	3	4	
+List of [3][2]
+1	2	3	4	
+List of [3][3]
+1	2	3	4	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	2	3	4	
+List of [0][2]
+1	2	3	4	
+List of [0][3]
+1	2	3	4	
+List of [1][0]
+1	2	3	4	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+0	2	3	
+List of [2][0]
+1	2	3	4	
+List of [2][1]
+1	2	3	
+List of [2][2]
+1	2	3	
+List of [2][3]
+0	2	
+List of [3][0]
+1	2	3	
+List of [3][1]
+0	2	3	
+List of [3][2]
+0	2	3	
+List of [3][3]
+0	2	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	2	3	4	
+List of [0][2]
+1	2	3	4	
+List of [0][3]
+1	2	3	4	
+List of [1][0]
+1	2	3	4	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+0	2	3	
+List of [2][0]
+1	2	3	4	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	3	4	
+List of [2][3]
+0	2	3	
+List of [3][0]
+1	2	3	4	
+List of [3][1]
+1	2	3	4	
+List of [3][2]
+1	2	3	4	
+List of [3][3]
+0	2	3	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	0	3	
+List of [0][2]
+1	0	3	
+List of [0][3]
+1	0	3	
+List of [1][0]
+1	0	3	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+1	2	3	4	
+List of [2][0]
+1	0	3	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	3	4	
+List of [2][3]
+1	2	3	4	
+List of [3][0]
+1	0	3	
+List of [3][1]
+1	2	3	4	
+List of [3][2]
+1	2	3	4	
+List of [3][3]
+1	2	3	4	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	2	3	4	
+List of [0][2]
+1	2	3	4	
+List of [0][3]
+1	2	3	4	
+List of [1][0]
+1	2	3	4	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+1	2	3	4	
+List of [2][0]
+1	2	3	4	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	3	4	
+List of [2][3]
+1	0	3	
+List of [3][0]
+1	2	3	4	
+List of [3][1]
+1	2	3	4	
+List of [3][2]
+1	2	3	4	
+List of [3][3]
+1	0	3	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	2	3	4	
+List of [0][2]
+1	2	3	4	
+List of [0][3]
+1	2	0	
+List of [1][0]
+1	2	3	4	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	0	
+List of [1][3]
+1	2	3	4	
+List of [2][0]
+1	2	3	4	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	0	
+List of [2][3]
+1	2	3	4	
+List of [3][0]
+1	2	3	4	
+List of [3][1]
+1	2	3	4	
+List of [3][2]
+1	2	0	
+List of [3][3]
+1	2	3	4	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	2	0	
+List of [0][2]
+1	2	0	
+List of [0][3]
+1	2	0	
+List of [1][0]
+1	2	0	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+1	2	3	4	
+List of [2][0]
+1	2	0	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	3	4	
+List of [2][3]
+1	2	3	4	
+List of [3][0]
+1	2	0	
+List of [3][1]
+1	0	3	
+List of [3][2]
+1	0	3	
+List of [3][3]
+1	0	3	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	2	3	4	
+List of [0][2]
+1	2	3	4	
+List of [0][3]
+1	2	3	4	
+List of [1][0]
+1	2	3	4	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+1	2	3	4	
+List of [2][0]
+1	2	3	4	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	3	4	
+List of [2][3]
+1	2	3	4	
+List of [3][0]
+1	2	3	4	
+List of [3][1]
+1	2	3	4	
+List of [3][2]
+1	2	3	4	
+List of [3][3]
+1	2	3	4	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	2	0	
+List of [0][2]
+1	2	0	
+List of [0][3]
+1	2	0	
+List of [1][0]
+1	2	0	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+1	2	3	4	
+List of [2][0]
+1	2	0	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	3	4	
+List of [2][3]
+1	2	3	4	
+List of [3][0]
+1	2	0	
+List of [3][1]
+1	2	3	4	
+List of [3][2]
+1	2	3	4	
+List of [3][3]
+1	2	3	4	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	2	3	4	
+List of [0][2]
+1	2	3	4	
+List of [0][3]
+1	2	3	4	
+List of [1][0]
+1	2	3	4	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+1	2	3	4	
+List of [2][0]
+1	2	3	4	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	3	4	
+List of [2][3]
+1	2	3	4	
+List of [3][0]
+1	2	3	4	
+List of [3][1]
+1	2	0	
+List of [3][2]
+1	2	0	
+List of [3][3]
+1	2	0	
+List of [0][0]
+1	2	3	4	
+List of [0][1]
+1	2	3	4	
+List of [0][2]
+1	2	3	4	
+List of [0][3]
+1	2	3	4	
+List of [1][0]
+1	2	3	4	
+List of [1][1]
+1	2	3	4	
+List of [1][2]
+1	2	3	4	
+List of [1][3]
+1	2	3	4	
+List of [2][0]
+1	2	3	4	
+List of [2][1]
+1	2	3	4	
+List of [2][2]
+1	2	3	4	
+List of [2][3]
+1	2	3	4	
+List of [3][0]
+1	2	3	4	
+List of [3][1]
+1	2	3	4	
+List of [3][2]
+1	2	3	4	
+List of [3][3]
+1	2	3	4	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+0	2	3	4	
+List of [0][2]
+0	2	3	4	
+List of [0][3]
+0	2	3	4	
+List of [0][4]
+0	2	3	4	
+List of [1][0]
+0	2	3	4	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	3	4	5	
+List of [1][3]
+1	2	3	4	5	
+List of [1][4]
+1	2	3	4	5	
+List of [2][0]
+0	2	3	4	
+List of [2][1]
+1	2	3	4	5	
+List of [2][2]
+1	2	3	4	5	
+List of [2][3]
+1	2	3	4	5	
+List of [2][4]
+1	2	3	0	
+List of [3][0]
+0	2	3	4	
+List of [3][1]
+1	2	3	4	5	
+List of [3][2]
+1	2	3	4	5	
+List of [3][3]
+1	2	3	4	5	
+List of [3][4]
+1	2	0	
+List of [4][0]
+0	2	3	4	
+List of [4][1]
+1	2	3	4	5	
+List of [4][2]
+1	2	3	4	5	
+List of [4][3]
+1	2	0	4	
+List of [4][4]
+1	2	3	0	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	3	4	5	
+List of [0][2]
+1	2	3	4	5	
+List of [0][3]
+1	2	3	4	5	
+List of [0][4]
+1	2	3	4	5	
+List of [1][0]
+1	2	3	4	5	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	3	4	5	
+List of [1][3]
+1	2	3	4	5	
+List of [1][4]
+1	2	3	4	
+List of [2][0]
+1	2	3	4	5	
+List of [2][1]
+1	2	3	4	5	
+List of [2][2]
+1	2	3	4	5	
+List of [2][3]
+1	2	3	4	5	
+List of [2][4]
+0	2	3	
+List of [3][0]
+1	2	3	4	5	
+List of [3][1]
+1	2	3	4	5	
+List of [3][2]
+1	2	3	4	5	
+List of [3][3]
+1	2	3	4	5	
+List of [3][4]
+0	2	3	
+List of [4][0]
+1	2	3	4	5	
+List of [4][1]
+1	2	3	4	5	
+List of [4][2]
+1	2	3	4	5	
+List of [4][3]
+1	2	3	4	5	
+List of [4][4]
+0	2	3	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	3	4	5	
+List of [0][2]
+1	2	3	4	5	
+List of [0][3]
+1	2	3	4	5	
+List of [0][4]
+1	2	3	4	5	
+List of [1][0]
+1	2	3	4	5	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	3	4	5	
+List of [1][3]
+1	2	3	4	5	
+List of [1][4]
+1	2	3	4	5	
+List of [2][0]
+1	2	3	4	5	
+List of [2][1]
+1	2	3	4	5	
+List of [2][2]
+1	2	3	4	5	
+List of [2][3]
+1	2	3	4	5	
+List of [2][4]
+1	2	3	4	5	
+List of [3][0]
+1	2	3	4	5	
+List of [3][1]
+1	2	3	4	5	
+List of [3][2]
+1	2	3	4	5	
+List of [3][3]
+1	2	3	4	5	
+List of [3][4]
+1	2	3	4	5	
+List of [4][0]
+1	2	3	4	5	
+List of [4][1]
+1	2	3	4	5	
+List of [4][2]
+1	2	3	4	5	
+List of [4][3]
+1	2	3	4	5	
+List of [4][4]
+1	2	3	4	5	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	0	4	
+List of [0][2]
+1	2	0	4	
+List of [0][3]
+1	2	0	4	
+List of [0][4]
+1	2	0	4	
+List of [1][0]
+1	2	0	4	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	3	4	5	
+List of [1][3]
+1	2	3	4	5	
+List of [1][4]
+1	2	3	4	5	
+List of [2][0]
+1	2	0	4	
+List of [2][1]
+1	2	3	4	5	
+List of [2][2]
+1	2	3	4	5	
+List of [2][3]
+1	2	3	4	5	
+List of [2][4]
+1	2	3	4	5	
+List of [3][0]
+1	2	0	4	
+List of [3][1]
+1	2	3	4	5	
+List of [3][2]
+1	2	0	4	
+List of [3][3]
+1	2	0	4	
+List of [3][4]
+0	2	0	
+List of [4][0]
+1	2	0	4	
+List of [4][1]
+1	2	0	4	
+List of [4][2]
+1	2	3	4	5	
+List of [4][3]
+0	2	3	4	
+List of [4][4]
+1	2	3	4	5	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	3	4	5	
+List of [0][2]
+1	2	3	4	5	
+List of [0][3]
+1	2	3	4	5	
+List of [0][4]
+1	2	3	4	5	
+List of [1][0]
+1	2	3	4	5	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	3	4	5	
+List of [1][3]
+1	2	3	4	5	
+List of [1][4]
+1	2	3	4	5	
+List of [2][0]
+1	2	3	4	5	
+List of [2][1]
+1	2	0	4	
+List of [2][2]
+1	2	0	4	
+List of [2][3]
+1	2	0	4	
+List of [2][4]
+1	2	0	4	
+List of [3][0]
+1	2	0	4	
+List of [3][1]
+1	2	3	4	5	
+List of [3][2]
+1	2	3	4	5	
+List of [3][3]
+1	2	3	4	5	
+List of [3][4]
+1	2	3	4	5	
+List of [4][0]
+1	2	0	4	
+List of [4][1]
+1	2	3	4	5	
+List of [4][2]
+1	2	3	4	5	
+List of [4][3]
+1	2	3	4	5	
+List of [4][4]
+1	2	3	4	5	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	3	4	5	
+List of [0][2]
+1	2	0	4	
+List of [0][3]
+1	2	0	
+List of [0][4]
+1	2	0	
+List of [1][0]
+1	2	3	4	5	
+List of [1][1]
+1	2	0	4	
+List of [1][2]
+1	2	3	0	
+List of [1][3]
+1	2	3	4	5	
+List of [1][4]
+1	2	3	4	5	
+List of [2][0]
+1	2	3	4	5	
+List of [2][1]
+1	2	0	4	
+List of [2][2]
+1	2	3	0	
+List of [2][3]
+1	2	3	4	5	
+List of [2][4]
+1	2	3	4	5	
+List of [3][0]
+1	2	3	4	5	
+List of [3][1]
+1	2	0	4	
+List of [3][2]
+1	2	3	0	
+List of [3][3]
+1	2	3	4	5	
+List of [3][4]
+1	2	3	4	5	
+List of [4][0]
+1	2	3	4	5	
+List of [4][1]
+1	2	0	4	
+List of [4][2]
+1	2	3	0	
+List of [4][3]
+1	2	3	4	5	
+List of [4][4]
+1	2	3	4	5	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	3	4	5	
+List of [0][2]
+1	2	3	4	5	
+List of [0][3]
+1	2	3	4	5	
+List of [0][4]
+1	2	3	4	5	
+List of [1][0]
+1	2	3	4	5	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	3	4	5	
+List of [1][3]
+1	2	3	4	5	
+List of [1][4]
+1	2	0	4	
+List of [2][0]
+1	2	3	4	5	
+List of [2][1]
+1	2	3	4	5	
+List of [2][2]
+1	2	3	4	5	
+List of [2][3]
+1	2	3	4	5	
+List of [2][4]
+1	2	0	4	
+List of [3][0]
+1	2	3	4	5	
+List of [3][1]
+1	2	3	4	5	
+List of [3][2]
+1	2	3	4	5	
+List of [3][3]
+1	2	3	4	5	
+List of [3][4]
+1	2	0	4	
+List of [4][0]
+1	2	3	4	5	
+List of [4][1]
+1	2	3	4	5	
+List of [4][2]
+1	2	3	4	5	
+List of [4][3]
+1	2	3	4	5	
+List of [4][4]
+1	2	0	4	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	0	4	
+List of [0][2]
+1	2	0	4	
+List of [0][3]
+1	2	0	4	
+List of [0][4]
+1	2	0	4	
+List of [1][0]
+1	2	0	4	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	3	4	5	
+List of [1][3]
+1	2	3	4	5	
+List of [1][4]
+1	2	3	4	5	
+List of [2][0]
+1	2	0	4	
+List of [2][1]
+1	2	3	4	5	
+List of [2][2]
+1	2	3	4	5	
+List of [2][3]
+1	2	3	4	5	
+List of [2][4]
+1	2	3	4	5	
+List of [3][0]
+1	2	0	4	
+List of [3][1]
+1	2	3	4	5	
+List of [3][2]
+1	2	0	4	
+List of [3][3]
+1	2	0	4	
+List of [3][4]
+1	2	0	4	
+List of [4][0]
+1	2	0	4	
+List of [4][1]
+1	2	0	4	
+List of [4][2]
+1	2	3	4	5	
+List of [4][3]
+1	2	3	4	5	
+List of [4][4]
+1	2	3	4	5	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	3	4	5	
+List of [0][2]
+1	2	3	4	5	
+List of [0][3]
+1	2	3	4	5	
+List of [0][4]
+1	2	0	4	
+List of [1][0]
+1	2	3	4	5	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	3	4	5	
+List of [1][3]
+1	2	0	4	
+List of [1][4]
+1	2	3	4	5	
+List of [2][0]
+1	2	3	4	5	
+List of [2][1]
+1	2	3	4	5	
+List of [2][2]
+1	2	3	4	5	
+List of [2][3]
+1	2	0	4	
+List of [2][4]
+1	2	3	4	5	
+List of [3][0]
+1	2	3	4	5	
+List of [3][1]
+1	2	3	4	5	
+List of [3][2]
+1	2	3	4	5	
+List of [3][3]
+1	2	0	4	
+List of [3][4]
+1	2	3	4	5	
+List of [4][0]
+1	2	3	4	5	
+List of [4][1]
+1	2	3	4	5	
+List of [4][2]
+1	2	3	4	5	
+List of [4][3]
+1	0	0	
+List of [4][4]
+1	0	3	4	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	3	4	5	
+List of [0][2]
+1	2	3	4	5	
+List of [0][3]
+1	2	3	4	5	
+List of [0][4]
+1	2	3	4	5	
+List of [1][0]
+1	2	3	4	5	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	0	4	
+List of [1][3]
+1	2	0	4	
+List of [1][4]
+1	0	0	
+List of [2][0]
+1	2	3	4	5	
+List of [2][1]
+1	2	0	4	
+List of [2][2]
+1	2	3	4	5	
+List of [2][3]
+1	2	3	4	5	
+List of [2][4]
+1	0	3	4	
+List of [3][0]
+1	2	3	4	5	
+List of [3][1]
+1	2	0	4	
+List of [3][2]
+1	2	3	4	5	
+List of [3][3]
+1	2	3	4	5	
+List of [3][4]
+1	0	3	4	
+List of [4][0]
+1	2	3	4	5	
+List of [4][1]
+1	2	0	4	
+List of [4][2]
+1	2	3	4	5	
+List of [4][3]
+1	2	3	4	5	
+List of [4][4]
+1	0	3	4	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	3	4	5	
+List of [0][2]
+1	2	3	4	5	
+List of [0][3]
+1	2	3	4	5	
+List of [0][4]
+1	2	3	4	5	
+List of [1][0]
+1	2	3	4	5	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	3	4	5	
+List of [1][3]
+1	2	3	4	5	
+List of [1][4]
+1	2	3	0	
+List of [2][0]
+1	2	3	4	5	
+List of [2][1]
+1	2	3	4	5	
+List of [2][2]
+1	2	3	4	5	
+List of [2][3]
+1	2	3	4	5	
+List of [2][4]
+1	2	3	0	
+List of [3][0]
+1	2	3	4	5	
+List of [3][1]
+1	2	3	4	5	
+List of [3][2]
+1	2	3	4	5	
+List of [3][3]
+1	0	3	4	
+List of [3][4]
+1	0	3	
+List of [4][0]
+1	2	3	4	5	
+List of [4][1]
+1	2	3	4	5	
+List of [4][2]
+1	0	3	4	
+List of [4][3]
+1	2	3	4	5	
+List of [4][4]
+1	2	3	0	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	3	4	5	
+List of [0][2]
+1	2	3	4	5	
+List of [0][3]
+1	2	3	4	5	
+List of [0][4]
+1	2	3	4	5	
+List of [1][0]
+1	2	3	4	5	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	3	4	5	
+List of [1][3]
+1	2	3	4	5	
+List of [1][4]
+1	2	3	4	5	
+List of [2][0]
+1	2	3	4	5	
+List of [2][1]
+1	2	3	4	5	
+List of [2][2]
+1	2	3	0	
+List of [2][3]
+1	2	3	0	
+List of [2][4]
+1	2	3	0	
+List of [3][0]
+1	2	3	4	5	
+List of [3][1]
+1	2	3	0	
+List of [3][2]
+1	2	3	4	5	
+List of [3][3]
+1	2	3	4	5	
+List of [3][4]
+1	2	0	4	
+List of [4][0]
+1	2	3	4	5	
+List of [4][1]
+1	2	3	0	
+List of [4][2]
+1	2	3	4	5	
+List of [4][3]
+1	2	0	4	
+List of [4][4]
+1	2	3	4	5	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	3	4	5	
+List of [0][2]
+1	2	3	4	5	
+List of [0][3]
+1	2	3	4	5	
+List of [0][4]
+1	2	3	4	5	
+List of [1][0]
+1	2	3	4	5	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	3	4	5	
+List of [1][3]
+1	2	3	4	5	
+List of [1][4]
+1	2	3	4	5	
+List of [2][0]
+1	2	3	4	5	
+List of [2][1]
+1	2	3	4	5	
+List of [2][2]
+1	2	3	4	5	
+List of [2][3]
+1	0	3	4	
+List of [2][4]
+1	0	3	4	
+List of [3][0]
+1	2	3	4	5	
+List of [3][1]
+1	2	3	4	5	
+List of [3][2]
+1	0	3	4	
+List of [3][3]
+1	2	3	4	5	
+List of [3][4]
+1	2	3	4	5	
+List of [4][0]
+1	2	3	4	5	
+List of [4][1]
+1	2	3	0	
+List of [4][2]
+1	0	3	
+List of [4][3]
+1	2	3	0	
+List of [4][4]
+1	2	3	0	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	3	4	5	
+List of [0][2]
+1	2	3	4	5	
+List of [0][3]
+1	2	3	4	5	
+List of [0][4]
+1	2	3	4	5	
+List of [1][0]
+1	2	3	4	5	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	3	4	5	
+List of [1][3]
+1	2	3	4	5	
+List of [1][4]
+1	2	3	0	
+List of [2][0]
+1	2	3	4	5	
+List of [2][1]
+1	2	3	4	5	
+List of [2][2]
+1	2	3	4	5	
+List of [2][3]
+1	2	3	4	5	
+List of [2][4]
+1	2	3	0	
+List of [3][0]
+1	2	3	4	5	
+List of [3][1]
+1	2	3	4	5	
+List of [3][2]
+1	2	3	4	5	
+List of [3][3]
+1	2	3	4	5	
+List of [3][4]
+1	2	3	0	
+List of [4][0]
+1	2	3	4	5	
+List of [4][1]
+1	2	3	4	5	
+List of [4][2]
+1	2	3	4	5	
+List of [4][3]
+1	2	3	4	5	
+List of [4][4]
+1	2	3	0	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	3	4	5	
+List of [0][2]
+1	2	3	4	5	
+List of [0][3]
+1	2	3	4	5	
+List of [0][4]
+1	2	3	4	5	
+List of [1][0]
+1	2	3	4	5	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	3	4	5	
+List of [1][3]
+1	2	3	4	5	
+List of [1][4]
+1	2	3	4	5	
+List of [2][0]
+1	2	3	4	5	
+List of [2][1]
+1	2	3	4	5	
+List of [2][2]
+1	2	3	4	5	
+List of [2][3]
+1	2	3	4	5	
+List of [2][4]
+1	2	3	4	5	
+List of [3][0]
+1	2	3	4	5	
+List of [3][1]
+1	2	3	4	5	
+List of [3][2]
+1	2	3	4	5	
+List of [3][3]
+1	2	3	4	5	
+List of [3][4]
+1	2	0	4	
+List of [4][0]
+1	2	3	4	5	
+List of [4][1]
+1	2	3	4	5	
+List of [4][2]
+1	2	3	4	5	
+List of [4][3]
+1	2	3	4	5	
+List of [4][4]
+1	2	0	4	
+List of [0][0]
+1	2	3	4	5	
+List of [0][1]
+1	2	3	4	5	
+List of [0][2]
+1	2	3	4	5	
+List of [0][3]
+1	2	3	4	5	
+List of [0][4]
+1	2	3	4	5	
+List of [1][0]
+1	2	3	4	5	
+List of [1][1]
+1	2	3	4	5	
+List of [1][2]
+1	2	3	4	5	
+List of [1][3]
+1	2	3	4	5	
+List of [1][4]
+1	2	3	4	5	
+List of [2][0]
+1	2	3	4	5	
+List of [2][1]
+1	2	3	4	5	
+List of [2][2]
+1	2	3	4	5	
+List of [2][3]
+1	2	3	4	5	
+List of [2][4]
+1	2	3	4	5	
+List of [3][0]
+1	2	3	4	5	
+List of [3][1]
+1	2	3	4	5	
+List of [3][2]
+1	2	3	4	5	
+List of [3][3]
+1	2	3	4	5	
+List of [3][4]
+1	2	3	4	5	
+List of [4][0]
+1	2	3	4	5	
+List of [4][1]
+1	2	3	4	5	
+List of [4][2]
+1	2	3	4	5	
+List of [4][3]
+1	2	3	4	5	
+List of [4][4]
+1	2	3	4	5	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	4	5	6	
+List of [0][2]
+1	2	3	4	5	6	
+List of [0][3]
+1	2	3	4	5	6	
+List of [0][4]
+1	2	3	4	5	6	
+List of [0][5]
+1	2	3	4	5	6	
+List of [1][0]
+1	2	3	4	5	6	
+List of [1][1]
+1	2	3	4	5	6	
+List of [1][2]
+1	2	3	4	5	6	
+List of [1][3]
+1	2	3	4	5	6	
+List of [1][4]
+1	2	3	4	5	6	
+List of [1][5]
+1	2	3	4	5	6	
+List of [2][0]
+1	2	3	4	5	6	
+List of [2][1]
+1	2	3	4	5	6	
+List of [2][2]
+1	2	3	4	5	6	
+List of [2][3]
+1	2	3	4	5	6	
+List of [2][4]
+1	2	3	4	5	6	
+List of [2][5]
+1	2	3	4	5	6	
+List of [3][0]
+1	2	3	4	5	6	
+List of [3][1]
+1	2	3	4	0	
+List of [3][2]
+1	2	3	4	0	
+List of [3][3]
+1	2	3	4	0	
+List of [3][4]
+1	2	3	4	0	
+List of [3][5]
+1	2	3	4	0	
+List of [4][0]
+1	2	3	4	0	
+List of [4][1]
+1	2	3	4	5	6	
+List of [4][2]
+1	2	3	4	5	6	
+List of [4][3]
+1	2	3	4	5	6	
+List of [4][4]
+1	2	3	4	5	6	
+List of [4][5]
+1	2	3	4	5	6	
+List of [5][0]
+1	2	3	4	0	
+List of [5][1]
+0	2	3	4	5	
+List of [5][2]
+0	2	3	4	
+List of [5][3]
+0	2	3	4	
+List of [5][4]
+0	2	3	4	
+List of [5][5]
+0	2	3	4	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	4	5	6	
+List of [0][2]
+1	2	3	4	5	6	
+List of [0][3]
+1	2	3	4	5	6	
+List of [0][4]
+1	2	3	4	5	6	
+List of [0][5]
+1	2	3	4	5	6	
+List of [1][0]
+1	2	3	4	5	6	
+List of [1][1]
+1	2	3	4	5	6	
+List of [1][2]
+1	2	3	4	5	6	
+List of [1][3]
+1	2	3	4	5	6	
+List of [1][4]
+1	2	3	4	5	6	
+List of [1][5]
+1	2	3	4	5	6	
+List of [2][0]
+1	2	3	4	5	6	
+List of [2][1]
+1	2	3	4	5	6	
+List of [2][2]
+1	2	3	4	5	6	
+List of [2][3]
+1	0	3	4	5	
+List of [2][4]
+1	0	3	4	5	
+List of [2][5]
+1	0	3	4	5	
+List of [3][0]
+1	2	3	4	5	6	
+List of [3][1]
+1	2	3	4	5	6	
+List of [3][2]
+1	0	3	4	5	
+List of [3][3]
+1	2	3	4	5	6	
+List of [3][4]
+0	2	3	4	5	
+List of [3][5]
+0	2	3	4	5	
+List of [4][0]
+1	2	3	4	5	6	
+List of [4][1]
+1	2	3	4	5	6	
+List of [4][2]
+1	0	3	4	5	
+List of [4][3]
+0	2	3	4	5	
+List of [4][4]
+1	2	3	4	5	6	
+List of [4][5]
+1	2	3	4	5	6	
+List of [5][0]
+1	2	3	4	5	6	
+List of [5][1]
+1	2	3	4	5	6	
+List of [5][2]
+1	0	3	4	5	
+List of [5][3]
+0	2	3	4	5	
+List of [5][4]
+1	2	3	4	5	6	
+List of [5][5]
+1	2	3	4	5	6	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	4	5	6	
+List of [0][2]
+1	2	3	4	5	6	
+List of [0][3]
+1	2	3	4	5	6	
+List of [0][4]
+1	2	3	4	5	6	
+List of [0][5]
+1	2	3	4	5	6	
+List of [1][0]
+1	2	3	4	5	6	
+List of [1][1]
+1	2	3	4	5	6	
+List of [1][2]
+1	2	3	4	5	6	
+List of [1][3]
+1	2	3	4	5	6	
+List of [1][4]
+1	2	3	4	5	6	
+List of [1][5]
+1	2	3	4	5	6	
+List of [2][0]
+1	2	3	4	5	6	
+List of [2][1]
+1	2	3	4	5	6	
+List of [2][2]
+1	2	3	4	5	6	
+List of [2][3]
+1	2	3	4	5	6	
+List of [2][4]
+1	2	3	4	5	6	
+List of [2][5]
+1	2	3	0	5	
+List of [3][0]
+1	2	3	4	5	6	
+List of [3][1]
+1	2	3	4	5	6	
+List of [3][2]
+1	2	3	4	5	6	
+List of [3][3]
+1	2	3	4	5	6	
+List of [3][4]
+1	2	3	4	5	6	
+List of [3][5]
+1	2	3	0	5	
+List of [4][0]
+1	2	3	4	5	6	
+List of [4][1]
+1	2	3	4	5	6	
+List of [4][2]
+1	2	3	4	5	6	
+List of [4][3]
+1	2	3	4	5	6	
+List of [4][4]
+1	2	3	4	5	6	
+List of [4][5]
+1	2	3	0	5	
+List of [5][0]
+1	2	3	4	5	6	
+List of [5][1]
+1	2	3	4	5	6	
+List of [5][2]
+1	2	3	4	5	6	
+List of [5][3]
+1	2	3	4	5	6	
+List of [5][4]
+1	2	3	4	5	6	
+List of [5][5]
+1	2	3	0	5	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	4	5	6	
+List of [0][2]
+1	2	3	4	5	6	
+List of [0][3]
+1	2	3	4	5	6	
+List of [0][4]
+1	2	3	4	5	6	
+List of [0][5]
+1	2	3	4	5	6	
+List of [1][0]
+1	2	3	4	5	6	
+List of [1][1]
+1	0	3	4	5	
+List of [1][2]
+1	0	3	4	5	
+List of [1][3]
+1	0	3	4	5	
+List of [1][4]
+1	0	3	4	5	
+List of [1][5]
+1	0	3	4	5	
+List of [2][0]
+1	0	3	4	5	
+List of [2][1]
+1	2	3	4	5	6	
+List of [2][2]
+1	2	3	4	5	6	
+List of [2][3]
+1	2	3	4	5	6	
+List of [2][4]
+1	2	3	4	5	6	
+List of [2][5]
+1	2	3	4	5	6	
+List of [3][0]
+1	0	3	4	5	
+List of [3][1]
+1	2	3	4	5	6	
+List of [3][2]
+1	2	3	4	5	6	
+List of [3][3]
+1	2	3	4	5	6	
+List of [3][4]
+1	2	3	4	5	6	
+List of [3][5]
+1	2	3	4	5	6	
+List of [4][0]
+1	0	3	4	5	
+List of [4][1]
+1	2	3	4	5	6	
+List of [4][2]
+1	2	3	4	5	6	
+List of [4][3]
+1	2	3	4	5	6	
+List of [4][4]
+1	2	3	4	5	6	
+List of [4][5]
+1	2	3	4	5	6	
+List of [5][0]
+1	0	3	4	5	
+List of [5][1]
+1	2	3	4	5	6	
+List of [5][2]
+1	2	3	4	5	6	
+List of [5][3]
+1	2	3	4	5	6	
+List of [5][4]
+1	2	3	4	5	6	
+List of [5][5]
+1	2	3	4	5	6	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	4	5	6	
+List of [0][2]
+1	2	3	4	5	6	
+List of [0][3]
+1	2	3	4	5	6	
+List of [0][4]
+1	2	3	4	5	6	
+List of [0][5]
+1	2	3	4	5	6	
+List of [1][0]
+1	2	3	4	5	6	
+List of [1][1]
+1	2	3	4	5	6	
+List of [1][2]
+1	2	3	4	5	6	
+List of [1][3]
+1	2	3	4	5	6	
+List of [1][4]
+1	2	3	4	5	6	
+List of [1][5]
+1	2	3	4	5	6	
+List of [2][0]
+1	2	3	4	5	6	
+List of [2][1]
+1	2	3	4	5	6	
+List of [2][2]
+1	2	3	4	5	6	
+List of [2][3]
+1	2	3	0	5	
+List of [2][4]
+1	2	3	0	5	
+List of [2][5]
+1	2	3	0	5	
+List of [3][0]
+1	2	3	4	5	6	
+List of [3][1]
+1	2	3	4	5	6	
+List of [3][2]
+1	2	3	0	5	
+List of [3][3]
+1	2	3	4	5	6	
+List of [3][4]
+1	2	3	4	5	6	
+List of [3][5]
+1	2	3	4	5	6	
+List of [4][0]
+1	2	3	4	5	6	
+List of [4][1]
+1	2	3	4	5	6	
+List of [4][2]
+1	2	3	0	5	
+List of [4][3]
+1	2	3	4	5	6	
+List of [4][4]
+1	2	3	4	5	6	
+List of [4][5]
+1	2	3	4	5	6	
+List of [5][0]
+1	2	3	4	5	6	
+List of [5][1]
+1	2	3	4	5	6	
+List of [5][2]
+1	2	3	0	
+List of [5][3]
+1	2	3	4	0	
+List of [5][4]
+1	2	3	4	0	
+List of [5][5]
+1	2	3	4	0	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	0	5	
+List of [0][2]
+1	2	3	0	5	
+List of [0][3]
+1	2	3	0	5	
+List of [0][4]
+1	2	3	0	5	
+List of [0][5]
+1	2	3	0	5	
+List of [1][0]
+1	2	3	0	5	
+List of [1][1]
+1	2	3	4	5	6	
+List of [1][2]
+1	2	3	0	5	
+List of [1][3]
+1	2	3	0	5	
+List of [1][4]
+1	0	3	0	
+List of [1][5]
+1	0	3	0	
+List of [2][0]
+1	2	3	0	5	
+List of [2][1]
+1	2	0	0	
+List of [2][2]
+1	2	0	4	5	
+List of [2][3]
+1	0	0	4	
+List of [2][4]
+1	2	0	4	5	
+List of [2][5]
+1	2	0	4	5	
+List of [3][0]
+1	2	0	0	
+List of [3][1]
+1	2	3	0	5	
+List of [3][2]
+1	2	3	4	5	6	
+List of [3][3]
+1	0	3	4	5	
+List of [3][4]
+1	2	3	4	5	6	
+List of [3][5]
+1	2	3	4	5	6	
+List of [4][0]
+1	2	0	0	
+List of [4][1]
+1	2	3	0	5	
+List of [4][2]
+1	2	3	4	5	6	
+List of [4][3]
+1	0	3	4	5	
+List of [4][4]
+1	2	3	4	0	
+List of [4][5]
+1	2	3	4	0	
+List of [5][0]
+1	2	0	0	
+List of [5][1]
+1	2	3	0	5	
+List of [5][2]
+1	2	3	4	5	6	
+List of [5][3]
+1	0	3	4	
+List of [5][4]
+1	2	3	4	5	6	
+List of [5][5]
+1	2	3	4	5	6	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	4	0	
+List of [0][2]
+1	2	3	4	0	
+List of [0][3]
+1	2	3	4	0	
+List of [0][4]
+1	2	3	4	0	
+List of [0][5]
+1	2	3	4	0	
+List of [1][0]
+1	2	3	4	0	
+List of [1][1]
+1	2	3	4	5	6	
+List of [1][2]
+1	2	3	0	5	
+List of [1][3]
+1	2	3	0	5	
+List of [1][4]
+1	2	3	0	5	
+List of [1][5]
+1	2	3	0	5	
+List of [2][0]
+1	2	3	4	0	
+List of [2][1]
+1	2	3	0	5	
+List of [2][2]
+1	0	3	4	5	
+List of [2][3]
+1	0	3	4	
+List of [2][4]
+1	0	3	4	
+List of [2][5]
+1	0	3	4	
+List of [3][0]
+1	2	3	4	0	
+List of [3][1]
+1	0	3	0	
+List of [3][2]
+1	2	3	4	0	
+List of [3][3]
+1	2	3	4	5	6	
+List of [3][4]
+1	2	3	4	5	6	
+List of [3][5]
+1	2	3	4	5	6	
+List of [4][0]
+1	2	3	4	0	
+List of [4][1]
+1	0	3	0	
+List of [4][2]
+1	2	3	4	0	
+List of [4][3]
+1	2	3	4	5	6	
+List of [4][4]
+1	2	3	4	5	6	
+List of [4][5]
+1	2	3	4	5	6	
+List of [5][0]
+1	2	3	4	0	
+List of [5][1]
+0	0	3	
+List of [5][2]
+0	2	3	4	
+List of [5][3]
+0	0	3	4	
+List of [5][4]
+0	0	3	4	
+List of [5][5]
+0	0	3	4	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	4	5	6	
+List of [0][2]
+1	2	3	4	5	6	
+List of [0][3]
+1	2	3	4	5	6	
+List of [0][4]
+1	2	3	4	5	6	
+List of [0][5]
+1	2	3	4	5	6	
+List of [1][0]
+1	2	3	4	5	6	
+List of [1][1]
+1	2	3	4	5	6	
+List of [1][2]
+1	2	3	4	5	6	
+List of [1][3]
+1	2	3	4	5	6	
+List of [1][4]
+1	2	3	4	5	6	
+List of [1][5]
+1	2	3	4	5	6	
+List of [2][0]
+1	2	3	4	5	6	
+List of [2][1]
+1	2	3	4	5	6	
+List of [2][2]
+1	2	3	4	5	6	
+List of [2][3]
+1	2	3	4	5	6	
+List of [2][4]
+1	2	3	4	5	6	
+List of [2][5]
+1	2	3	4	5	6	
+List of [3][0]
+1	2	3	4	5	6	
+List of [3][1]
+1	2	3	4	5	6	
+List of [3][2]
+1	2	3	4	5	6	
+List of [3][3]
+1	2	3	4	5	6	
+List of [3][4]
+1	2	3	4	5	6	
+List of [3][5]
+1	2	3	4	5	6	
+List of [4][0]
+1	2	3	4	5	6	
+List of [4][1]
+1	2	3	4	5	6	
+List of [4][2]
+1	2	3	4	5	6	
+List of [4][3]
+1	2	3	4	5	6	
+List of [4][4]
+1	2	3	4	5	6	
+List of [4][5]
+1	2	3	4	5	6	
+List of [5][0]
+1	2	3	4	5	6	
+List of [5][1]
+1	2	3	4	5	6	
+List of [5][2]
+1	2	3	4	5	6	
+List of [5][3]
+1	2	3	4	5	6	
+List of [5][4]
+1	2	3	4	5	6	
+List of [5][5]
+1	2	3	4	5	6	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	4	5	6	
+List of [0][2]
+1	2	3	4	5	6	
+List of [0][3]
+1	2	3	4	5	6	
+List of [0][4]
+1	2	3	4	5	6	
+List of [0][5]
+1	2	3	4	5	6	
+List of [1][0]
+1	2	3	4	5	6	
+List of [1][1]
+1	2	3	4	5	6	
+List of [1][2]
+1	2	3	4	5	6	
+List of [1][3]
+0	2	3	4	5	
+List of [1][4]
+0	2	3	4	5	
+List of [1][5]
+0	2	3	4	5	
+List of [2][0]
+1	2	3	4	5	6	
+List of [2][1]
+1	2	3	4	5	6	
+List of [2][2]
+0	2	3	4	5	
+List of [2][3]
+1	2	3	4	5	6	
+List of [2][4]
+1	2	3	4	0	
+List of [2][5]
+1	2	3	4	0	
+List of [3][0]
+1	2	3	4	5	6	
+List of [3][1]
+1	2	3	4	5	6	
+List of [3][2]
+0	2	3	4	5	
+List of [3][3]
+1	2	3	4	0	
+List of [3][4]
+1	2	0	4	5	
+List of [3][5]
+1	2	0	4	5	
+List of [4][0]
+1	2	3	4	5	6	
+List of [4][1]
+1	2	3	4	5	6	
+List of [4][2]
+0	2	3	4	5	
+List of [4][3]
+1	2	0	4	
+List of [4][4]
+1	2	3	4	5	6	
+List of [4][5]
+1	2	3	4	5	6	
+List of [5][0]
+1	2	3	4	5	6	
+List of [5][1]
+1	2	3	4	5	6	
+List of [5][2]
+0	2	3	4	5	
+List of [5][3]
+1	2	0	4	
+List of [5][4]
+1	2	3	4	5	6	
+List of [5][5]
+1	2	3	4	5	6	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	4	5	6	
+List of [0][2]
+1	2	3	4	5	6	
+List of [0][3]
+1	2	3	4	5	6	
+List of [0][4]
+1	2	3	4	5	6	
+List of [0][5]
+1	2	0	4	5	
+List of [1][0]
+1	2	3	4	5	6	
+List of [1][1]
+1	2	3	4	5	6	
+List of [1][2]
+1	2	3	4	5	6	
+List of [1][3]
+1	2	3	4	5	6	
+List of [1][4]
+1	2	0	4	5	
+List of [1][5]
+1	2	3	4	0	
+List of [2][0]
+1	2	3	4	5	6	
+List of [2][1]
+1	2	3	4	5	6	
+List of [2][2]
+1	2	3	4	5	6	
+List of [2][3]
+1	2	3	4	5	6	
+List of [2][4]
+1	2	0	4	5	
+List of [2][5]
+1	2	3	4	0	
+List of [3][0]
+1	2	3	4	5	6	
+List of [3][1]
+1	2	3	4	5	6	
+List of [3][2]
+1	2	3	4	5	6	
+List of [3][3]
+1	2	3	4	5	6	
+List of [3][4]
+1	2	0	4	5	
+List of [3][5]
+1	2	3	4	0	
+List of [4][0]
+1	2	3	4	5	6	
+List of [4][1]
+1	2	3	4	5	6	
+List of [4][2]
+1	2	3	4	5	6	
+List of [4][3]
+1	2	3	4	5	6	
+List of [4][4]
+1	2	0	4	5	
+List of [4][5]
+1	2	3	4	0	
+List of [5][0]
+1	2	3	4	5	6	
+List of [5][1]
+1	2	3	4	5	6	
+List of [5][2]
+1	2	3	4	5	6	
+List of [5][3]
+1	2	3	4	5	6	
+List of [5][4]
+1	2	0	4	5	
+List of [5][5]
+1	2	3	4	0	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	0	4	5	
+List of [0][2]
+1	2	0	4	5	
+List of [0][3]
+1	2	0	4	5	
+List of [0][4]
+1	2	0	4	5	
+List of [0][5]
+1	2	0	4	5	
+List of [1][0]
+1	2	0	4	5	
+List of [1][1]
+1	2	3	4	5	6	
+List of [1][2]
+1	2	3	4	5	6	
+List of [1][3]
+1	2	3	4	5	6	
+List of [1][4]
+1	2	3	4	5	6	
+List of [1][5]
+1	2	3	4	5	6	
+List of [2][0]
+1	2	0	4	5	
+List of [2][1]
+1	2	3	4	5	6	
+List of [2][2]
+1	2	3	4	5	6	
+List of [2][3]
+1	2	0	4	5	
+List of [2][4]
+1	2	0	4	5	
+List of [2][5]
+1	2	0	4	5	
+List of [3][0]
+1	2	0	4	5	
+List of [3][1]
+1	2	3	4	5	6	
+List of [3][2]
+1	2	0	4	5	
+List of [3][3]
+1	2	3	4	5	6	
+List of [3][4]
+1	2	3	4	5	6	
+List of [3][5]
+1	2	3	4	5	6	
+List of [4][0]
+1	2	0	4	5	
+List of [4][1]
+1	2	3	4	5	6	
+List of [4][2]
+1	2	0	4	5	
+List of [4][3]
+1	0	3	4	5	
+List of [4][4]
+1	0	3	4	5	
+List of [4][5]
+1	0	3	4	5	
+List of [5][0]
+1	2	0	4	5	
+List of [5][1]
+1	2	3	4	5	6	
+List of [5][2]
+1	0	0	4	
+List of [5][3]
+1	2	3	4	5	6	
+List of [5][4]
+1	2	3	4	5	6	
+List of [5][5]
+1	2	3	4	5	6	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	4	5	6	
+List of [0][2]
+1	2	3	4	5	6	
+List of [0][3]
+1	2	3	4	5	6	
+List of [0][4]
+1	2	3	4	5	6	
+List of [0][5]
+1	2	3	4	5	6	
+List of [1][0]
+1	2	3	4	5	6	
+List of [1][1]
+1	2	3	0	5	
+List of [1][2]
+1	2	3	0	5	
+List of [1][3]
+1	2	3	0	5	
+List of [1][4]
+1	2	3	0	5	
+List of [1][5]
+1	2	3	0	5	
+List of [2][0]
+1	2	3	0	5	
+List of [2][1]
+1	2	3	4	5	
+List of [2][2]
+1	2	3	4	5	
+List of [2][3]
+1	2	3	4	5	
+List of [2][4]
+1	2	0	4	
+List of [2][5]
+1	2	0	4	
+List of [3][0]
+1	2	3	0	5	
+List of [3][1]
+1	2	3	4	5	6	
+List of [3][2]
+1	2	3	4	5	6	
+List of [3][3]
+1	2	0	4	5	
+List of [3][4]
+1	2	3	4	5	6	
+List of [3][5]
+1	2	3	4	5	6	
+List of [4][0]
+1	2	3	0	5	
+List of [4][1]
+1	2	3	4	5	6	
+List of [4][2]
+1	2	3	4	5	6	
+List of [4][3]
+1	2	0	4	5	
+List of [4][4]
+1	2	3	4	5	6	
+List of [4][5]
+1	0	3	4	5	
+List of [5][0]
+1	2	3	0	5	
+List of [5][1]
+1	2	3	4	5	6	
+List of [5][2]
+1	2	3	4	5	6	
+List of [5][3]
+1	0	0	4	
+List of [5][4]
+1	0	3	4	
+List of [5][5]
+1	0	3	4	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	4	5	6	
+List of [0][2]
+1	2	3	4	5	6	
+List of [0][3]
+1	2	3	4	5	6	
+List of [0][4]
+1	2	3	4	5	6	
+List of [0][5]
+1	2	3	4	5	6	
+List of [1][0]
+1	2	3	4	5	6	
+List of [1][1]
+1	2	3	4	5	6	
+List of [1][2]
+1	2	3	4	5	6	
+List of [1][3]
+1	2	3	4	5	6	
+List of [1][4]
+1	2	3	4	5	6	
+List of [1][5]
+1	2	3	4	5	6	
+List of [2][0]
+1	2	3	4	5	6	
+List of [2][1]
+1	2	3	4	5	6	
+List of [2][2]
+1	2	3	4	5	6	
+List of [2][3]
+1	2	3	4	5	6	
+List of [2][4]
+1	2	3	4	5	6	
+List of [2][5]
+1	2	3	4	5	6	
+List of [3][0]
+1	2	3	4	5	6	
+List of [3][1]
+1	2	3	4	5	6	
+List of [3][2]
+1	2	3	4	5	6	
+List of [3][3]
+1	2	3	4	5	6	
+List of [3][4]
+1	2	3	4	5	6	
+List of [3][5]
+1	2	3	0	5	
+List of [4][0]
+1	2	3	4	5	6	
+List of [4][1]
+1	2	3	4	5	6	
+List of [4][2]
+1	2	3	4	5	6	
+List of [4][3]
+1	2	3	4	5	6	
+List of [4][4]
+1	2	3	4	5	6	
+List of [4][5]
+1	2	3	0	5	
+List of [5][0]
+1	2	3	4	5	6	
+List of [5][1]
+1	2	3	4	5	6	
+List of [5][2]
+1	2	3	4	5	6	
+List of [5][3]
+1	2	3	4	5	6	
+List of [5][4]
+1	2	3	4	5	6	
+List of [5][5]
+1	2	3	0	5	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	4	5	
+List of [0][2]
+1	2	3	4	5	
+List of [0][3]
+1	2	3	4	5	
+List of [0][4]
+1	0	3	4	
+List of [0][5]
+1	0	3	4	
+List of [1][0]
+1	2	3	4	5	
+List of [1][1]
+1	2	3	4	5	6	
+List of [1][2]
+1	2	3	4	5	6	
+List of [1][3]
+1	0	3	4	5	
+List of [1][4]
+1	2	3	4	5	6	
+List of [1][5]
+1	2	3	4	5	6	
+List of [2][0]
+1	2	3	4	5	
+List of [2][1]
+1	2	3	4	5	6	
+List of [2][2]
+1	2	3	4	5	6	
+List of [2][3]
+1	0	3	4	5	
+List of [2][4]
+1	2	3	4	5	6	
+List of [2][5]
+1	2	3	4	5	6	
+List of [3][0]
+1	2	3	4	5	
+List of [3][1]
+1	2	3	4	5	6	
+List of [3][2]
+1	2	3	4	5	6	
+List of [3][3]
+1	0	3	4	5	
+List of [3][4]
+1	2	3	4	5	6	
+List of [3][5]
+1	2	3	4	5	6	
+List of [4][0]
+1	2	3	4	5	
+List of [4][1]
+1	2	3	4	5	6	
+List of [4][2]
+1	2	3	4	0	
+List of [4][3]
+1	0	3	4	
+List of [4][4]
+1	2	3	4	0	
+List of [4][5]
+1	2	3	4	0	
+List of [5][0]
+1	2	3	4	5	
+List of [5][1]
+1	2	3	4	0	
+List of [5][2]
+1	2	3	4	5	6	
+List of [5][3]
+1	0	3	0	
+List of [5][4]
+1	2	3	0	5	
+List of [5][5]
+1	2	3	0	5	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	4	5	6	
+List of [0][2]
+1	2	3	4	5	6	
+List of [0][3]
+1	2	3	4	5	6	
+List of [0][4]
+1	2	3	4	5	6	
+List of [0][5]
+1	2	3	4	5	6	
+List of [1][0]
+1	2	3	4	5	6	
+List of [1][1]
+1	2	3	4	5	6	
+List of [1][2]
+1	2	3	4	5	6	
+List of [1][3]
+1	2	3	4	5	6	
+List of [1][4]
+1	2	3	4	5	6	
+List of [1][5]
+1	2	3	4	5	
+List of [2][0]
+1	2	3	4	5	6	
+List of [2][1]
+1	2	3	4	5	6	
+List of [2][2]
+1	2	3	4	5	6	
+List of [2][3]
+1	2	3	4	5	6	
+List of [2][4]
+1	2	3	4	5	
+List of [2][5]
+1	0	3	4	5	
+List of [3][0]
+1	2	3	4	5	6	
+List of [3][1]
+1	2	3	4	5	6	
+List of [3][2]
+1	2	3	4	5	6	
+List of [3][3]
+1	2	3	4	5	6	
+List of [3][4]
+1	0	3	4	
+List of [3][5]
+1	2	3	4	5	6	
+List of [4][0]
+1	2	3	4	5	6	
+List of [4][1]
+1	2	3	4	5	6	
+List of [4][2]
+1	2	3	4	5	6	
+List of [4][3]
+1	2	3	4	5	6	
+List of [4][4]
+1	0	3	4	
+List of [4][5]
+1	2	3	4	5	6	
+List of [5][0]
+1	2	3	4	5	6	
+List of [5][1]
+1	2	0	4	5	
+List of [5][2]
+1	2	0	4	5	
+List of [5][3]
+1	2	0	4	5	
+List of [5][4]
+1	0	0	
+List of [5][5]
+1	2	0	4	5	
+List of [0][0]
+1	2	3	4	5	6	
+List of [0][1]
+1	2	3	4	5	6	
+List of [0][2]
+1	2	3	4	5	6	
+List of [0][3]
+1	2	3	4	5	6	
+List of [0][4]
+1	2	3	4	5	6	
+List of [0][5]
+1	2	3	4	5	6	
+List of [1][0]
+1	2	3	4	5	6	
+List of [1][1]
+1	2	3	4	5	6	
+List of [1][2]
+1	2	3	4	5	6	
+List of [1][3]
+1	2	3	4	5	6	
+List of [1][4]
+1	2	3	4	5	6	
+List of [1][5]
+1	2	3	4	5	6	
+List of [2][0]
+1	2	3	4	5	6	
+List of [2][1]
+1	2	3	4	5	6	
+List of [2][2]
+1	2	3	4	5	6	
+List of [2][3]
+1	2	3	4	5	6	
+List of [2][4]
+1	2	3	4	5	6	
+List of [2][5]
+1	2	3	4	5	6	
+List of [3][0]
+1	2	3	4	5	6	
+List of [3][1]
+1	2	3	4	5	6	
+List of [3][2]
+1	2	3	4	5	6	
+List of [3][3]
+1	2	3	4	5	6	
+List of [3][4]
+1	2	3	4	5	6	
+List of [3][5]
+1	2	3	4	5	6	
+List of [4][0]
+1	2	3	4	5	6	
+List of [4][1]
+1	2	3	4	0	
+List of [4][2]
+1	2	3	4	0	
+List of [4][3]
+1	2	3	4	0	
+List of [4][4]
+1	2	3	4	0	
+List of [4][5]
+1	2	3	4	0	
+List of [5][0]
+1	2	3	4	0	
+List of [5][1]
+1	2	3	4	5	6	
+List of [5][2]
+1	0	3	4	5	
+List of [5][3]
+1	0	3	4	5	
+List of [5][4]
+1	0	3	4	5	
+List of [5][5]
+1	0	3	4	5	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	4	5	6	7	
+List of [0][2]
+1	2	3	4	5	6	7	
+List of [0][3]
+1	2	3	4	5	6	7	
+List of [0][4]
+1	2	3	4	5	6	7	
+List of [0][5]
+1	2	3	4	5	6	7	
+List of [0][6]
+1	2	3	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	
+List of [1][3]
+1	2	3	4	5	6	7	
+List of [1][4]
+1	2	3	4	5	6	7	
+List of [1][5]
+1	2	3	4	5	6	7	
+List of [1][6]
+0	2	3	4	5	6	
+List of [2][0]
+1	2	3	4	5	6	7	
+List of [2][1]
+1	2	3	4	5	6	7	
+List of [2][2]
+1	2	3	4	5	6	7	
+List of [2][3]
+1	2	3	4	5	6	7	
+List of [2][4]
+1	2	3	4	5	6	7	
+List of [2][5]
+0	2	3	4	5	6	
+List of [2][6]
+1	2	3	4	5	6	7	
+List of [3][0]
+1	2	3	4	5	6	7	
+List of [3][1]
+1	2	3	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	6	7	
+List of [3][3]
+1	2	3	4	5	6	7	
+List of [3][4]
+1	2	3	4	5	6	7	
+List of [3][5]
+0	2	3	4	5	6	
+List of [3][6]
+1	2	3	4	5	6	7	
+List of [4][0]
+1	2	3	4	5	6	7	
+List of [4][1]
+1	2	3	4	5	6	7	
+List of [4][2]
+1	2	3	4	5	6	7	
+List of [4][3]
+1	2	3	4	5	6	7	
+List of [4][4]
+1	2	3	4	5	6	7	
+List of [4][5]
+0	2	3	4	5	6	
+List of [4][6]
+1	2	3	0	5	6	
+List of [5][0]
+1	2	3	4	5	6	7	
+List of [5][1]
+1	2	0	4	5	6	
+List of [5][2]
+1	2	0	4	5	6	
+List of [5][3]
+1	2	0	4	5	6	
+List of [5][4]
+1	2	0	4	5	6	
+List of [5][5]
+0	2	0	4	5	
+List of [5][6]
+1	2	0	0	5	
+List of [6][0]
+1	2	0	4	5	6	
+List of [6][1]
+1	2	3	4	5	6	7	
+List of [6][2]
+1	2	3	4	5	6	7	
+List of [6][3]
+1	2	3	4	5	6	
+List of [6][4]
+1	2	3	4	5	6	
+List of [6][5]
+0	2	3	4	5	6	
+List of [6][6]
+1	2	3	0	5	6	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	4	5	6	7	
+List of [0][2]
+1	2	3	4	5	6	7	
+List of [0][3]
+1	2	3	4	5	6	7	
+List of [0][4]
+1	2	3	4	5	6	7	
+List of [0][5]
+1	2	3	4	5	6	7	
+List of [0][6]
+1	2	3	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	
+List of [1][3]
+1	2	3	4	5	6	7	
+List of [1][4]
+1	2	3	4	5	6	7	
+List of [1][5]
+1	2	3	4	5	6	7	
+List of [1][6]
+1	2	3	4	5	6	7	
+List of [2][0]
+1	2	3	4	5	6	7	
+List of [2][1]
+1	2	3	4	5	6	7	
+List of [2][2]
+1	2	3	4	5	6	7	
+List of [2][3]
+1	2	3	4	5	6	7	
+List of [2][4]
+1	2	3	4	5	6	7	
+List of [2][5]
+1	2	3	4	5	6	7	
+List of [2][6]
+1	2	3	4	5	6	7	
+List of [3][0]
+1	2	3	4	5	6	7	
+List of [3][1]
+1	2	3	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	6	7	
+List of [3][3]
+1	2	3	4	5	6	7	
+List of [3][4]
+1	2	3	4	5	6	7	
+List of [3][5]
+1	2	3	4	5	6	7	
+List of [3][6]
+1	2	3	4	5	6	7	
+List of [4][0]
+1	2	3	4	5	6	7	
+List of [4][1]
+1	2	3	4	5	6	7	
+List of [4][2]
+1	2	3	4	5	6	7	
+List of [4][3]
+1	2	3	4	5	6	7	
+List of [4][4]
+1	2	3	4	5	6	7	
+List of [4][5]
+1	2	3	4	5	6	7	
+List of [4][6]
+1	2	3	4	5	6	7	
+List of [5][0]
+1	2	3	4	5	6	7	
+List of [5][1]
+1	2	3	4	5	6	7	
+List of [5][2]
+1	2	3	4	5	6	7	
+List of [5][3]
+1	2	3	4	5	6	7	
+List of [5][4]
+1	2	3	4	5	6	7	
+List of [5][5]
+1	2	3	4	5	6	7	
+List of [5][6]
+1	2	3	4	5	6	7	
+List of [6][0]
+1	2	3	4	5	6	7	
+List of [6][1]
+1	2	3	4	5	6	7	
+List of [6][2]
+1	2	3	4	5	6	7	
+List of [6][3]
+1	2	3	4	5	6	7	
+List of [6][4]
+1	2	3	4	5	6	7	
+List of [6][5]
+1	2	3	4	5	6	7	
+List of [6][6]
+1	2	0	4	5	6	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	4	5	6	7	
+List of [0][2]
+1	2	3	4	5	6	7	
+List of [0][3]
+1	2	3	4	5	6	7	
+List of [0][4]
+1	2	3	4	5	6	7	
+List of [0][5]
+1	2	3	4	5	6	7	
+List of [0][6]
+1	2	3	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	
+List of [1][3]
+1	2	3	4	5	6	7	
+List of [1][4]
+1	2	3	4	5	6	7	
+List of [1][5]
+1	2	3	4	5	6	7	
+List of [1][6]
+1	2	3	4	5	0	
+List of [2][0]
+1	2	3	4	5	6	7	
+List of [2][1]
+1	2	3	4	5	6	7	
+List of [2][2]
+1	2	3	4	5	6	7	
+List of [2][3]
+1	2	3	4	5	6	7	
+List of [2][4]
+1	2	3	4	5	6	7	
+List of [2][5]
+1	2	3	4	5	6	7	
+List of [2][6]
+1	2	3	4	5	0	
+List of [3][0]
+1	2	3	4	5	6	7	
+List of [3][1]
+1	2	3	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	6	7	
+List of [3][3]
+1	2	3	4	5	6	7	
+List of [3][4]
+1	2	3	4	5	6	7	
+List of [3][5]
+1	2	3	4	5	6	7	
+List of [3][6]
+1	2	3	4	5	0	
+List of [4][0]
+1	2	3	4	5	6	7	
+List of [4][1]
+1	2	3	4	5	6	7	
+List of [4][2]
+1	2	3	4	5	6	7	
+List of [4][3]
+1	2	3	4	5	6	7	
+List of [4][4]
+1	2	3	4	5	6	7	
+List of [4][5]
+1	2	3	4	5	6	7	
+List of [4][6]
+1	2	3	4	5	0	
+List of [5][0]
+1	2	3	4	5	6	7	
+List of [5][1]
+1	2	3	4	5	6	7	
+List of [5][2]
+1	2	3	4	5	6	7	
+List of [5][3]
+1	2	3	4	5	6	7	
+List of [5][4]
+1	2	3	4	5	6	7	
+List of [5][5]
+1	2	3	4	5	6	7	
+List of [5][6]
+1	2	3	4	5	0	
+List of [6][0]
+1	2	3	4	5	6	7	
+List of [6][1]
+1	2	3	4	5	6	7	
+List of [6][2]
+1	2	3	4	5	6	7	
+List of [6][3]
+1	2	3	4	5	6	7	
+List of [6][4]
+1	2	3	4	5	6	7	
+List of [6][5]
+1	2	3	4	5	6	7	
+List of [6][6]
+1	2	0	4	5	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	4	5	6	7	
+List of [0][2]
+1	2	3	4	5	6	7	
+List of [0][3]
+1	2	3	4	5	6	7	
+List of [0][4]
+1	2	3	4	5	6	7	
+List of [0][5]
+1	2	3	4	5	6	7	
+List of [0][6]
+1	2	3	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	0	
+List of [1][3]
+1	2	3	0	5	
+List of [1][4]
+1	2	3	0	5	
+List of [1][5]
+1	2	3	0	5	
+List of [1][6]
+1	2	3	0	5	
+List of [2][0]
+1	2	3	4	5	6	7	
+List of [2][1]
+1	2	3	4	5	0	
+List of [2][2]
+1	2	3	0	5	6	
+List of [2][3]
+1	2	3	4	5	6	
+List of [2][4]
+1	2	3	4	5	6	
+List of [2][5]
+1	2	3	4	5	6	
+List of [2][6]
+1	2	3	4	5	6	
+List of [3][0]
+1	2	3	4	5	6	7	
+List of [3][1]
+1	2	3	4	5	0	
+List of [3][2]
+1	2	3	0	5	6	
+List of [3][3]
+1	2	3	4	5	6	7	
+List of [3][4]
+1	2	3	4	5	6	7	
+List of [3][5]
+1	2	3	4	5	6	7	
+List of [3][6]
+1	2	3	4	5	6	7	
+List of [4][0]
+1	2	3	4	5	6	7	
+List of [4][1]
+1	2	3	4	5	0	
+List of [4][2]
+1	2	3	0	5	6	
+List of [4][3]
+1	2	3	4	5	6	
+List of [4][4]
+1	2	3	4	5	6	
+List of [4][5]
+1	2	3	4	5	6	
+List of [4][6]
+1	2	3	4	5	6	
+List of [5][0]
+1	2	3	4	5	6	
+List of [5][1]
+1	2	3	4	5	0	
+List of [5][2]
+1	2	3	0	5	6	
+List of [5][3]
+1	2	3	4	5	6	7	
+List of [5][4]
+1	2	3	4	5	6	7	
+List of [5][5]
+1	2	3	4	5	6	7	
+List of [5][6]
+1	2	3	4	5	6	7	
+List of [6][0]
+1	2	3	4	5	6	
+List of [6][1]
+1	2	3	0	5	
+List of [6][2]
+1	2	3	0	5	6	
+List of [6][3]
+1	2	3	0	5	6	
+List of [6][4]
+1	2	3	0	5	6	
+List of [6][5]
+1	2	3	0	5	6	
+List of [6][6]
+1	2	3	0	5	6	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	4	5	6	7	
+List of [0][2]
+1	2	3	4	5	6	7	
+List of [0][3]
+1	2	3	4	5	6	7	
+List of [0][4]
+1	2	3	4	5	6	7	
+List of [0][5]
+1	2	3	4	5	6	7	
+List of [0][6]
+1	2	3	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	
+List of [1][3]
+1	2	3	4	5	6	7	
+List of [1][4]
+1	2	3	4	5	6	7	
+List of [1][5]
+1	2	3	4	5	6	7	
+List of [1][6]
+1	2	3	4	5	6	7	
+List of [2][0]
+1	2	3	4	5	6	7	
+List of [2][1]
+1	2	3	4	5	6	7	
+List of [2][2]
+1	2	3	4	5	6	7	
+List of [2][3]
+1	2	3	4	5	6	7	
+List of [2][4]
+1	2	3	4	5	6	7	
+List of [2][5]
+1	2	3	4	5	6	7	
+List of [2][6]
+1	2	3	4	5	6	7	
+List of [3][0]
+1	2	3	4	5	6	7	
+List of [3][1]
+1	2	3	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	6	7	
+List of [3][3]
+1	2	3	4	5	6	7	
+List of [3][4]
+1	2	3	4	5	6	7	
+List of [3][5]
+1	2	3	4	5	6	7	
+List of [3][6]
+1	2	3	4	5	6	7	
+List of [4][0]
+1	2	3	4	5	6	7	
+List of [4][1]
+1	2	3	4	5	6	7	
+List of [4][2]
+1	2	3	4	5	6	7	
+List of [4][3]
+1	2	3	4	5	6	7	
+List of [4][4]
+1	2	3	4	5	6	7	
+List of [4][5]
+1	2	3	4	0	6	
+List of [4][6]
+1	2	3	4	0	6	
+List of [5][0]
+1	2	3	4	5	6	7	
+List of [5][1]
+1	2	3	4	5	6	7	
+List of [5][2]
+1	2	3	4	5	6	7	
+List of [5][3]
+1	2	0	4	5	6	
+List of [5][4]
+1	2	0	4	0	
+List of [5][5]
+1	2	0	4	5	6	
+List of [5][6]
+1	2	0	4	5	6	
+List of [6][0]
+1	2	3	4	5	6	7	
+List of [6][1]
+1	2	3	4	5	6	7	
+List of [6][2]
+1	2	0	4	5	6	
+List of [6][3]
+1	2	3	4	5	6	7	
+List of [6][4]
+1	2	3	4	0	6	
+List of [6][5]
+1	2	3	4	5	6	7	
+List of [6][6]
+1	2	3	4	5	6	7	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	0	5	6	
+List of [0][2]
+1	2	3	0	5	6	
+List of [0][3]
+1	2	3	0	5	6	
+List of [0][4]
+1	2	3	0	5	6	
+List of [0][5]
+1	2	3	0	5	6	
+List of [0][6]
+1	2	3	0	5	6	
+List of [1][0]
+1	2	3	0	5	6	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	
+List of [1][3]
+1	2	3	4	5	6	7	
+List of [1][4]
+1	2	3	0	5	6	
+List of [1][5]
+1	2	3	0	5	6	
+List of [1][6]
+1	2	0	0	5	
+List of [2][0]
+1	2	3	0	5	6	
+List of [2][1]
+1	2	3	4	5	6	7	
+List of [2][2]
+1	2	3	4	5	6	7	
+List of [2][3]
+1	2	3	0	5	6	
+List of [2][4]
+1	2	3	4	5	6	7	
+List of [2][5]
+1	2	0	4	5	6	
+List of [2][6]
+1	2	3	4	5	6	7	
+List of [3][0]
+1	2	3	0	5	6	
+List of [3][1]
+1	2	3	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	6	7	
+List of [3][3]
+1	2	3	0	5	6	
+List of [3][4]
+1	2	3	4	5	6	7	
+List of [3][5]
+1	2	0	4	5	6	
+List of [3][6]
+1	2	3	4	5	6	7	
+List of [4][0]
+1	2	3	0	5	6	
+List of [4][1]
+1	2	3	4	5	6	7	
+List of [4][2]
+1	0	3	4	5	6	
+List of [4][3]
+1	0	3	0	5	
+List of [4][4]
+1	0	3	0	5	
+List of [4][5]
+1	0	0	0	
+List of [4][6]
+1	0	3	0	
+List of [5][0]
+1	2	3	0	5	6	
+List of [5][1]
+1	0	3	4	5	6	
+List of [5][2]
+1	2	3	0	5	6	
+List of [5][3]
+1	2	3	0	5	6	
+List of [5][4]
+1	2	3	4	5	6	7	
+List of [5][5]
+1	2	0	4	0	
+List of [5][6]
+1	2	3	4	5	6	7	
+List of [6][0]
+1	2	3	0	5	6	
+List of [6][1]
+1	0	3	4	5	6	
+List of [6][2]
+1	2	3	0	5	6	
+List of [6][3]
+1	2	3	0	5	
+List of [6][4]
+1	2	3	4	5	0	
+List of [6][5]
+1	2	0	4	0	
+List of [6][6]
+1	2	3	0	5	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	4	5	6	7	
+List of [0][2]
+1	2	3	4	5	6	7	
+List of [0][3]
+1	2	3	4	5	6	7	
+List of [0][4]
+1	2	3	4	5	6	7	
+List of [0][5]
+1	2	3	4	5	6	7	
+List of [0][6]
+1	2	3	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	
+List of [1][3]
+1	2	3	4	5	6	7	
+List of [1][4]
+1	2	3	4	5	6	7	
+List of [1][5]
+1	2	3	4	5	6	7	
+List of [1][6]
+1	2	3	4	5	6	7	
+List of [2][0]
+1	2	3	4	5	6	7	
+List of [2][1]
+1	2	3	4	5	0	
+List of [2][2]
+1	2	3	4	5	0	
+List of [2][3]
+1	2	3	4	5	0	
+List of [2][4]
+1	2	3	4	5	0	
+List of [2][5]
+1	2	0	4	5	
+List of [2][6]
+1	2	0	4	5	
+List of [3][0]
+1	2	3	4	5	0	
+List of [3][1]
+1	2	3	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	6	7	
+List of [3][3]
+1	2	3	4	5	6	7	
+List of [3][4]
+1	2	0	4	5	6	
+List of [3][5]
+1	2	3	4	0	6	
+List of [3][6]
+1	2	3	4	0	6	
+List of [4][0]
+1	2	3	4	5	0	
+List of [4][1]
+1	2	3	4	5	6	7	
+List of [4][2]
+1	2	3	4	5	6	7	
+List of [4][3]
+1	2	3	4	5	6	7	
+List of [4][4]
+1	2	0	4	0	
+List of [4][5]
+1	2	3	4	5	0	
+List of [4][6]
+1	2	0	4	5	
+List of [5][0]
+1	2	3	4	5	0	
+List of [5][1]
+1	2	3	4	5	6	7	
+List of [5][2]
+1	2	3	4	5	6	7	
+List of [5][3]
+1	2	3	4	5	6	7	
+List of [5][4]
+1	2	0	4	0	
+List of [5][5]
+1	2	3	4	5	6	7	
+List of [5][6]
+1	2	0	4	5	6	
+List of [6][0]
+1	2	3	4	5	0	
+List of [6][1]
+1	2	3	4	5	6	7	
+List of [6][2]
+1	2	3	4	5	6	7	
+List of [6][3]
+1	2	3	4	5	6	7	
+List of [6][4]
+1	2	0	4	0	
+List of [6][5]
+1	2	3	4	5	6	7	
+List of [6][6]
+1	2	0	4	5	6	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	4	5	6	7	
+List of [0][2]
+1	2	3	4	5	6	7	
+List of [0][3]
+1	2	3	4	5	6	7	
+List of [0][4]
+1	2	3	4	5	6	7	
+List of [0][5]
+1	2	3	4	5	6	7	
+List of [0][6]
+1	2	3	0	5	6	
+List of [1][0]
+1	2	3	4	5	6	7	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	
+List of [1][3]
+1	2	3	4	5	6	7	
+List of [1][4]
+1	2	3	4	5	6	7	
+List of [1][5]
+1	2	3	0	5	6	
+List of [1][6]
+1	2	3	4	5	6	7	
+List of [2][0]
+1	2	3	4	5	6	7	
+List of [2][1]
+1	2	3	4	5	6	7	
+List of [2][2]
+1	2	3	4	5	6	7	
+List of [2][3]
+1	2	3	4	5	6	7	
+List of [2][4]
+1	2	3	4	5	6	7	
+List of [2][5]
+1	2	3	0	5	6	
+List of [2][6]
+1	2	3	4	5	6	7	
+List of [3][0]
+1	2	3	4	5	6	7	
+List of [3][1]
+1	2	3	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	6	7	
+List of [3][3]
+1	2	3	4	5	6	7	
+List of [3][4]
+1	2	3	4	5	6	7	
+List of [3][5]
+1	2	3	0	5	6	
+List of [3][6]
+1	2	3	4	5	6	7	
+List of [4][0]
+1	2	3	4	5	6	7	
+List of [4][1]
+1	2	3	4	5	6	7	
+List of [4][2]
+1	2	3	4	5	6	7	
+List of [4][3]
+1	2	3	4	5	6	7	
+List of [4][4]
+1	2	0	4	5	6	
+List of [4][5]
+1	2	0	0	5	
+List of [4][6]
+1	2	0	4	5	6	
+List of [5][0]
+1	2	3	4	5	6	7	
+List of [5][1]
+1	2	3	4	5	6	7	
+List of [5][2]
+1	2	3	4	5	6	7	
+List of [5][3]
+1	2	0	4	5	6	
+List of [5][4]
+1	2	3	4	5	6	7	
+List of [5][5]
+1	2	3	0	5	6	
+List of [5][6]
+1	2	3	4	5	6	7	
+List of [6][0]
+1	2	3	4	5	6	7	
+List of [6][1]
+1	2	3	4	5	6	7	
+List of [6][2]
+1	2	3	4	5	6	7	
+List of [6][3]
+1	2	0	4	5	6	
+List of [6][4]
+1	2	3	4	5	6	7	
+List of [6][5]
+1	2	3	0	0	
+List of [6][6]
+1	2	3	4	0	6	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	4	5	6	7	
+List of [0][2]
+1	2	3	4	5	6	7	
+List of [0][3]
+1	2	3	4	5	6	7	
+List of [0][4]
+1	2	3	4	5	6	7	
+List of [0][5]
+1	2	3	4	5	6	7	
+List of [0][6]
+1	2	3	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	
+List of [1][3]
+1	2	3	4	5	6	7	
+List of [1][4]
+1	2	3	4	5	6	7	
+List of [1][5]
+1	2	3	4	5	6	7	
+List of [1][6]
+1	2	3	4	5	6	7	
+List of [2][0]
+1	2	3	4	5	6	7	
+List of [2][1]
+1	2	3	4	5	6	7	
+List of [2][2]
+1	2	3	4	5	6	7	
+List of [2][3]
+1	2	3	4	5	0	
+List of [2][4]
+1	2	3	4	5	0	
+List of [2][5]
+1	2	3	4	5	0	
+List of [2][6]
+1	2	3	4	5	0	
+List of [3][0]
+1	2	3	4	5	6	7	
+List of [3][1]
+1	2	3	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	0	
+List of [3][3]
+1	2	3	4	5	6	7	
+List of [3][4]
+1	2	3	4	5	6	7	
+List of [3][5]
+1	2	3	4	5	6	7	
+List of [3][6]
+1	2	3	4	5	6	7	
+List of [4][0]
+1	2	3	4	5	6	7	
+List of [4][1]
+1	2	3	4	5	6	
+List of [4][2]
+1	2	3	4	0	
+List of [4][3]
+1	2	3	4	0	
+List of [4][4]
+1	2	3	4	0	
+List of [4][5]
+0	2	3	4	
+List of [4][6]
+0	2	3	4	
+List of [5][0]
+1	2	3	4	5	6	
+List of [5][1]
+1	2	3	4	0	6	
+List of [5][2]
+1	2	3	4	5	0	
+List of [5][3]
+1	2	3	4	5	6	7	
+List of [5][4]
+0	2	3	4	5	6	
+List of [5][5]
+1	2	3	4	5	6	7	
+List of [5][6]
+1	2	3	4	5	6	7	
+List of [6][0]
+1	2	3	4	5	6	
+List of [6][1]
+1	2	3	4	0	6	
+List of [6][2]
+1	2	3	4	5	0	
+List of [6][3]
+1	2	3	4	5	6	7	
+List of [6][4]
+0	2	3	4	5	6	
+List of [6][5]
+1	2	3	4	5	6	7	
+List of [6][6]
+1	2	3	0	5	6	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	4	5	6	7	
+List of [0][2]
+1	2	3	4	5	6	7	
+List of [0][3]
+1	2	3	4	5	6	7	
+List of [0][4]
+1	2	3	4	5	6	7	
+List of [0][5]
+1	2	3	4	5	6	7	
+List of [0][6]
+1	2	3	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	
+List of [1][3]
+1	2	3	4	5	6	7	
+List of [1][4]
+1	0	3	4	5	6	
+List of [1][5]
+1	0	3	4	5	6	
+List of [1][6]
+1	0	3	4	5	6	
+List of [2][0]
+1	2	3	4	5	6	7	
+List of [2][1]
+0	2	3	4	5	6	
+List of [2][2]
+0	2	3	4	5	6	
+List of [2][3]
+0	0	3	4	5	
+List of [2][4]
+0	2	3	4	5	6	
+List of [2][5]
+0	2	3	0	5	
+List of [2][6]
+0	2	3	0	5	
+List of [3][0]
+0	2	3	4	5	6	
+List of [3][1]
+1	2	3	0	5	6	
+List of [3][2]
+1	2	3	0	5	6	
+List of [3][3]
+1	0	3	0	5	
+List of [3][4]
+1	2	3	0	5	6	
+List of [3][5]
+1	2	3	0	5	6	
+List of [3][6]
+0	2	3	0	5	
+List of [4][0]
+0	2	3	0	5	
+List of [4][1]
+1	2	0	4	5	6	
+List of [4][2]
+1	2	0	4	5	6	
+List of [4][3]
+1	0	0	4	5	
+List of [4][4]
+1	2	0	0	5	
+List of [4][5]
+1	2	0	4	5	6	
+List of [4][6]
+0	2	0	4	
+List of [5][0]
+0	2	0	0	
+List of [5][1]
+1	2	3	4	5	6	7	
+List of [5][2]
+1	2	3	4	5	6	7	
+List of [5][3]
+1	0	3	4	5	6	
+List of [5][4]
+1	2	3	0	5	6	
+List of [5][5]
+1	2	3	4	5	6	7	
+List of [5][6]
+0	2	3	4	5	
+List of [6][0]
+0	2	0	0	
+List of [6][1]
+1	2	3	4	0	6	
+List of [6][2]
+1	2	3	4	0	6	
+List of [6][3]
+1	0	3	4	0	
+List of [6][4]
+1	2	3	0	0	
+List of [6][5]
+1	2	3	4	0	6	
+List of [6][6]
+0	2	3	4	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	4	5	6	7	
+List of [0][2]
+1	2	3	4	5	6	7	
+List of [0][3]
+1	2	3	4	5	6	7	
+List of [0][4]
+1	2	3	4	5	6	7	
+List of [0][5]
+1	2	3	4	5	6	7	
+List of [0][6]
+1	2	3	0	5	6	
+List of [1][0]
+1	2	3	4	5	6	7	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	
+List of [1][3]
+1	2	3	4	5	6	7	
+List of [1][4]
+1	2	3	4	5	6	7	
+List of [1][5]
+1	2	3	0	5	6	
+List of [1][6]
+1	2	3	4	5	6	7	
+List of [2][0]
+1	2	3	4	5	6	7	
+List of [2][1]
+1	2	3	4	5	6	7	
+List of [2][2]
+1	2	3	4	5	6	7	
+List of [2][3]
+1	2	3	4	5	6	7	
+List of [2][4]
+1	0	3	4	5	6	
+List of [2][5]
+1	0	3	0	5	
+List of [2][6]
+1	0	3	4	5	
+List of [3][0]
+1	2	3	4	5	6	7	
+List of [3][1]
+1	2	3	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	6	7	
+List of [3][3]
+1	0	3	4	5	6	
+List of [3][4]
+1	2	3	4	5	6	7	
+List of [3][5]
+1	2	3	0	5	
+List of [3][6]
+1	2	3	4	5	6	7	
+List of [4][0]
+1	2	3	4	5	6	7	
+List of [4][1]
+1	2	3	4	5	6	7	
+List of [4][2]
+1	2	3	4	5	6	7	
+List of [4][3]
+1	0	3	4	5	6	
+List of [4][4]
+1	2	3	4	5	6	7	
+List of [4][5]
+1	2	3	0	5	
+List of [4][6]
+1	2	3	4	5	6	7	
+List of [5][0]
+1	2	3	4	5	6	7	
+List of [5][1]
+1	2	3	4	5	6	7	
+List of [5][2]
+1	2	3	4	5	6	7	
+List of [5][3]
+1	0	3	4	5	6	
+List of [5][4]
+1	2	3	4	5	6	7	
+List of [5][5]
+1	2	3	0	5	
+List of [5][6]
+1	2	3	4	5	6	7	
+List of [6][0]
+1	2	3	4	5	6	7	
+List of [6][1]
+1	2	3	4	5	6	7	
+List of [6][2]
+1	2	3	4	5	6	7	
+List of [6][3]
+1	0	3	4	5	6	
+List of [6][4]
+1	2	3	4	5	6	7	
+List of [6][5]
+1	2	3	0	5	
+List of [6][6]
+1	2	3	4	5	6	7	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	4	5	6	7	
+List of [0][2]
+1	2	3	4	5	6	7	
+List of [0][3]
+1	2	3	4	5	6	7	
+List of [0][4]
+1	2	3	4	5	6	7	
+List of [0][5]
+1	2	3	4	5	6	7	
+List of [0][6]
+1	2	3	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	
+List of [1][1]
+1	0	3	4	5	6	
+List of [1][2]
+1	0	3	4	5	6	
+List of [1][3]
+1	0	3	4	5	6	
+List of [1][4]
+1	0	3	4	5	6	
+List of [1][5]
+1	0	3	4	5	6	
+List of [1][6]
+1	0	3	4	5	6	
+List of [2][0]
+1	0	3	4	5	6	
+List of [2][1]
+1	2	3	4	5	6	7	
+List of [2][2]
+1	2	3	4	5	6	7	
+List of [2][3]
+1	2	3	4	5	6	7	
+List of [2][4]
+1	2	3	4	5	6	7	
+List of [2][5]
+1	2	3	4	5	6	7	
+List of [2][6]
+1	2	3	4	5	6	7	
+List of [3][0]
+1	0	3	4	5	6	
+List of [3][1]
+1	2	3	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	0	
+List of [3][3]
+1	0	3	4	5	
+List of [3][4]
+1	0	3	4	5	
+List of [3][5]
+1	0	3	4	5	
+List of [3][6]
+1	0	3	4	5	
+List of [4][0]
+1	0	3	4	5	6	
+List of [4][1]
+1	2	3	4	5	0	
+List of [4][2]
+1	0	3	4	0	
+List of [4][3]
+1	2	3	4	0	6	
+List of [4][4]
+1	2	3	4	0	6	
+List of [4][5]
+1	2	3	4	0	6	
+List of [4][6]
+1	2	3	4	0	6	
+List of [5][0]
+1	0	3	4	5	6	
+List of [5][1]
+1	2	0	4	
+List of [5][2]
+1	0	0	4	5	
+List of [5][3]
+1	2	0	4	5	6	
+List of [5][4]
+1	2	0	4	5	6	
+List of [5][5]
+1	2	0	4	5	6	
+List of [5][6]
+1	2	0	4	5	
+List of [6][0]
+1	0	0	4	5	
+List of [6][1]
+1	2	3	4	0	
+List of [6][2]
+1	0	0	4	5	
+List of [6][3]
+1	2	0	4	5	
+List of [6][4]
+1	2	0	4	5	
+List of [6][5]
+1	2	0	4	5	
+List of [6][6]
+1	2	0	4	5	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	4	5	6	
+List of [0][2]
+1	2	3	4	5	6	
+List of [0][3]
+1	2	3	4	5	6	
+List of [0][4]
+1	2	3	4	5	6	
+List of [0][5]
+1	2	3	4	5	6	
+List of [0][6]
+1	2	3	4	5	6	
+List of [1][0]
+1	2	3	4	5	6	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	
+List of [1][3]
+1	2	3	4	5	6	7	
+List of [1][4]
+1	2	3	4	5	6	7	
+List of [1][5]
+1	2	3	4	5	6	7	
+List of [1][6]
+1	2	3	4	5	6	7	
+List of [2][0]
+1	2	3	4	5	6	
+List of [2][1]
+1	2	3	4	5	6	7	
+List of [2][2]
+1	2	3	4	5	6	7	
+List of [2][3]
+1	2	3	4	5	6	7	
+List of [2][4]
+1	2	3	4	5	6	7	
+List of [2][5]
+1	2	3	4	5	6	7	
+List of [2][6]
+1	2	3	4	5	6	7	
+List of [3][0]
+1	2	3	4	5	6	
+List of [3][1]
+1	2	3	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	6	7	
+List of [3][3]
+1	2	3	4	5	6	7	
+List of [3][4]
+1	2	3	4	5	6	7	
+List of [3][5]
+1	2	3	4	5	6	7	
+List of [3][6]
+1	2	3	4	5	6	7	
+List of [4][0]
+1	2	3	4	5	6	
+List of [4][1]
+1	2	3	4	5	6	7	
+List of [4][2]
+1	2	3	4	5	6	7	
+List of [4][3]
+1	2	3	4	5	6	7	
+List of [4][4]
+1	2	3	4	5	6	7	
+List of [4][5]
+1	2	3	4	5	6	7	
+List of [4][6]
+1	2	3	0	5	6	
+List of [5][0]
+1	2	3	4	5	6	
+List of [5][1]
+1	2	3	4	5	6	7	
+List of [5][2]
+1	2	3	4	5	6	7	
+List of [5][3]
+1	2	3	4	5	6	7	
+List of [5][4]
+1	2	3	4	5	6	7	
+List of [5][5]
+1	2	3	0	5	6	
+List of [5][6]
+1	0	3	4	5	6	
+List of [6][0]
+1	2	3	4	5	6	
+List of [6][1]
+1	2	3	4	5	6	7	
+List of [6][2]
+1	2	3	4	5	6	7	
+List of [6][3]
+1	2	3	4	5	6	7	
+List of [6][4]
+1	2	3	4	5	6	7	
+List of [6][5]
+1	0	0	0	
+List of [6][6]
+1	2	0	4	5	6	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	0	3	4	5	6	
+List of [0][2]
+1	0	3	4	5	6	
+List of [0][3]
+1	0	3	4	5	6	
+List of [0][4]
+1	0	3	4	5	6	
+List of [0][5]
+1	0	3	4	5	6	
+List of [0][6]
+1	0	3	4	5	6	
+List of [1][0]
+1	0	3	4	5	6	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	
+List of [1][3]
+1	2	3	4	5	6	7	
+List of [1][4]
+1	2	3	4	5	6	7	
+List of [1][5]
+1	2	3	4	5	6	7	
+List of [1][6]
+1	2	3	4	5	6	7	
+List of [2][0]
+1	0	3	4	5	6	
+List of [2][1]
+1	2	3	4	5	6	7	
+List of [2][2]
+1	2	3	4	5	6	7	
+List of [2][3]
+1	2	3	4	5	6	7	
+List of [2][4]
+1	2	3	4	5	6	7	
+List of [2][5]
+1	2	3	4	5	6	7	
+List of [2][6]
+1	2	3	4	5	6	
+List of [3][0]
+1	0	3	4	5	6	
+List of [3][1]
+1	2	3	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	0	
+List of [3][3]
+1	2	3	4	5	0	
+List of [3][4]
+1	2	3	4	5	0	
+List of [3][5]
+1	2	3	4	5	
+List of [3][6]
+1	2	3	4	5	0	
+List of [4][0]
+1	0	3	4	5	6	
+List of [4][1]
+1	2	3	4	5	0	
+List of [4][2]
+1	2	3	4	5	6	7	
+List of [4][3]
+1	2	3	4	5	6	7	
+List of [4][4]
+1	2	3	4	5	6	7	
+List of [4][5]
+1	2	3	4	5	6	
+List of [4][6]
+1	2	3	4	5	6	7	
+List of [5][0]
+1	0	3	4	5	6	
+List of [5][1]
+1	2	3	4	5	0	
+List of [5][2]
+1	2	3	4	5	6	7	
+List of [5][3]
+1	2	3	4	5	6	7	
+List of [5][4]
+1	2	3	4	5	6	7	
+List of [5][5]
+1	2	3	4	5	6	
+List of [5][6]
+1	2	3	4	5	6	7	
+List of [6][0]
+1	0	3	4	5	6	
+List of [6][1]
+1	2	3	4	5	0	
+List of [6][2]
+1	2	3	4	5	6	7	
+List of [6][3]
+1	2	3	4	5	6	7	
+List of [6][4]
+1	2	3	4	5	6	7	
+List of [6][5]
+1	2	3	4	5	6	
+List of [6][6]
+1	2	3	4	5	6	7	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	4	5	6	7	
+List of [0][2]
+1	2	3	4	5	6	7	
+List of [0][3]
+1	0	3	4	5	6	
+List of [0][4]
+1	0	3	4	5	6	
+List of [0][5]
+1	0	3	4	5	6	
+List of [0][6]
+1	0	3	4	5	6	
+List of [1][0]
+1	2	3	4	5	6	7	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	0	3	4	5	6	
+List of [1][3]
+1	2	3	4	5	6	7	
+List of [1][4]
+1	2	3	4	5	6	7	
+List of [1][5]
+1	2	3	4	5	6	7	
+List of [1][6]
+1	2	3	4	5	6	7	
+List of [2][0]
+1	2	3	4	5	6	7	
+List of [2][1]
+1	2	3	4	5	6	7	
+List of [2][2]
+1	0	3	4	5	6	
+List of [2][3]
+1	2	3	4	5	6	7	
+List of [2][4]
+1	2	3	4	5	6	7	
+List of [2][5]
+1	2	3	4	5	6	7	
+List of [2][6]
+1	2	3	4	5	6	7	
+List of [3][0]
+1	2	3	4	5	6	7	
+List of [3][1]
+1	2	3	4	5	6	7	
+List of [3][2]
+1	0	3	4	5	6	
+List of [3][3]
+1	2	3	4	5	6	7	
+List of [3][4]
+1	2	3	4	5	6	7	
+List of [3][5]
+1	2	3	4	5	6	7	
+List of [3][6]
+1	2	3	4	5	6	7	
+List of [4][0]
+1	2	3	4	5	6	7	
+List of [4][1]
+1	2	3	4	5	6	7	
+List of [4][2]
+1	0	3	4	5	6	
+List of [4][3]
+1	2	3	4	5	6	7	
+List of [4][4]
+1	2	3	4	5	6	7	
+List of [4][5]
+1	2	3	4	5	6	7	
+List of [4][6]
+1	2	3	4	5	6	7	
+List of [5][0]
+1	2	3	4	5	6	7	
+List of [5][1]
+1	2	3	4	5	6	7	
+List of [5][2]
+1	0	3	4	5	6	
+List of [5][3]
+1	2	3	4	5	6	7	
+List of [5][4]
+1	2	3	4	5	6	7	
+List of [5][5]
+1	2	3	4	5	6	7	
+List of [5][6]
+1	2	3	4	5	6	7	
+List of [6][0]
+1	2	3	4	5	6	7	
+List of [6][1]
+1	2	3	4	5	6	7	
+List of [6][2]
+1	0	3	4	5	6	
+List of [6][3]
+1	2	3	4	5	6	7	
+List of [6][4]
+1	2	3	4	5	6	7	
+List of [6][5]
+1	2	3	4	5	6	7	
+List of [6][6]
+1	2	3	4	5	6	7	
+List of [0][0]
+1	2	3	4	5	6	7	
+List of [0][1]
+1	2	3	4	5	6	7	
+List of [0][2]
+1	2	3	4	5	6	7	
+List of [0][3]
+1	2	3	4	5	6	7	
+List of [0][4]
+1	2	3	4	5	6	7	
+List of [0][5]
+1	2	3	4	5	6	7	
+List of [0][6]
+1	2	3	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	
+List of [1][1]
+1	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	
+List of [1][3]
+1	2	3	4	5	6	7	
+List of [1][4]
+1	2	3	4	5	6	7	
+List of [1][5]
+1	2	3	4	5	6	7	
+List of [1][6]
+1	2	3	4	5	6	7	
+List of [2][0]
+1	2	3	4	5	6	7	
+List of [2][1]
+1	2	0	4	5	6	
+List of [2][2]
+1	2	0	4	5	6	
+List of [2][3]
+1	2	0	4	5	6	
+List of [2][4]
+1	2	0	4	5	6	
+List of [2][5]
+1	2	0	4	5	6	
+List of [2][6]
+1	2	0	4	5	6	
+List of [3][0]
+1	2	0	4	5	6	
+List of [3][1]
+1	2	3	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	6	7	
+List of [3][3]
+1	2	3	4	5	6	7	
+List of [3][4]
+1	2	3	4	5	6	7	
+List of [3][5]
+1	2	3	4	5	6	7	
+List of [3][6]
+1	2	3	4	5	6	7	
+List of [4][0]
+1	2	0	4	5	6	
+List of [4][1]
+1	2	3	4	5	6	7	
+List of [4][2]
+1	2	3	4	5	6	7	
+List of [4][3]
+1	2	3	4	5	6	7	
+List of [4][4]
+1	2	3	4	5	6	7	
+List of [4][5]
+1	2	3	4	5	6	7	
+List of [4][6]
+1	2	3	4	5	6	7	
+List of [5][0]
+1	2	0	4	5	6	
+List of [5][1]
+1	2	3	4	5	6	7	
+List of [5][2]
+1	2	3	4	5	0	
+List of [5][3]
+1	2	3	4	5	0	
+List of [5][4]
+1	2	3	4	5	0	
+List of [5][5]
+1	2	3	4	5	0	
+List of [5][6]
+1	2	3	4	0	
+List of [6][0]
+1	2	0	4	5	6	
+List of [6][1]
+1	2	3	4	5	0	
+List of [6][2]
+1	2	3	4	5	0	
+List of [6][3]
+1	2	3	4	5	0	
+List of [6][4]
+1	2	3	4	5	0	
+List of [6][5]
+1	2	3	4	0	
+List of [6][6]
+1	2	3	4	5	0	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	0	
+List of [0][2]
+1	2	3	4	5	6	0	
+List of [0][3]
+0	2	3	4	5	6	
+List of [0][4]
+0	2	3	0	5	
+List of [0][5]
+0	2	3	0	5	
+List of [0][6]
+0	2	3	0	5	
+List of [0][7]
+0	2	3	0	5	
+List of [1][0]
+1	2	3	4	5	6	0	
+List of [1][1]
+1	2	3	4	5	6	7	8	
+List of [1][2]
+0	0	3	4	5	6	
+List of [1][3]
+1	0	3	0	5	6	
+List of [1][4]
+1	0	3	4	5	6	7	
+List of [1][5]
+1	0	3	4	5	6	7	
+List of [1][6]
+1	0	3	4	5	6	7	
+List of [1][7]
+1	0	3	4	5	6	7	
+List of [2][0]
+1	2	3	4	5	6	0	
+List of [2][1]
+1	0	3	4	5	6	7	
+List of [2][2]
+0	2	3	4	5	6	7	
+List of [2][3]
+1	2	3	0	5	6	7	
+List of [2][4]
+1	2	3	4	5	6	7	8	
+List of [2][5]
+1	2	3	4	5	6	7	8	
+List of [2][6]
+1	2	3	4	5	6	7	8	
+List of [2][7]
+1	2	3	4	5	6	7	8	
+List of [3][0]
+1	2	3	4	5	6	0	
+List of [3][1]
+1	0	3	4	5	6	7	
+List of [3][2]
+0	2	3	4	5	6	7	
+List of [3][3]
+1	2	3	0	5	6	7	
+List of [3][4]
+1	2	3	4	5	6	7	8	
+List of [3][5]
+1	2	3	4	5	6	7	8	
+List of [3][6]
+1	2	3	4	5	6	7	8	
+List of [3][7]
+1	2	3	4	5	6	7	8	
+List of [4][0]
+1	2	3	4	5	6	0	
+List of [4][1]
+1	0	3	4	5	6	7	
+List of [4][2]
+0	2	3	4	5	6	7	
+List of [4][3]
+1	2	3	0	5	6	7	
+List of [4][4]
+1	2	3	0	5	6	7	
+List of [4][5]
+1	2	3	0	5	6	7	
+List of [4][6]
+1	2	3	0	5	6	7	
+List of [4][7]
+1	2	3	0	5	6	7	
+List of [5][0]
+1	2	3	4	5	6	0	
+List of [5][1]
+1	0	3	4	5	6	7	
+List of [5][2]
+0	2	3	0	5	6	
+List of [5][3]
+1	2	3	0	5	6	7	
+List of [5][4]
+1	2	0	4	5	6	7	
+List of [5][5]
+1	2	0	4	5	6	7	
+List of [5][6]
+1	2	0	4	5	6	7	
+List of [5][7]
+1	2	0	4	5	6	7	
+List of [6][0]
+1	2	3	4	5	6	0	
+List of [6][1]
+1	0	3	4	5	6	7	
+List of [6][2]
+0	2	3	0	5	6	
+List of [6][3]
+1	2	0	0	5	6	
+List of [6][4]
+1	2	3	4	0	6	7	
+List of [6][5]
+1	2	3	4	0	6	7	
+List of [6][6]
+1	2	3	4	0	6	7	
+List of [6][7]
+1	2	3	4	0	6	7	
+List of [7][0]
+1	2	3	4	5	6	0	
+List of [7][1]
+1	0	3	4	5	6	7	
+List of [7][2]
+0	2	3	0	5	6	
+List of [7][3]
+1	2	0	0	0	
+List of [7][4]
+1	2	3	4	5	6	7	8	
+List of [7][5]
+1	2	3	4	5	6	7	8	
+List of [7][6]
+1	2	3	4	5	6	7	8	
+List of [7][7]
+0	2	3	4	5	6	7	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	7	8	
+List of [0][2]
+1	2	3	4	5	6	7	8	
+List of [0][3]
+1	2	3	4	5	6	7	8	
+List of [0][4]
+1	2	3	4	5	6	7	8	
+List of [0][5]
+1	2	3	4	5	6	7	8	
+List of [0][6]
+1	2	3	4	5	6	7	8	
+List of [0][7]
+1	2	3	4	5	6	7	8	
+List of [1][0]
+1	2	3	4	5	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	
+List of [1][2]
+1	2	3	4	5	6	7	8	
+List of [1][3]
+1	2	3	4	5	6	7	8	
+List of [1][4]
+1	2	3	4	5	6	7	8	
+List of [1][5]
+1	2	3	4	5	6	7	8	
+List of [1][6]
+1	2	3	4	5	6	7	8	
+List of [1][7]
+1	2	3	4	5	6	7	8	
+List of [2][0]
+1	2	3	4	5	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	
+List of [2][2]
+1	2	3	4	5	6	7	8	
+List of [2][3]
+1	2	3	4	5	6	7	8	
+List of [2][4]
+1	2	3	4	5	6	7	8	
+List of [2][5]
+1	2	3	4	5	6	7	8	
+List of [2][6]
+1	2	3	4	5	6	7	8	
+List of [2][7]
+1	2	3	4	5	6	7	8	
+List of [3][0]
+1	2	3	4	5	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	
+List of [3][2]
+1	2	3	4	5	6	7	8	
+List of [3][3]
+1	2	3	4	5	6	7	8	
+List of [3][4]
+1	2	3	4	5	6	7	8	
+List of [3][5]
+1	2	3	4	5	6	7	8	
+List of [3][6]
+1	2	3	4	5	6	7	8	
+List of [3][7]
+1	2	3	4	5	6	7	8	
+List of [4][0]
+1	2	3	4	5	6	7	8	
+List of [4][1]
+1	2	3	4	5	6	7	8	
+List of [4][2]
+1	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	3	4	5	6	7	8	
+List of [4][4]
+1	2	3	4	5	6	7	8	
+List of [4][5]
+1	2	3	4	5	6	7	8	
+List of [4][6]
+1	2	3	4	5	6	7	8	
+List of [4][7]
+1	2	0	4	5	6	7	
+List of [5][0]
+1	2	3	4	5	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	7	8	
+List of [5][2]
+1	2	3	4	5	6	7	8	
+List of [5][3]
+1	2	3	4	5	0	7	
+List of [5][4]
+1	2	3	4	5	0	7	
+List of [5][5]
+1	2	3	4	5	0	7	
+List of [5][6]
+1	2	3	4	5	0	7	
+List of [5][7]
+1	2	0	4	5	0	
+List of [6][0]
+1	2	3	4	5	6	7	8	
+List of [6][1]
+1	2	3	4	5	6	7	8	
+List of [6][2]
+1	2	3	4	5	0	7	
+List of [6][3]
+1	2	3	4	5	6	7	8	
+List of [6][4]
+1	2	3	4	5	6	7	8	
+List of [6][5]
+1	2	3	4	5	6	7	8	
+List of [6][6]
+1	2	3	4	5	6	7	8	
+List of [6][7]
+1	2	0	4	5	6	7	
+List of [7][0]
+1	2	3	4	5	6	7	8	
+List of [7][1]
+1	2	3	4	5	6	7	8	
+List of [7][2]
+1	2	3	4	5	0	7	
+List of [7][3]
+1	2	3	4	5	6	7	8	
+List of [7][4]
+1	2	3	4	5	6	7	8	
+List of [7][5]
+1	2	3	4	5	6	7	8	
+List of [7][6]
+1	2	3	4	5	6	7	8	
+List of [7][7]
+1	2	0	4	0	6	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	0	
+List of [0][2]
+1	2	3	4	5	6	0	
+List of [0][3]
+1	2	3	4	5	6	0	
+List of [0][4]
+1	2	3	4	5	6	0	
+List of [0][5]
+1	2	3	4	5	6	0	
+List of [0][6]
+1	2	3	4	5	6	0	
+List of [0][7]
+1	2	3	4	5	6	0	
+List of [1][0]
+1	2	3	4	5	6	0	
+List of [1][1]
+1	2	3	4	5	6	7	8	
+List of [1][2]
+1	2	3	4	5	6	7	8	
+List of [1][3]
+1	2	3	4	5	6	7	8	
+List of [1][4]
+1	2	3	4	5	6	7	8	
+List of [1][5]
+1	2	3	4	5	6	7	8	
+List of [1][6]
+1	2	3	4	5	6	7	8	
+List of [1][7]
+1	2	3	4	5	6	7	8	
+List of [2][0]
+1	2	3	4	5	6	0	
+List of [2][1]
+1	2	3	4	5	6	7	8	
+List of [2][2]
+1	2	3	4	5	6	7	8	
+List of [2][3]
+1	2	3	4	5	6	7	8	
+List of [2][4]
+1	2	3	4	5	6	7	8	
+List of [2][5]
+1	2	3	4	5	6	7	8	
+List of [2][6]
+1	2	3	4	5	6	7	8	
+List of [2][7]
+1	2	3	4	5	6	7	8	
+List of [3][0]
+1	2	3	4	5	6	0	
+List of [3][1]
+1	2	3	4	5	6	7	8	
+List of [3][2]
+1	2	3	4	5	6	7	8	
+List of [3][3]
+1	2	3	4	5	6	7	8	
+List of [3][4]
+1	2	3	4	5	6	7	8	
+List of [3][5]
+1	0	3	4	5	6	7	
+List of [3][6]
+1	0	3	4	5	6	7	
+List of [3][7]
+0	0	3	4	5	6	
+List of [4][0]
+1	2	3	4	5	6	0	
+List of [4][1]
+1	2	3	4	5	6	7	8	
+List of [4][2]
+1	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	3	4	5	6	7	8	
+List of [4][4]
+1	0	3	4	5	6	7	
+List of [4][5]
+1	2	3	4	5	6	7	8	
+List of [4][6]
+0	2	3	4	5	6	7	
+List of [4][7]
+1	2	3	4	5	6	7	
+List of [5][0]
+1	2	3	4	5	6	0	
+List of [5][1]
+1	2	3	4	5	6	7	8	
+List of [5][2]
+1	2	3	4	5	6	7	8	
+List of [5][3]
+1	2	3	4	5	6	7	8	
+List of [5][4]
+1	0	3	4	5	6	7	
+List of [5][5]
+1	2	3	4	5	6	7	8	
+List of [5][6]
+0	2	3	4	5	6	7	
+List of [5][7]
+1	2	3	0	5	6	
+List of [6][0]
+1	2	3	4	5	6	0	
+List of [6][1]
+1	2	3	4	5	6	7	8	
+List of [6][2]
+1	0	3	4	5	6	7	
+List of [6][3]
+1	0	3	4	5	6	7	
+List of [6][4]
+1	0	3	4	5	6	7	
+List of [6][5]
+1	0	3	4	5	6	7	
+List of [6][6]
+0	0	3	0	5	
+List of [6][7]
+1	0	3	4	5	6	
+List of [7][0]
+1	2	3	4	5	6	0	
+List of [7][1]
+1	0	3	4	5	6	7	
+List of [7][2]
+1	2	3	4	5	6	7	8	
+List of [7][3]
+1	2	3	4	5	6	7	8	
+List of [7][4]
+1	0	3	4	5	6	7	
+List of [7][5]
+1	2	3	4	5	6	7	8	
+List of [7][6]
+0	2	3	0	5	6	
+List of [7][7]
+1	2	3	4	5	6	7	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	7	8	
+List of [0][2]
+1	2	3	4	5	6	7	8	
+List of [0][3]
+1	2	3	4	5	6	7	8	
+List of [0][4]
+1	2	3	4	5	6	7	8	
+List of [0][5]
+1	2	3	4	5	6	7	8	
+List of [0][6]
+1	2	3	4	5	6	7	8	
+List of [0][7]
+1	2	3	4	5	6	7	8	
+List of [1][0]
+1	2	3	4	5	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	
+List of [1][2]
+1	2	3	4	5	6	7	8	
+List of [1][3]
+1	2	3	0	5	6	7	
+List of [1][4]
+1	2	3	0	5	6	7	
+List of [1][5]
+1	2	3	0	5	6	7	
+List of [1][6]
+1	2	3	0	5	0	
+List of [1][7]
+1	2	3	0	5	0	
+List of [2][0]
+1	2	3	4	5	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	
+List of [2][2]
+1	2	3	0	5	6	7	
+List of [2][3]
+1	2	3	4	5	6	7	8	
+List of [2][4]
+1	2	3	4	5	6	7	8	
+List of [2][5]
+1	2	3	4	5	0	7	
+List of [2][6]
+1	2	3	4	5	6	7	8	
+List of [2][7]
+1	2	3	4	5	6	7	8	
+List of [3][0]
+1	2	3	4	5	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	
+List of [3][2]
+1	2	3	0	5	6	7	
+List of [3][3]
+1	2	3	4	5	6	7	8	
+List of [3][4]
+1	2	3	4	5	0	7	
+List of [3][5]
+1	2	3	4	5	0	7	
+List of [3][6]
+1	2	3	4	5	0	7	
+List of [3][7]
+1	2	3	4	5	0	7	
+List of [4][0]
+1	2	3	4	5	6	7	8	
+List of [4][1]
+1	2	3	4	5	6	7	8	
+List of [4][2]
+1	2	3	0	5	6	
+List of [4][3]
+1	2	3	4	5	0	
+List of [4][4]
+1	0	3	4	5	6	
+List of [4][5]
+1	0	3	4	5	
+List of [4][6]
+1	0	3	4	5	6	
+List of [4][7]
+1	0	3	4	5	6	
+List of [5][0]
+1	2	3	4	5	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	0	
+List of [5][2]
+1	2	3	0	5	6	7	
+List of [5][3]
+1	0	3	4	5	0	
+List of [5][4]
+1	2	3	4	5	6	7	8	
+List of [5][5]
+1	2	3	4	5	0	7	
+List of [5][6]
+1	2	3	4	5	6	7	8	
+List of [5][7]
+1	2	3	4	5	6	7	8	
+List of [6][0]
+1	2	3	4	5	6	7	8	
+List of [6][1]
+1	2	3	4	5	6	0	
+List of [6][2]
+1	2	3	0	5	6	7	
+List of [6][3]
+1	0	3	4	5	0	
+List of [6][4]
+1	2	3	4	5	0	7	
+List of [6][5]
+1	2	3	4	5	0	7	
+List of [6][6]
+1	2	3	4	5	0	7	
+List of [6][7]
+1	2	3	4	5	0	7	
+List of [7][0]
+1	2	3	4	5	6	7	8	
+List of [7][1]
+1	2	3	4	5	6	0	
+List of [7][2]
+1	2	3	0	5	0	
+List of [7][3]
+1	0	3	4	5	0	
+List of [7][4]
+1	2	3	0	5	
+List of [7][5]
+1	2	3	0	5	
+List of [7][6]
+1	2	3	0	5	
+List of [7][7]
+1	2	3	0	5	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	7	8	
+List of [0][2]
+1	2	3	4	5	6	7	8	
+List of [0][3]
+1	2	3	4	5	6	7	8	
+List of [0][4]
+1	2	3	4	5	6	7	8	
+List of [0][5]
+1	2	3	4	5	6	7	8	
+List of [0][6]
+1	2	3	4	5	6	7	8	
+List of [0][7]
+1	2	3	4	5	6	7	8	
+List of [1][0]
+1	2	3	4	5	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	
+List of [1][2]
+1	2	3	4	5	6	7	8	
+List of [1][3]
+1	2	3	4	5	6	7	8	
+List of [1][4]
+1	2	3	4	5	6	7	8	
+List of [1][5]
+1	2	3	4	5	6	7	8	
+List of [1][6]
+1	2	3	4	5	6	7	8	
+List of [1][7]
+1	2	3	4	5	6	7	
+List of [2][0]
+1	2	3	4	5	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	
+List of [2][2]
+1	2	3	4	5	6	7	8	
+List of [2][3]
+1	2	3	4	5	6	7	8	
+List of [2][4]
+1	2	3	4	5	6	7	8	
+List of [2][5]
+1	2	3	4	5	6	7	8	
+List of [2][6]
+1	2	3	4	5	6	7	
+List of [2][7]
+1	2	0	4	5	6	7	
+List of [3][0]
+1	2	3	4	5	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	
+List of [3][2]
+1	2	3	4	5	6	7	8	
+List of [3][3]
+1	2	3	4	5	6	7	8	
+List of [3][4]
+1	2	3	4	5	6	7	8	
+List of [3][5]
+1	2	3	4	5	6	7	8	
+List of [3][6]
+1	2	0	4	5	6	
+List of [3][7]
+1	2	3	4	5	6	7	8	
+List of [4][0]
+1	2	3	4	5	6	7	8	
+List of [4][1]
+1	2	3	4	5	6	7	8	
+List of [4][2]
+1	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	3	4	5	6	7	8	
+List of [4][4]
+1	2	3	4	5	6	7	8	
+List of [4][5]
+1	2	3	4	5	6	7	8	
+List of [4][6]
+1	2	0	4	5	6	
+List of [4][7]
+1	2	3	4	5	6	7	8	
+List of [5][0]
+1	2	3	4	5	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	7	8	
+List of [5][2]
+1	2	3	4	5	6	7	8	
+List of [5][3]
+1	2	3	4	5	6	7	8	
+List of [5][4]
+1	2	3	4	5	6	7	8	
+List of [5][5]
+1	2	3	4	5	6	7	8	
+List of [5][6]
+1	2	0	4	5	6	
+List of [5][7]
+1	2	3	4	5	6	0	
+List of [6][0]
+1	2	3	4	5	6	7	8	
+List of [6][1]
+1	2	3	4	5	6	7	8	
+List of [6][2]
+1	2	3	4	5	6	7	8	
+List of [6][3]
+1	2	3	4	5	6	7	8	
+List of [6][4]
+1	2	3	4	5	6	7	8	
+List of [6][5]
+1	2	3	4	5	6	7	8	
+List of [6][6]
+1	2	0	4	5	6	
+List of [6][7]
+1	2	3	4	5	6	0	
+List of [7][0]
+1	2	3	4	5	6	7	8	
+List of [7][1]
+1	2	3	4	5	6	7	8	
+List of [7][2]
+1	2	3	4	5	6	7	8	
+List of [7][3]
+1	2	3	4	5	6	7	8	
+List of [7][4]
+1	2	3	4	5	6	7	8	
+List of [7][5]
+1	2	3	4	5	6	7	8	
+List of [7][6]
+1	2	0	4	0	
+List of [7][7]
+1	2	3	4	0	6	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	7	8	
+List of [0][2]
+1	2	3	4	5	6	7	8	
+List of [0][3]
+1	2	3	4	5	6	7	8	
+List of [0][4]
+1	2	3	4	5	6	7	8	
+List of [0][5]
+1	2	3	4	5	6	7	8	
+List of [0][6]
+1	2	3	0	5	6	7	
+List of [0][7]
+1	2	3	0	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	
+List of [1][2]
+1	2	3	4	5	6	7	8	
+List of [1][3]
+1	2	3	4	5	6	7	8	
+List of [1][4]
+1	2	3	4	5	6	7	8	
+List of [1][5]
+1	2	3	0	5	6	7	
+List of [1][6]
+1	2	3	4	5	6	7	8	
+List of [1][7]
+1	2	3	4	5	6	0	
+List of [2][0]
+1	2	3	4	5	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	
+List of [2][2]
+1	2	3	4	5	6	7	8	
+List of [2][3]
+1	2	3	4	5	6	7	8	
+List of [2][4]
+1	2	3	4	5	6	7	8	
+List of [2][5]
+1	2	3	0	5	6	7	
+List of [2][6]
+1	2	3	0	5	6	7	
+List of [2][7]
+1	2	3	0	5	6	
+List of [3][0]
+1	2	3	4	5	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	
+List of [3][2]
+1	2	3	4	5	6	7	8	
+List of [3][3]
+1	2	3	4	5	6	7	8	
+List of [3][4]
+1	2	3	0	5	6	7	
+List of [3][5]
+1	2	3	0	5	6	7	
+List of [3][6]
+1	2	3	4	5	6	7	
+List of [3][7]
+1	2	3	0	5	6	
+List of [4][0]
+1	2	3	4	5	6	7	8	
+List of [4][1]
+1	2	3	4	5	6	7	8	
+List of [4][2]
+1	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	3	4	5	6	7	8	
+List of [4][4]
+1	2	3	0	5	6	7	
+List of [4][5]
+1	2	3	0	5	6	7	
+List of [4][6]
+1	2	3	4	5	6	7	
+List of [4][7]
+1	2	3	0	5	6	
+List of [5][0]
+1	2	3	4	5	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	7	8	
+List of [5][2]
+1	2	3	4	5	6	7	8	
+List of [5][3]
+1	2	3	4	5	6	7	8	
+List of [5][4]
+1	2	3	0	5	6	7	
+List of [5][5]
+1	2	3	0	5	6	7	
+List of [5][6]
+1	2	3	4	5	6	7	
+List of [5][7]
+1	2	3	0	5	6	
+List of [6][0]
+1	2	3	4	5	6	7	8	
+List of [6][1]
+1	2	3	4	5	6	7	8	
+List of [6][2]
+1	2	3	4	5	6	7	8	
+List of [6][3]
+1	2	3	4	5	6	7	8	
+List of [6][4]
+1	2	3	0	5	6	7	
+List of [6][5]
+1	2	3	0	5	6	7	
+List of [6][6]
+1	2	3	4	5	6	7	
+List of [6][7]
+1	2	3	0	5	6	
+List of [7][0]
+1	2	3	4	5	6	7	8	
+List of [7][1]
+1	2	3	4	5	6	7	8	
+List of [7][2]
+1	2	3	4	5	6	7	8	
+List of [7][3]
+1	2	3	4	5	6	7	8	
+List of [7][4]
+1	2	3	0	5	6	7	
+List of [7][5]
+1	2	3	0	5	6	7	
+List of [7][6]
+1	2	3	4	5	6	7	
+List of [7][7]
+1	2	3	0	5	6	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	7	8	
+List of [0][2]
+1	2	3	4	5	6	7	8	
+List of [0][3]
+1	2	0	4	5	6	7	
+List of [0][4]
+1	2	0	4	5	6	
+List of [0][5]
+1	2	0	4	5	6	
+List of [0][6]
+1	2	0	4	5	6	
+List of [0][7]
+1	2	0	4	5	6	
+List of [1][0]
+1	2	3	4	5	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	
+List of [1][2]
+1	2	0	4	5	6	7	
+List of [1][3]
+1	2	3	4	5	6	0	
+List of [1][4]
+1	0	3	4	5	6	7	
+List of [1][5]
+1	0	3	4	5	6	7	
+List of [1][6]
+1	0	3	4	5	6	7	
+List of [1][7]
+1	0	3	4	5	6	7	
+List of [2][0]
+1	2	3	4	5	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	
+List of [2][2]
+1	2	0	4	5	6	7	
+List of [2][3]
+1	0	3	4	5	
+List of [2][4]
+1	2	3	4	5	0	7	
+List of [2][5]
+1	2	3	4	5	0	7	
+List of [2][6]
+1	2	3	4	5	0	7	
+List of [2][7]
+1	2	3	4	5	0	7	
+List of [3][0]
+1	2	3	4	5	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	
+List of [3][2]
+1	2	0	4	5	0	
+List of [3][3]
+1	0	3	4	5	6	
+List of [3][4]
+1	2	3	4	5	6	7	8	
+List of [3][5]
+1	2	3	4	5	6	7	8	
+List of [3][6]
+1	2	3	4	5	6	7	8	
+List of [3][7]
+1	2	3	4	5	6	7	8	
+List of [4][0]
+1	2	3	4	5	6	7	8	
+List of [4][1]
+1	0	3	4	5	6	7	
+List of [4][2]
+1	0	0	4	5	
+List of [4][3]
+1	0	3	4	5	6	
+List of [4][4]
+1	0	3	4	5	6	7	
+List of [4][5]
+1	0	0	4	5	6	
+List of [4][6]
+1	0	0	4	5	6	
+List of [4][7]
+1	0	0	4	5	6	
+List of [5][0]
+1	0	3	4	5	6	7	
+List of [5][1]
+1	2	3	4	5	6	7	8	
+List of [5][2]
+1	2	0	4	5	0	
+List of [5][3]
+1	0	3	4	5	6	
+List of [5][4]
+0	2	0	4	5	6	
+List of [5][5]
+0	2	3	4	5	6	7	
+List of [5][6]
+0	2	3	4	5	6	7	
+List of [5][7]
+0	2	3	4	5	6	7	
+List of [6][0]
+1	0	3	4	5	6	7	
+List of [6][1]
+1	2	3	4	5	6	7	8	
+List of [6][2]
+1	2	0	4	5	0	
+List of [6][3]
+0	0	3	4	5	
+List of [6][4]
+1	2	0	4	5	6	7	
+List of [6][5]
+1	2	3	4	5	6	7	8	
+List of [6][6]
+1	2	3	4	5	6	7	8	
+List of [6][7]
+1	2	3	4	5	6	7	8	
+List of [7][0]
+1	0	3	4	5	6	7	
+List of [7][1]
+1	2	3	4	5	6	7	8	
+List of [7][2]
+1	2	0	4	5	0	
+List of [7][3]
+0	0	3	4	5	
+List of [7][4]
+1	2	0	4	5	6	7	
+List of [7][5]
+1	2	3	4	5	6	7	8	
+List of [7][6]
+1	2	3	4	5	6	7	8	
+List of [7][7]
+1	2	3	4	5	0	7	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	7	8	
+List of [0][2]
+0	2	3	4	5	6	7	
+List of [0][3]
+0	2	3	4	5	6	7	
+List of [0][4]
+0	2	3	4	5	6	7	
+List of [0][5]
+0	2	3	4	5	6	7	
+List of [0][6]
+0	2	3	4	5	6	7	
+List of [0][7]
+0	2	3	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	8	
+List of [1][1]
+0	2	3	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	8	
+List of [1][3]
+1	2	3	4	5	6	7	8	
+List of [1][4]
+1	2	3	4	5	6	7	8	
+List of [1][5]
+1	2	3	4	5	6	7	8	
+List of [1][6]
+1	2	3	4	5	6	7	8	
+List of [1][7]
+1	2	3	4	5	6	7	8	
+List of [2][0]
+1	2	3	4	5	6	7	8	
+List of [2][1]
+0	2	3	4	5	6	7	
+List of [2][2]
+1	2	3	4	5	6	7	8	
+List of [2][3]
+1	2	3	4	5	6	7	8	
+List of [2][4]
+1	2	3	4	5	6	7	8	
+List of [2][5]
+1	2	3	4	5	6	7	8	
+List of [2][6]
+1	2	3	4	5	6	7	8	
+List of [2][7]
+1	2	3	4	5	6	7	8	
+List of [3][0]
+1	2	3	4	5	6	7	8	
+List of [3][1]
+0	2	3	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	6	0	
+List of [3][3]
+1	2	3	4	5	6	0	
+List of [3][4]
+1	2	3	4	5	6	0	
+List of [3][5]
+1	2	3	4	5	6	0	
+List of [3][6]
+1	0	3	4	5	6	
+List of [3][7]
+1	0	3	4	5	6	
+List of [4][0]
+1	2	3	4	5	6	7	8	
+List of [4][1]
+0	2	3	4	5	6	
+List of [4][2]
+1	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	3	4	5	6	7	8	
+List of [4][4]
+1	2	3	4	5	6	7	8	
+List of [4][5]
+1	0	3	4	5	6	
+List of [4][6]
+1	2	3	4	5	6	0	
+List of [4][7]
+1	2	3	4	5	6	0	
+List of [5][0]
+1	2	3	4	5	6	7	8	
+List of [5][1]
+0	2	3	4	5	6	
+List of [5][2]
+1	2	3	4	5	6	7	8	
+List of [5][3]
+1	2	3	4	5	6	7	8	
+List of [5][4]
+1	2	3	4	5	6	0	
+List of [5][5]
+1	0	3	4	5	6	7	
+List of [5][6]
+1	2	3	4	5	6	7	8	
+List of [5][7]
+1	2	3	4	5	6	7	8	
+List of [6][0]
+1	2	3	4	5	6	7	8	
+List of [6][1]
+0	2	3	4	5	6	
+List of [6][2]
+1	2	3	4	5	6	7	8	
+List of [6][3]
+1	2	3	4	5	6	7	8	
+List of [6][4]
+1	2	3	4	5	6	0	
+List of [6][5]
+1	0	3	4	5	6	7	
+List of [6][6]
+1	2	3	4	5	6	7	8	
+List of [6][7]
+1	2	3	4	0	6	7	
+List of [7][0]
+1	2	3	4	5	6	7	8	
+List of [7][1]
+0	2	3	4	5	6	
+List of [7][2]
+1	2	3	4	0	6	7	
+List of [7][3]
+1	2	3	4	0	6	7	
+List of [7][4]
+1	2	3	4	0	6	
+List of [7][5]
+1	0	3	4	0	6	
+List of [7][6]
+1	2	3	4	0	0	
+List of [7][7]
+1	0	3	4	0	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	7	8	
+List of [0][2]
+1	2	3	4	5	6	7	8	
+List of [0][3]
+1	2	3	4	5	6	7	8	
+List of [0][4]
+1	2	3	4	5	0	7	
+List of [0][5]
+1	2	3	4	5	0	7	
+List of [0][6]
+1	2	3	4	5	0	7	
+List of [0][7]
+1	2	3	4	5	0	7	
+List of [1][0]
+1	2	3	4	5	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	
+List of [1][2]
+1	2	3	4	5	6	7	8	
+List of [1][3]
+1	2	3	4	5	0	7	
+List of [1][4]
+1	2	3	4	5	6	7	8	
+List of [1][5]
+1	2	3	4	5	6	7	8	
+List of [1][6]
+1	2	3	4	5	6	7	8	
+List of [1][7]
+1	2	3	4	5	6	7	8	
+List of [2][0]
+1	2	3	4	5	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	
+List of [2][2]
+1	2	3	4	5	6	7	8	
+List of [2][3]
+1	2	3	4	5	0	7	
+List of [2][4]
+1	2	3	4	5	6	7	8	
+List of [2][5]
+1	2	3	4	5	6	7	8	
+List of [2][6]
+1	2	3	4	5	6	7	8	
+List of [2][7]
+1	2	3	4	5	6	7	8	
+List of [3][0]
+1	2	3	4	5	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	
+List of [3][2]
+1	2	3	4	5	6	7	8	
+List of [3][3]
+1	2	3	4	5	0	7	
+List of [3][4]
+1	2	3	4	5	6	7	8	
+List of [3][5]
+1	2	3	4	5	6	7	8	
+List of [3][6]
+1	2	3	4	5	6	7	8	
+List of [3][7]
+1	2	3	4	0	6	7	
+List of [4][0]
+1	2	3	4	5	6	7	8	
+List of [4][1]
+1	2	3	4	5	6	7	8	
+List of [4][2]
+1	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	3	4	5	0	7	
+List of [4][4]
+1	2	3	4	5	6	7	8	
+List of [4][5]
+1	2	3	4	5	6	7	8	
+List of [4][6]
+1	2	3	4	5	6	7	8	
+List of [4][7]
+1	2	3	4	0	6	7	
+List of [5][0]
+1	2	3	4	5	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	7	8	
+List of [5][2]
+1	2	3	4	5	6	7	8	
+List of [5][3]
+1	2	3	4	5	0	7	
+List of [5][4]
+1	2	3	4	5	0	7	
+List of [5][5]
+1	2	3	4	5	0	7	
+List of [5][6]
+1	2	3	4	5	0	7	
+List of [5][7]
+1	2	3	4	0	0	
+List of [6][0]
+1	2	3	4	5	6	7	8	
+List of [6][1]
+1	2	3	4	5	6	7	8	
+List of [6][2]
+1	2	3	4	5	0	7	
+List of [6][3]
+1	2	3	4	5	0	7	
+List of [6][4]
+1	2	3	4	5	6	7	8	
+List of [6][5]
+1	2	3	4	5	6	7	8	
+List of [6][6]
+1	2	3	4	5	6	7	8	
+List of [6][7]
+1	2	3	4	0	6	7	
+List of [7][0]
+1	2	3	4	5	6	7	8	
+List of [7][1]
+1	2	3	4	5	6	7	8	
+List of [7][2]
+1	2	3	4	5	0	7	
+List of [7][3]
+1	2	3	4	5	0	7	
+List of [7][4]
+1	2	3	4	5	6	7	8	
+List of [7][5]
+1	2	0	4	5	6	7	
+List of [7][6]
+1	2	0	4	5	6	7	
+List of [7][7]
+1	2	0	4	0	6	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	7	8	
+List of [0][2]
+1	2	3	4	5	6	7	8	
+List of [0][3]
+1	2	3	4	5	6	7	8	
+List of [0][4]
+1	2	3	4	5	6	7	8	
+List of [0][5]
+1	2	3	4	5	6	7	8	
+List of [0][6]
+1	2	3	4	5	6	7	8	
+List of [0][7]
+1	2	3	4	5	6	7	8	
+List of [1][0]
+1	2	3	4	5	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	
+List of [1][2]
+1	2	3	4	5	6	7	8	
+List of [1][3]
+1	2	3	4	5	6	7	8	
+List of [1][4]
+1	2	3	4	5	6	7	8	
+List of [1][5]
+1	2	3	4	5	6	7	8	
+List of [1][6]
+1	2	3	4	5	6	7	8	
+List of [1][7]
+1	2	3	4	5	6	7	8	
+List of [2][0]
+1	2	3	4	5	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	
+List of [2][2]
+1	2	3	4	5	6	7	8	
+List of [2][3]
+1	2	3	4	5	6	7	8	
+List of [2][4]
+1	2	3	4	5	6	7	8	
+List of [2][5]
+1	2	3	4	0	6	7	
+List of [2][6]
+1	2	3	4	0	6	7	
+List of [2][7]
+1	2	3	4	0	6	7	
+List of [3][0]
+1	2	3	4	5	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	
+List of [3][2]
+1	2	3	4	5	0	7	
+List of [3][3]
+1	2	3	4	5	0	7	
+List of [3][4]
+1	2	3	4	0	0	
+List of [3][5]
+1	2	3	4	5	0	7	
+List of [3][6]
+1	2	3	4	5	0	7	
+List of [3][7]
+1	2	3	4	5	0	7	
+List of [4][0]
+1	2	3	4	5	6	7	8	
+List of [4][1]
+1	2	3	4	5	0	7	
+List of [4][2]
+1	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	3	4	5	6	7	8	
+List of [4][4]
+1	2	3	4	0	6	7	
+List of [4][5]
+1	2	3	4	5	6	7	8	
+List of [4][6]
+1	2	3	4	5	6	7	8	
+List of [4][7]
+1	2	3	4	5	6	7	8	
+List of [5][0]
+1	2	3	4	5	6	7	8	
+List of [5][1]
+1	2	3	4	5	0	7	
+List of [5][2]
+1	2	3	4	5	6	7	8	
+List of [5][3]
+1	2	3	4	5	6	7	8	
+List of [5][4]
+1	2	3	4	0	6	7	
+List of [5][5]
+1	2	3	4	5	6	7	8	
+List of [5][6]
+1	2	3	4	5	6	7	8	
+List of [5][7]
+1	2	3	4	5	6	7	8	
+List of [6][0]
+1	2	3	4	5	6	7	8	
+List of [6][1]
+1	2	3	4	5	0	7	
+List of [6][2]
+1	2	3	4	5	6	7	8	
+List of [6][3]
+1	2	3	4	5	6	7	8	
+List of [6][4]
+1	2	3	4	0	6	7	
+List of [6][5]
+1	2	3	4	5	6	7	8	
+List of [6][6]
+1	2	3	4	5	6	7	8	
+List of [6][7]
+1	2	3	4	5	6	7	8	
+List of [7][0]
+1	2	3	4	5	6	7	8	
+List of [7][1]
+1	2	3	4	5	0	7	
+List of [7][2]
+1	2	3	4	5	6	7	8	
+List of [7][3]
+1	2	3	4	5	6	7	8	
+List of [7][4]
+1	2	0	4	0	6	
+List of [7][5]
+1	2	0	4	5	6	7	
+List of [7][6]
+1	2	0	4	5	6	7	
+List of [7][7]
+1	2	0	4	5	6	7	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	0	5	6	7	
+List of [0][2]
+1	2	3	0	5	6	7	
+List of [0][3]
+1	2	3	0	5	6	7	
+List of [0][4]
+1	2	3	0	5	6	7	
+List of [0][5]
+1	2	3	0	5	6	7	
+List of [0][6]
+1	2	3	0	5	6	7	
+List of [0][7]
+1	2	3	0	5	6	7	
+List of [1][0]
+1	2	3	0	5	6	7	
+List of [1][1]
+1	2	3	4	5	6	7	8	
+List of [1][2]
+1	2	3	4	5	6	7	8	
+List of [1][3]
+1	2	3	4	5	6	7	8	
+List of [1][4]
+1	2	3	4	5	6	7	8	
+List of [1][5]
+1	2	3	4	5	6	7	8	
+List of [1][6]
+1	2	3	4	5	6	7	8	
+List of [1][7]
+1	2	3	4	5	6	7	8	
+List of [2][0]
+1	2	3	0	5	6	7	
+List of [2][1]
+1	2	3	4	5	6	7	8	
+List of [2][2]
+1	2	3	4	5	6	7	8	
+List of [2][3]
+1	2	3	4	5	6	7	8	
+List of [2][4]
+1	2	3	4	5	6	7	8	
+List of [2][5]
+1	2	3	4	5	6	7	8	
+List of [2][6]
+1	2	3	4	5	6	7	8	
+List of [2][7]
+1	2	3	4	5	6	7	8	
+List of [3][0]
+1	2	3	0	5	6	7	
+List of [3][1]
+1	2	3	4	5	0	7	
+List of [3][2]
+1	2	3	4	5	0	7	
+List of [3][3]
+1	2	3	4	5	0	7	
+List of [3][4]
+1	2	3	4	5	0	7	
+List of [3][5]
+1	2	3	4	5	0	7	
+List of [3][6]
+1	2	3	4	5	0	7	
+List of [3][7]
+1	2	3	4	5	0	
+List of [4][0]
+1	2	3	0	5	0	
+List of [4][1]
+1	2	3	4	5	6	7	8	
+List of [4][2]
+1	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	3	4	5	6	7	8	
+List of [4][4]
+1	2	3	4	5	6	7	8	
+List of [4][5]
+1	2	3	4	5	6	7	8	
+List of [4][6]
+1	2	3	4	5	6	0	
+List of [4][7]
+1	2	3	4	5	6	7	8	
+List of [5][0]
+1	2	3	0	5	0	
+List of [5][1]
+1	2	3	4	5	6	7	8	
+List of [5][2]
+1	2	3	4	5	6	7	8	
+List of [5][3]
+1	2	3	4	5	6	7	8	
+List of [5][4]
+1	2	0	4	5	6	7	
+List of [5][5]
+1	2	0	4	5	6	7	
+List of [5][6]
+1	2	0	4	0	
+List of [5][7]
+1	2	0	4	0	6	
+List of [6][0]
+1	2	3	0	5	0	
+List of [6][1]
+1	2	3	4	5	6	7	8	
+List of [6][2]
+1	0	3	4	5	6	7	
+List of [6][3]
+1	0	0	4	5	6	
+List of [6][4]
+1	0	3	4	5	6	7	
+List of [6][5]
+1	0	3	4	0	6	
+List of [6][6]
+1	0	3	4	5	6	
+List of [6][7]
+1	0	3	0	5	6	
+List of [7][0]
+1	2	3	0	5	0	
+List of [7][1]
+1	0	3	4	5	6	7	
+List of [7][2]
+1	2	3	4	5	6	7	8	
+List of [7][3]
+1	2	0	4	5	6	7	
+List of [7][4]
+1	2	3	4	5	6	7	8	
+List of [7][5]
+1	2	3	4	0	6	7	
+List of [7][6]
+1	2	3	0	5	6	
+List of [7][7]
+1	2	3	4	5	6	7	8	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	7	8	
+List of [0][2]
+1	2	3	4	5	6	7	8	
+List of [0][3]
+1	2	3	4	5	6	7	8	
+List of [0][4]
+1	2	0	4	5	6	7	
+List of [0][5]
+1	2	0	4	5	6	7	
+List of [0][6]
+1	2	0	4	5	6	7	
+List of [0][7]
+1	2	0	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	
+List of [1][2]
+1	2	3	4	5	6	7	8	
+List of [1][3]
+1	2	0	4	5	6	7	
+List of [1][4]
+1	2	3	4	5	6	7	8	
+List of [1][5]
+1	2	3	4	5	6	7	8	
+List of [1][6]
+1	2	3	4	5	6	7	8	
+List of [1][7]
+1	2	3	4	5	6	7	8	
+List of [2][0]
+1	2	3	4	5	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	
+List of [2][2]
+1	2	3	4	5	6	7	8	
+List of [2][3]
+1	2	0	4	5	6	7	
+List of [2][4]
+1	2	3	4	5	6	7	8	
+List of [2][5]
+1	2	3	4	5	6	7	8	
+List of [2][6]
+1	2	3	4	5	6	7	8	
+List of [2][7]
+1	2	3	4	5	6	7	8	
+List of [3][0]
+1	2	3	4	5	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	
+List of [3][2]
+1	2	3	4	5	6	7	8	
+List of [3][3]
+1	2	0	4	5	6	7	
+List of [3][4]
+1	2	3	4	5	6	7	8	
+List of [3][5]
+1	2	3	4	5	6	7	8	
+List of [3][6]
+1	2	3	4	5	6	7	8	
+List of [3][7]
+1	2	3	4	5	6	7	8	
+List of [4][0]
+1	2	3	4	5	6	7	8	
+List of [4][1]
+1	2	3	4	5	6	7	8	
+List of [4][2]
+1	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	0	4	5	6	7	
+List of [4][4]
+1	2	3	4	5	6	7	8	
+List of [4][5]
+1	2	3	4	5	6	7	8	
+List of [4][6]
+1	2	3	4	5	6	7	8	
+List of [4][7]
+1	2	3	4	5	6	7	8	
+List of [5][0]
+1	2	3	4	5	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	7	8	
+List of [5][2]
+1	2	3	4	5	6	7	8	
+List of [5][3]
+1	2	0	4	5	6	7	
+List of [5][4]
+1	2	3	4	5	6	7	8	
+List of [5][5]
+1	2	3	4	5	6	7	8	
+List of [5][6]
+1	2	3	4	5	6	7	8	
+List of [5][7]
+1	2	3	4	5	6	7	8	
+List of [6][0]
+1	2	3	4	5	6	7	8	
+List of [6][1]
+1	2	3	4	5	6	7	8	
+List of [6][2]
+1	2	3	4	5	6	7	8	
+List of [6][3]
+1	2	0	4	5	6	7	
+List of [6][4]
+1	2	3	4	5	6	7	8	
+List of [6][5]
+1	2	3	4	5	6	7	8	
+List of [6][6]
+1	2	3	4	5	6	7	8	
+List of [6][7]
+1	2	3	4	5	6	7	8	
+List of [7][0]
+1	2	3	4	5	6	7	8	
+List of [7][1]
+1	2	3	4	5	6	7	8	
+List of [7][2]
+1	2	0	4	5	6	7	
+List of [7][3]
+1	2	0	4	5	6	7	
+List of [7][4]
+1	2	0	4	5	6	7	
+List of [7][5]
+1	2	0	4	5	6	7	
+List of [7][6]
+1	2	0	4	5	6	7	
+List of [7][7]
+1	2	0	4	5	6	7	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	7	8	
+List of [0][2]
+1	2	3	4	5	6	7	8	
+List of [0][3]
+1	2	3	4	5	6	7	8	
+List of [0][4]
+1	2	3	4	5	6	7	8	
+List of [0][5]
+1	2	3	4	5	6	7	8	
+List of [0][6]
+1	2	3	4	5	6	7	8	
+List of [0][7]
+1	2	0	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	
+List of [1][2]
+1	2	3	4	5	6	7	8	
+List of [1][3]
+1	2	3	4	5	6	7	8	
+List of [1][4]
+1	2	3	4	5	6	7	8	
+List of [1][5]
+1	2	3	4	5	6	7	8	
+List of [1][6]
+1	2	0	4	5	6	7	
+List of [1][7]
+1	2	3	4	5	6	7	8	
+List of [2][0]
+1	2	3	4	5	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	
+List of [2][2]
+1	2	3	4	5	6	7	8	
+List of [2][3]
+1	2	3	4	5	6	7	8	
+List of [2][4]
+1	2	3	4	5	6	7	8	
+List of [2][5]
+1	2	3	4	5	6	7	8	
+List of [2][6]
+1	2	0	4	5	6	7	
+List of [2][7]
+1	2	3	4	5	6	7	8	
+List of [3][0]
+1	2	3	4	5	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	
+List of [3][2]
+1	2	3	4	5	6	7	8	
+List of [3][3]
+1	2	3	4	5	6	7	8	
+List of [3][4]
+1	2	3	4	5	6	7	8	
+List of [3][5]
+1	2	3	4	5	6	7	8	
+List of [3][6]
+1	2	0	4	5	6	7	
+List of [3][7]
+1	2	3	4	5	6	7	8	
+List of [4][0]
+1	2	3	4	5	6	7	8	
+List of [4][1]
+1	2	3	4	5	6	7	8	
+List of [4][2]
+1	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	3	4	5	6	7	8	
+List of [4][4]
+1	2	3	4	5	6	7	8	
+List of [4][5]
+1	2	3	4	5	6	7	8	
+List of [4][6]
+1	2	0	4	5	6	7	
+List of [4][7]
+1	2	3	4	5	6	7	8	
+List of [5][0]
+1	2	3	4	5	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	7	8	
+List of [5][2]
+1	2	3	4	5	6	7	8	
+List of [5][3]
+1	2	3	4	0	6	7	
+List of [5][4]
+1	2	3	4	0	6	7	
+List of [5][5]
+1	2	3	4	0	6	7	
+List of [5][6]
+1	2	0	4	0	6	
+List of [5][7]
+1	2	3	4	0	6	7	
+List of [6][0]
+1	2	3	4	5	6	7	8	
+List of [6][1]
+1	2	3	4	5	6	7	8	
+List of [6][2]
+1	2	3	4	0	6	7	
+List of [6][3]
+1	2	3	4	5	6	7	8	
+List of [6][4]
+1	2	3	4	5	6	7	8	
+List of [6][5]
+1	2	3	4	5	6	7	8	
+List of [6][6]
+1	2	0	4	5	6	7	
+List of [6][7]
+1	2	3	4	5	6	7	8	
+List of [7][0]
+1	2	3	4	5	6	7	8	
+List of [7][1]
+1	2	3	4	5	6	7	8	
+List of [7][2]
+1	2	3	4	0	6	7	
+List of [7][3]
+1	2	3	4	5	6	7	8	
+List of [7][4]
+1	2	3	4	5	6	7	8	
+List of [7][5]
+1	2	3	4	5	6	7	8	
+List of [7][6]
+1	2	0	4	5	6	7	
+List of [7][7]
+1	2	3	4	5	6	7	8	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	7	8	
+List of [0][2]
+1	2	3	4	5	6	7	8	
+List of [0][3]
+1	2	3	4	5	6	7	8	
+List of [0][4]
+1	2	3	4	5	6	7	8	
+List of [0][5]
+1	2	3	4	5	6	7	8	
+List of [0][6]
+1	2	3	4	5	6	7	8	
+List of [0][7]
+1	2	3	4	5	6	7	8	
+List of [1][0]
+1	2	3	4	5	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	
+List of [1][2]
+1	2	3	4	5	6	7	8	
+List of [1][3]
+1	2	3	4	5	6	7	8	
+List of [1][4]
+1	2	3	4	5	6	7	8	
+List of [1][5]
+1	2	3	4	5	6	7	8	
+List of [1][6]
+1	2	3	4	5	6	7	8	
+List of [1][7]
+1	2	3	4	5	6	7	8	
+List of [2][0]
+1	2	3	4	5	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	
+List of [2][2]
+1	2	3	4	5	6	7	8	
+List of [2][3]
+1	2	3	4	5	6	7	8	
+List of [2][4]
+1	2	3	4	5	6	7	8	
+List of [2][5]
+1	2	3	4	5	6	7	8	
+List of [2][6]
+1	2	3	4	5	6	7	8	
+List of [2][7]
+1	2	3	4	5	6	7	8	
+List of [3][0]
+1	2	3	4	5	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	
+List of [3][2]
+1	2	3	4	5	6	7	8	
+List of [3][3]
+1	2	3	4	5	6	7	8	
+List of [3][4]
+1	2	3	4	5	6	7	8	
+List of [3][5]
+1	2	3	4	5	6	7	8	
+List of [3][6]
+1	2	3	4	5	6	7	8	
+List of [3][7]
+1	2	3	4	5	6	7	8	
+List of [4][0]
+1	2	3	4	5	6	7	8	
+List of [4][1]
+1	2	3	4	5	6	7	8	
+List of [4][2]
+1	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	3	4	5	6	7	8	
+List of [4][4]
+1	2	3	4	5	6	7	8	
+List of [4][5]
+1	2	3	4	5	6	7	8	
+List of [4][6]
+1	2	3	4	5	6	7	8	
+List of [4][7]
+1	2	3	4	5	6	7	8	
+List of [5][0]
+1	2	3	4	5	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	7	8	
+List of [5][2]
+1	2	3	4	5	6	7	8	
+List of [5][3]
+1	2	3	4	5	6	7	8	
+List of [5][4]
+1	2	3	4	5	6	7	8	
+List of [5][5]
+1	2	3	4	5	6	7	8	
+List of [5][6]
+1	2	3	4	5	6	7	8	
+List of [5][7]
+1	2	3	4	5	6	7	8	
+List of [6][0]
+1	2	3	4	5	6	7	8	
+List of [6][1]
+1	2	3	4	5	6	7	8	
+List of [6][2]
+1	2	3	4	5	6	7	8	
+List of [6][3]
+1	2	3	4	5	6	7	8	
+List of [6][4]
+1	2	3	4	5	6	7	8	
+List of [6][5]
+1	2	3	4	5	6	0	
+List of [6][6]
+1	2	3	4	5	6	0	
+List of [6][7]
+1	2	3	4	5	6	0	
+List of [7][0]
+1	2	3	4	5	6	7	8	
+List of [7][1]
+1	2	3	4	5	6	7	8	
+List of [7][2]
+1	2	3	4	5	6	7	8	
+List of [7][3]
+1	2	3	4	5	6	7	8	
+List of [7][4]
+1	2	3	4	5	6	0	
+List of [7][5]
+1	2	3	4	5	6	7	8	
+List of [7][6]
+1	2	3	4	5	6	7	8	
+List of [7][7]
+1	2	3	4	5	6	7	8	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	7	8	
+List of [0][2]
+1	2	3	4	5	6	7	8	
+List of [0][3]
+1	2	3	4	5	6	7	8	
+List of [0][4]
+1	2	3	4	5	6	7	8	
+List of [0][5]
+1	2	3	4	5	6	7	8	
+List of [0][6]
+1	2	3	4	5	6	7	8	
+List of [0][7]
+1	2	3	4	5	6	7	8	
+List of [1][0]
+1	2	3	4	5	6	7	8	
+List of [1][1]
+1	2	0	4	5	6	7	
+List of [1][2]
+1	2	0	4	5	6	7	
+List of [1][3]
+1	2	0	4	5	6	7	
+List of [1][4]
+1	2	0	4	5	6	7	
+List of [1][5]
+1	2	0	4	5	6	7	
+List of [1][6]
+1	2	0	4	5	6	7	
+List of [1][7]
+1	2	0	4	5	6	7	
+List of [2][0]
+1	2	0	4	5	6	7	
+List of [2][1]
+1	2	3	4	5	6	7	8	
+List of [2][2]
+1	2	3	4	5	6	7	8	
+List of [2][3]
+1	2	3	4	5	6	7	8	
+List of [2][4]
+1	2	3	4	5	6	7	8	
+List of [2][5]
+1	2	3	4	5	6	7	8	
+List of [2][6]
+1	2	3	4	5	6	7	8	
+List of [2][7]
+1	2	3	4	5	6	7	8	
+List of [3][0]
+1	2	0	4	5	6	7	
+List of [3][1]
+1	2	3	4	5	6	7	8	
+List of [3][2]
+1	2	3	4	5	6	7	8	
+List of [3][3]
+1	2	3	4	5	6	7	8	
+List of [3][4]
+1	2	3	4	5	6	7	8	
+List of [3][5]
+1	2	3	4	5	6	7	8	
+List of [3][6]
+1	2	3	4	5	6	7	8	
+List of [3][7]
+1	2	3	4	5	6	7	8	
+List of [4][0]
+1	2	0	4	5	6	7	
+List of [4][1]
+1	2	3	4	5	6	7	8	
+List of [4][2]
+1	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	3	4	5	6	0	
+List of [4][4]
+1	2	3	4	5	6	0	
+List of [4][5]
+1	2	3	4	5	6	0	
+List of [4][6]
+1	2	3	4	5	6	0	
+List of [4][7]
+1	2	3	4	5	6	0	
+List of [5][0]
+1	2	0	4	5	6	7	
+List of [5][1]
+1	2	3	4	5	6	7	8	
+List of [5][2]
+1	2	3	4	5	6	0	
+List of [5][3]
+1	2	3	4	5	6	7	8	
+List of [5][4]
+1	2	3	4	5	6	7	8	
+List of [5][5]
+1	2	3	4	5	6	7	8	
+List of [5][6]
+1	2	0	4	5	6	7	
+List of [5][7]
+1	2	0	4	5	6	7	
+List of [6][0]
+1	2	0	4	5	6	7	
+List of [6][1]
+1	2	3	4	5	6	7	8	
+List of [6][2]
+1	2	3	4	5	6	0	
+List of [6][3]
+1	2	3	4	5	6	7	8	
+List of [6][4]
+1	2	3	4	5	6	7	8	
+List of [6][5]
+1	2	0	4	5	6	7	
+List of [6][6]
+1	2	3	4	5	6	7	8	
+List of [6][7]
+1	2	3	4	5	6	7	8	
+List of [7][0]
+1	2	0	4	5	6	7	
+List of [7][1]
+1	2	3	4	5	6	7	8	
+List of [7][2]
+1	2	3	4	5	6	0	
+List of [7][3]
+1	2	3	4	5	6	7	8	
+List of [7][4]
+1	2	3	4	5	6	7	8	
+List of [7][5]
+1	2	0	4	5	6	7	
+List of [7][6]
+1	2	3	4	5	6	7	8	
+List of [7][7]
+1	2	3	4	5	6	7	8	
+List of [0][0]
+1	2	3	4	5	6	7	8	
+List of [0][1]
+1	2	3	4	5	6	7	8	
+List of [0][2]
+1	2	0	4	5	6	7	
+List of [0][3]
+1	2	0	4	5	6	7	
+List of [0][4]
+1	2	0	4	5	6	7	
+List of [0][5]
+1	2	0	4	5	6	7	
+List of [0][6]
+1	2	0	4	5	6	7	
+List of [0][7]
+1	2	0	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	8	
+List of [1][1]
+1	2	0	4	5	6	7	
+List of [1][2]
+1	2	3	4	5	6	7	8	
+List of [1][3]
+1	2	3	4	5	6	7	8	
+List of [1][4]
+1	2	3	4	5	6	7	8	
+List of [1][5]
+1	2	3	4	0	6	7	
+List of [1][6]
+1	2	3	4	0	6	7	
+List of [1][7]
+1	2	3	4	0	6	
+List of [2][0]
+1	2	3	4	5	6	7	8	
+List of [2][1]
+1	2	0	4	5	6	7	
+List of [2][2]
+1	2	3	4	5	6	7	8	
+List of [2][3]
+1	2	3	4	5	6	7	8	
+List of [2][4]
+1	2	3	4	0	6	7	
+List of [2][5]
+1	2	3	4	0	6	7	
+List of [2][6]
+1	2	3	4	0	6	7	
+List of [2][7]
+1	2	3	4	0	6	
+List of [3][0]
+1	2	3	4	5	6	7	8	
+List of [3][1]
+1	2	0	4	5	6	7	
+List of [3][2]
+1	2	3	4	5	6	7	8	
+List of [3][3]
+1	2	3	4	0	6	7	
+List of [3][4]
+1	2	3	4	0	6	7	
+List of [3][5]
+1	2	3	4	5	6	7	8	
+List of [3][6]
+1	2	3	4	5	6	7	8	
+List of [3][7]
+1	2	3	4	5	6	0	
+List of [4][0]
+1	2	3	4	5	6	7	8	
+List of [4][1]
+1	2	0	4	5	6	7	
+List of [4][2]
+1	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	3	4	0	6	7	
+List of [4][4]
+1	2	3	4	0	6	7	
+List of [4][5]
+1	2	3	4	5	6	7	8	
+List of [4][6]
+1	2	3	4	5	6	7	8	
+List of [4][7]
+1	2	3	4	5	6	0	
+List of [5][0]
+1	2	3	4	5	6	7	8	
+List of [5][1]
+1	2	0	4	5	6	7	
+List of [5][2]
+1	2	3	4	5	6	7	8	
+List of [5][3]
+1	2	3	4	0	6	7	
+List of [5][4]
+1	2	3	4	0	6	7	
+List of [5][5]
+1	2	3	4	5	6	7	8	
+List of [5][6]
+1	2	3	4	5	6	7	8	
+List of [5][7]
+1	2	3	4	5	6	0	
+List of [6][0]
+1	2	3	4	5	6	7	8	
+List of [6][1]
+1	2	0	4	5	6	7	
+List of [6][2]
+1	2	3	4	5	6	7	8	
+List of [6][3]
+1	2	3	4	0	6	7	
+List of [6][4]
+1	2	3	4	0	6	7	
+List of [6][5]
+1	2	3	4	5	6	7	8	
+List of [6][6]
+1	2	3	4	5	6	7	8	
+List of [6][7]
+1	2	3	4	5	6	0	
+List of [7][0]
+1	2	3	4	5	6	7	8	
+List of [7][1]
+1	2	0	4	5	6	7	
+List of [7][2]
+1	2	3	4	5	6	7	8	
+List of [7][3]
+1	2	3	4	0	6	7	
+List of [7][4]
+1	2	3	4	0	6	7	
+List of [7][5]
+1	2	3	4	5	6	7	8	
+List of [7][6]
+1	0	3	4	5	6	
+List of [7][7]
+1	0	3	4	5	6	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	0	8	
+List of [0][2]
+1	2	3	4	5	6	0	8	
+List of [0][3]
+1	2	3	4	5	6	0	8	
+List of [0][4]
+1	2	3	4	5	6	0	8	
+List of [0][5]
+1	2	3	4	5	6	0	8	
+List of [0][6]
+1	2	3	4	5	6	0	8	
+List of [0][7]
+1	2	3	4	5	6	0	8	
+List of [0][8]
+1	2	3	4	5	6	0	8	
+List of [1][0]
+1	2	3	4	5	6	0	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	0	7	8	
+List of [1][3]
+1	2	3	4	5	0	7	8	
+List of [1][4]
+1	2	3	4	5	0	7	8	
+List of [1][5]
+1	0	3	4	5	0	7	
+List of [1][6]
+1	0	3	4	5	0	7	
+List of [1][7]
+1	0	3	4	5	0	7	
+List of [1][8]
+1	0	3	4	5	0	7	
+List of [2][0]
+1	2	3	4	5	6	0	8	
+List of [2][1]
+0	2	3	4	5	0	7	
+List of [2][2]
+0	2	3	4	5	6	7	8	
+List of [2][3]
+0	2	3	4	5	6	7	8	
+List of [2][4]
+0	0	3	4	5	6	7	
+List of [2][5]
+0	2	3	4	5	6	7	8	
+List of [2][6]
+0	2	3	4	5	6	7	8	
+List of [2][7]
+0	2	3	4	5	6	7	8	
+List of [2][8]
+0	2	3	4	5	6	7	8	
+List of [3][0]
+0	2	3	4	5	6	0	
+List of [3][1]
+1	2	3	4	5	0	7	8	
+List of [3][2]
+1	2	3	4	5	6	7	8	9	
+List of [3][3]
+1	2	3	4	5	6	0	8	
+List of [3][4]
+1	0	3	4	5	6	0	
+List of [3][5]
+1	2	3	4	5	6	0	8	
+List of [3][6]
+1	2	3	4	5	6	0	8	
+List of [3][7]
+1	2	3	4	5	6	0	8	
+List of [3][8]
+1	2	3	4	5	6	0	8	
+List of [4][0]
+0	2	3	4	5	6	0	
+List of [4][1]
+1	2	3	0	5	0	7	
+List of [4][2]
+1	2	3	0	5	6	0	
+List of [4][3]
+1	2	3	0	5	6	7	8	
+List of [4][4]
+1	0	3	0	5	6	7	
+List of [4][5]
+1	2	3	0	5	6	7	8	
+List of [4][6]
+1	2	3	0	5	6	7	8	
+List of [4][7]
+1	2	3	0	5	6	7	8	
+List of [4][8]
+1	2	3	0	5	6	7	8	
+List of [5][0]
+0	2	3	0	5	6	
+List of [5][1]
+1	2	3	4	5	0	7	8	
+List of [5][2]
+1	2	3	4	5	0	0	
+List of [5][3]
+1	2	3	4	5	0	7	8	
+List of [5][4]
+1	0	3	4	5	0	7	
+List of [5][5]
+1	2	3	4	5	0	7	8	
+List of [5][6]
+1	0	3	4	5	0	7	
+List of [5][7]
+1	0	3	4	5	0	7	
+List of [5][8]
+1	0	3	4	5	0	7	
+List of [6][0]
+0	2	3	0	5	
+List of [6][1]
+1	2	3	4	5	0	7	8	
+List of [6][2]
+1	2	3	4	5	6	0	8	
+List of [6][3]
+1	2	3	4	5	6	7	8	9	
+List of [6][4]
+1	0	3	4	5	6	7	8	
+List of [6][5]
+1	0	3	4	5	6	7	8	
+List of [6][6]
+1	2	3	4	5	6	7	8	9	
+List of [6][7]
+1	2	3	4	5	6	7	8	9	
+List of [6][8]
+1	2	3	4	5	6	7	8	9	
+List of [7][0]
+0	2	3	0	5	
+List of [7][1]
+1	2	3	4	5	0	7	8	
+List of [7][2]
+1	2	3	4	5	6	0	8	
+List of [7][3]
+1	2	3	4	5	6	7	8	9	
+List of [7][4]
+1	0	3	4	5	6	7	8	
+List of [7][5]
+1	0	3	4	5	6	7	8	
+List of [7][6]
+1	2	3	4	5	6	7	8	9	
+List of [7][7]
+1	2	3	4	5	6	7	8	9	
+List of [7][8]
+1	2	3	4	5	6	7	8	9	
+List of [8][0]
+0	2	3	0	5	
+List of [8][1]
+1	2	3	4	5	0	7	8	
+List of [8][2]
+1	2	3	4	5	6	0	8	
+List of [8][3]
+1	2	3	4	5	6	7	8	9	
+List of [8][4]
+1	0	3	4	5	6	7	8	
+List of [8][5]
+1	0	3	4	5	6	7	8	
+List of [8][6]
+1	2	3	4	5	6	7	8	9	
+List of [8][7]
+1	2	3	4	5	6	7	8	9	
+List of [8][8]
+1	2	3	4	5	6	7	8	9	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	7	8	9	
+List of [0][2]
+1	2	3	4	5	6	7	8	9	
+List of [0][3]
+1	2	3	4	5	6	7	8	9	
+List of [0][4]
+1	2	3	4	5	0	7	8	
+List of [0][5]
+1	2	3	4	5	0	7	8	
+List of [0][6]
+1	2	3	4	5	0	7	8	
+List of [0][7]
+1	2	3	4	5	0	0	
+List of [0][8]
+1	2	3	4	5	0	0	
+List of [1][0]
+1	2	3	4	5	6	7	8	9	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	6	7	8	9	
+List of [1][3]
+1	2	3	4	5	0	7	8	
+List of [1][4]
+1	2	3	4	5	6	7	8	
+List of [1][5]
+1	2	3	4	5	0	7	8	
+List of [1][6]
+1	0	3	4	5	0	
+List of [1][7]
+1	0	3	4	5	0	7	
+List of [1][8]
+1	0	3	4	0	0	
+List of [2][0]
+1	2	3	4	5	6	7	8	9	
+List of [2][1]
+1	2	3	4	5	6	7	8	9	
+List of [2][2]
+1	2	3	4	5	6	7	8	9	
+List of [2][3]
+1	2	3	4	5	0	7	8	
+List of [2][4]
+1	2	3	4	0	0	
+List of [2][5]
+1	0	3	4	0	6	7	
+List of [2][6]
+1	2	3	4	0	6	0	
+List of [2][7]
+1	2	0	4	0	6	
+List of [2][8]
+1	2	0	4	0	6	7	
+List of [3][0]
+1	2	3	4	5	6	7	8	9	
+List of [3][1]
+1	2	3	4	5	6	7	8	9	
+List of [3][2]
+1	2	3	4	5	6	7	8	9	
+List of [3][3]
+1	2	3	4	0	0	7	
+List of [3][4]
+1	2	3	4	5	0	7	
+List of [3][5]
+1	0	3	4	5	6	7	8	
+List of [3][6]
+1	2	0	4	5	6	0	
+List of [3][7]
+1	2	3	4	5	6	0	8	
+List of [3][8]
+1	2	3	4	0	6	7	8	
+List of [4][0]
+1	2	3	4	5	6	7	8	9	
+List of [4][1]
+1	2	3	4	5	6	7	8	9	
+List of [4][2]
+1	2	3	4	5	6	7	8	9	
+List of [4][3]
+1	2	3	4	0	0	7	
+List of [4][4]
+1	2	3	4	5	0	7	
+List of [4][5]
+1	0	3	4	5	6	7	8	
+List of [4][6]
+1	2	0	4	5	6	0	
+List of [4][7]
+1	2	3	4	5	6	0	8	
+List of [4][8]
+1	2	3	0	0	6	
+List of [5][0]
+1	2	3	4	5	6	7	8	9	
+List of [5][1]
+1	2	3	4	5	6	7	8	9	
+List of [5][2]
+1	2	3	4	5	6	7	8	9	
+List of [5][3]
+1	2	3	4	0	0	7	
+List of [5][4]
+1	2	3	4	5	0	7	
+List of [5][5]
+1	0	3	4	5	6	0	
+List of [5][6]
+1	2	0	4	5	6	0	
+List of [5][7]
+1	2	3	0	5	6	0	
+List of [5][8]
+1	2	3	4	0	6	7	8	
+List of [6][0]
+1	2	3	4	5	6	7	8	9	
+List of [6][1]
+1	2	3	4	5	6	7	8	9	
+List of [6][2]
+1	2	3	4	5	6	7	8	9	
+List of [6][3]
+1	2	3	4	0	0	7	
+List of [6][4]
+1	2	3	4	5	0	7	
+List of [6][5]
+1	0	3	4	5	6	0	
+List of [6][6]
+1	2	0	4	5	6	0	
+List of [6][7]
+1	2	3	0	5	6	0	
+List of [6][8]
+1	2	3	4	0	6	7	8	
+List of [7][0]
+1	2	3	4	5	6	7	8	9	
+List of [7][1]
+1	2	3	4	5	6	7	8	9	
+List of [7][2]
+1	2	3	4	5	6	7	8	9	
+List of [7][3]
+1	2	3	4	0	0	7	
+List of [7][4]
+1	2	3	4	5	0	7	
+List of [7][5]
+1	0	3	4	5	6	0	
+List of [7][6]
+1	2	0	4	5	6	0	
+List of [7][7]
+1	2	3	0	5	6	0	
+List of [7][8]
+1	2	3	4	0	6	7	8	
+List of [8][0]
+1	2	3	4	5	6	7	8	9	
+List of [8][1]
+1	2	3	4	5	6	7	8	9	
+List of [8][2]
+1	2	3	4	5	6	7	8	9	
+List of [8][3]
+1	2	3	4	0	0	7	
+List of [8][4]
+1	0	3	4	5	0	
+List of [8][5]
+1	0	3	4	5	6	0	
+List of [8][6]
+1	0	0	4	5	6	
+List of [8][7]
+1	0	3	0	5	6	
+List of [8][8]
+1	0	3	4	0	6	7	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	7	8	9	
+List of [0][2]
+1	2	3	4	5	6	7	8	9	
+List of [0][3]
+1	2	3	4	5	6	7	8	9	
+List of [0][4]
+1	2	3	4	5	6	7	8	9	
+List of [0][5]
+1	2	3	4	5	6	7	8	9	
+List of [0][6]
+1	2	3	4	5	6	7	8	9	
+List of [0][7]
+1	2	3	4	5	6	7	8	9	
+List of [0][8]
+1	2	3	4	5	6	7	8	9	
+List of [1][0]
+1	2	3	4	5	6	7	8	9	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	6	7	8	9	
+List of [1][3]
+1	2	3	4	5	6	7	8	9	
+List of [1][4]
+1	2	3	4	5	6	7	8	9	
+List of [1][5]
+1	2	3	4	5	6	7	8	9	
+List of [1][6]
+1	2	3	4	5	6	7	8	9	
+List of [1][7]
+1	2	3	4	5	6	7	8	9	
+List of [1][8]
+1	2	3	4	5	6	7	8	9	
+List of [2][0]
+1	2	3	4	5	6	7	8	9	
+List of [2][1]
+1	2	3	4	0	6	7	8	
+List of [2][2]
+1	2	3	4	0	6	7	8	
+List of [2][3]
+1	2	3	4	0	6	7	8	
+List of [2][4]
+1	2	3	4	0	6	7	8	
+List of [2][5]
+1	2	3	4	0	6	7	8	
+List of [2][6]
+1	2	3	4	0	6	7	8	
+List of [2][7]
+1	2	3	4	0	6	7	8	
+List of [2][8]
+1	2	3	4	0	6	7	8	
+List of [3][0]
+1	2	3	4	0	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	9	
+List of [3][2]
+1	2	3	4	5	6	7	8	9	
+List of [3][3]
+1	2	3	4	5	6	7	8	9	
+List of [3][4]
+1	2	3	4	5	6	7	8	9	
+List of [3][5]
+1	2	3	4	5	6	7	8	9	
+List of [3][6]
+1	2	3	4	5	6	7	8	9	
+List of [3][7]
+1	2	3	4	5	6	7	8	9	
+List of [3][8]
+1	2	3	4	5	6	7	8	9	
+List of [4][0]
+1	2	3	4	0	6	7	8	
+List of [4][1]
+1	2	3	4	5	6	7	8	9	
+List of [4][2]
+1	2	3	4	5	6	7	8	9	
+List of [4][3]
+1	2	3	4	5	6	7	8	9	
+List of [4][4]
+1	2	3	4	5	6	7	8	9	
+List of [4][5]
+1	2	3	4	5	6	7	8	9	
+List of [4][6]
+1	2	3	4	5	6	7	8	9	
+List of [4][7]
+1	2	3	4	5	6	7	0	
+List of [4][8]
+1	2	3	4	5	6	7	0	
+List of [5][0]
+1	2	3	4	0	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	7	8	9	
+List of [5][2]
+1	2	3	4	5	6	7	8	9	
+List of [5][3]
+1	2	3	4	5	6	7	8	9	
+List of [5][4]
+1	2	3	4	5	6	7	8	9	
+List of [5][5]
+1	2	3	4	5	6	7	8	9	
+List of [5][6]
+1	2	3	4	5	6	7	0	
+List of [5][7]
+1	2	3	4	5	6	7	8	9	
+List of [5][8]
+1	2	3	4	5	6	7	8	9	
+List of [6][0]
+1	2	3	4	0	6	7	8	
+List of [6][1]
+1	2	3	4	5	6	7	8	9	
+List of [6][2]
+1	2	3	4	5	6	7	8	9	
+List of [6][3]
+1	2	3	4	5	6	7	8	9	
+List of [6][4]
+1	2	3	4	5	6	7	8	9	
+List of [6][5]
+1	2	3	4	5	6	7	8	9	
+List of [6][6]
+1	2	3	4	5	6	7	0	
+List of [6][7]
+1	2	3	4	5	6	7	8	9	
+List of [6][8]
+1	2	3	4	5	6	7	8	9	
+List of [7][0]
+1	2	3	4	0	6	7	8	
+List of [7][1]
+1	2	3	4	5	6	7	8	9	
+List of [7][2]
+1	2	3	4	5	6	7	8	9	
+List of [7][3]
+1	2	3	4	5	6	7	8	9	
+List of [7][4]
+1	2	3	4	5	6	7	8	9	
+List of [7][5]
+1	2	3	4	5	6	7	8	9	
+List of [7][6]
+1	2	3	4	5	6	7	0	
+List of [7][7]
+1	2	3	4	5	6	7	8	9	
+List of [7][8]
+1	2	3	4	5	6	7	8	9	
+List of [8][0]
+1	2	3	4	0	6	7	8	
+List of [8][1]
+1	2	3	4	5	6	7	8	9	
+List of [8][2]
+1	2	3	4	5	6	7	8	9	
+List of [8][3]
+1	2	3	4	5	6	7	8	9	
+List of [8][4]
+1	2	3	4	5	6	7	8	9	
+List of [8][5]
+1	2	3	4	5	6	7	8	9	
+List of [8][6]
+1	2	3	4	5	6	7	0	
+List of [8][7]
+1	2	3	4	5	6	7	8	9	
+List of [8][8]
+1	2	3	4	5	6	7	0	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	7	8	9	
+List of [0][2]
+1	2	3	4	0	6	7	8	
+List of [0][3]
+1	2	3	4	0	6	7	8	
+List of [0][4]
+1	2	3	4	0	6	7	8	
+List of [0][5]
+1	2	3	4	0	6	7	8	
+List of [0][6]
+1	2	3	4	0	6	7	8	
+List of [0][7]
+1	2	3	4	0	6	7	8	
+List of [0][8]
+1	2	3	4	0	6	7	8	
+List of [1][0]
+1	2	3	4	5	6	7	8	9	
+List of [1][1]
+1	2	3	4	0	6	7	8	
+List of [1][2]
+1	2	3	4	5	6	7	0	
+List of [1][3]
+1	2	3	4	5	6	7	0	
+List of [1][4]
+1	2	3	4	5	6	7	0	
+List of [1][5]
+1	2	3	4	5	6	7	0	
+List of [1][6]
+1	2	3	4	5	6	7	0	
+List of [1][7]
+1	2	3	4	5	6	7	0	
+List of [1][8]
+1	2	3	4	5	6	7	0	
+List of [2][0]
+1	2	3	4	5	6	7	8	9	
+List of [2][1]
+1	2	3	4	0	6	7	
+List of [2][2]
+1	2	3	4	5	6	7	0	
+List of [2][3]
+1	2	3	4	5	6	7	0	
+List of [2][4]
+1	2	3	4	5	6	7	0	
+List of [2][5]
+1	2	3	4	5	6	7	0	
+List of [2][6]
+1	2	3	4	5	6	7	0	
+List of [2][7]
+1	2	3	4	5	6	7	0	
+List of [2][8]
+1	2	3	4	5	6	7	0	
+List of [3][0]
+1	2	3	4	5	6	7	0	
+List of [3][1]
+1	2	3	4	0	6	7	
+List of [3][2]
+1	2	3	4	5	6	7	8	9	
+List of [3][3]
+1	2	3	4	5	6	7	8	9	
+List of [3][4]
+1	2	3	4	0	6	7	8	
+List of [3][5]
+1	2	3	0	0	6	7	
+List of [3][6]
+1	2	3	0	0	6	
+List of [3][7]
+0	2	3	0	0	
+List of [3][8]
+0	2	3	0	0	
+List of [4][0]
+1	2	3	4	5	6	7	0	
+List of [4][1]
+1	2	3	4	0	6	7	
+List of [4][2]
+1	2	3	4	5	6	7	8	9	
+List of [4][3]
+1	2	3	4	0	6	7	8	
+List of [4][4]
+1	2	3	0	5	6	7	8	
+List of [4][5]
+1	2	3	4	5	6	0	
+List of [4][6]
+0	2	3	4	5	6	7	
+List of [4][7]
+0	2	3	4	5	6	7	
+List of [4][8]
+0	2	3	4	5	6	7	
+List of [5][0]
+1	2	3	4	5	6	7	0	
+List of [5][1]
+1	2	3	4	0	6	7	
+List of [5][2]
+1	2	3	4	5	6	7	8	9	
+List of [5][3]
+1	2	3	4	0	6	7	8	
+List of [5][4]
+1	2	3	0	5	6	7	
+List of [5][5]
+0	2	3	4	5	6	0	
+List of [5][6]
+0	2	3	4	5	6	7	8	
+List of [5][7]
+1	2	3	4	5	6	7	8	9	
+List of [5][8]
+1	2	3	4	5	6	7	8	9	
+List of [6][0]
+1	2	3	4	5	6	7	0	
+List of [6][1]
+1	2	3	4	0	6	7	
+List of [6][2]
+1	2	3	4	5	6	7	8	9	
+List of [6][3]
+1	2	3	4	0	6	7	8	
+List of [6][4]
+1	2	3	0	5	6	7	
+List of [6][5]
+0	2	3	4	5	6	0	
+List of [6][6]
+0	2	3	4	5	6	7	8	
+List of [6][7]
+0	2	3	4	5	6	7	8	
+List of [6][8]
+0	2	3	4	5	6	7	8	
+List of [7][0]
+1	2	3	4	5	6	7	0	
+List of [7][1]
+1	0	3	4	0	6	
+List of [7][2]
+1	0	0	4	5	6	7	
+List of [7][3]
+1	0	0	4	0	6	
+List of [7][4]
+0	0	0	0	
+List of [7][5]
+0	0	0	4	5	
+List of [7][6]
+0	0	0	4	5	6	
+List of [7][7]
+1	0	0	4	5	6	7	
+List of [7][8]
+1	0	0	4	5	6	7	
+List of [8][0]
+1	0	3	4	5	6	7	
+List of [8][1]
+1	2	0	4	0	6	
+List of [8][2]
+1	2	3	4	5	6	7	8	9	
+List of [8][3]
+1	2	3	4	0	6	7	8	
+List of [8][4]
+0	2	3	0	5	6	
+List of [8][5]
+0	2	3	4	5	0	
+List of [8][6]
+0	0	3	4	5	0	
+List of [8][7]
+1	0	3	4	5	0	7	
+List of [8][8]
+1	0	0	4	5	0	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+0	2	3	4	5	6	7	8	
+List of [0][2]
+0	2	3	4	5	6	7	8	
+List of [0][3]
+0	2	3	4	5	6	7	8	
+List of [0][4]
+0	2	3	4	5	6	7	
+List of [0][5]
+0	2	3	4	5	6	7	
+List of [0][6]
+0	2	3	4	5	6	7	
+List of [0][7]
+0	2	3	4	5	6	
+List of [0][8]
+0	2	3	0	5	
+List of [1][0]
+0	2	3	4	5	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	6	7	8	9	
+List of [1][3]
+1	2	3	4	5	6	7	0	
+List of [1][4]
+1	2	3	4	5	6	7	8	9	
+List of [1][5]
+1	2	3	4	5	6	7	8	9	
+List of [1][6]
+1	2	3	4	5	6	0	8	
+List of [1][7]
+1	2	3	0	5	6	7	8	
+List of [1][8]
+1	2	3	4	5	6	7	8	9	
+List of [2][0]
+0	2	3	4	5	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	9	
+List of [2][2]
+1	2	3	4	5	6	7	8	9	
+List of [2][3]
+1	2	3	4	5	6	7	0	
+List of [2][4]
+1	2	3	4	5	6	7	8	9	
+List of [2][5]
+1	2	3	4	5	6	7	8	9	
+List of [2][6]
+1	2	3	4	5	6	0	8	
+List of [2][7]
+1	2	3	0	5	6	7	8	
+List of [2][8]
+1	2	3	4	5	6	7	8	9	
+List of [3][0]
+0	2	3	4	5	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	9	
+List of [3][2]
+1	2	3	4	5	6	7	8	
+List of [3][3]
+1	2	3	4	5	6	7	0	
+List of [3][4]
+1	2	0	4	5	6	7	
+List of [3][5]
+1	2	0	4	5	6	7	
+List of [3][6]
+1	2	0	4	5	6	0	
+List of [3][7]
+1	2	0	0	5	6	7	
+List of [3][8]
+1	2	0	4	5	6	7	
+List of [4][0]
+0	2	3	4	5	6	7	8	
+List of [4][1]
+1	2	3	4	5	6	7	8	
+List of [4][2]
+1	2	3	4	5	6	7	8	9	
+List of [4][3]
+1	2	0	4	5	6	7	
+List of [4][4]
+1	2	3	4	5	6	7	8	9	
+List of [4][5]
+1	2	3	4	5	6	7	8	9	
+List of [4][6]
+1	2	3	4	5	6	0	8	
+List of [4][7]
+0	2	3	0	5	6	7	
+List of [4][8]
+0	2	0	4	5	6	7	
+List of [5][0]
+0	2	3	4	5	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	7	8	
+List of [5][2]
+1	2	3	4	5	6	7	8	9	
+List of [5][3]
+1	2	0	4	5	6	7	
+List of [5][4]
+1	2	3	4	5	6	7	8	9	
+List of [5][5]
+1	2	0	4	5	6	7	8	
+List of [5][6]
+0	2	0	4	5	6	
+List of [5][7]
+1	2	0	0	5	6	7	
+List of [5][8]
+1	2	0	0	5	6	7	
+List of [6][0]
+0	2	3	4	5	6	7	8	
+List of [6][1]
+1	2	3	4	5	6	7	8	
+List of [6][2]
+1	2	3	4	5	6	7	8	9	
+List of [6][3]
+1	2	0	4	5	6	7	
+List of [6][4]
+1	2	0	4	5	6	7	8	
+List of [6][5]
+1	2	3	4	5	6	7	8	9	
+List of [6][6]
+0	2	3	0	5	6	
+List of [6][7]
+1	2	0	0	5	6	7	
+List of [6][8]
+1	2	3	4	5	6	7	8	9	
+List of [7][0]
+0	2	3	4	5	6	7	8	
+List of [7][1]
+1	2	3	4	5	6	7	8	
+List of [7][2]
+1	2	3	4	5	6	7	8	9	
+List of [7][3]
+1	2	0	4	5	6	7	
+List of [7][4]
+1	2	0	4	0	6	7	
+List of [7][5]
+1	2	3	4	0	6	7	8	
+List of [7][6]
+0	2	3	0	0	
+List of [7][7]
+1	2	0	0	0	6	
+List of [7][8]
+1	2	3	4	0	6	7	8	
+List of [8][0]
+0	2	3	4	5	6	7	8	
+List of [8][1]
+1	2	3	4	5	6	7	8	
+List of [8][2]
+1	2	3	0	5	6	7	8	
+List of [8][3]
+1	2	0	0	0	
+List of [8][4]
+1	2	0	0	5	6	7	
+List of [8][5]
+1	2	3	0	5	6	7	8	
+List of [8][6]
+0	2	3	0	5	6	
+List of [8][7]
+1	2	0	0	0	6	
+List of [8][8]
+1	2	3	0	0	6	7	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	0	5	6	7	8	
+List of [0][2]
+1	2	3	0	5	6	7	8	
+List of [0][3]
+1	2	3	0	5	6	7	8	
+List of [0][4]
+1	2	3	0	5	6	7	8	
+List of [0][5]
+1	2	0	0	5	6	7	
+List of [0][6]
+1	2	0	0	5	6	7	
+List of [0][7]
+1	2	0	0	5	6	
+List of [0][8]
+1	2	0	0	5	6	
+List of [1][0]
+1	2	3	0	5	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	6	7	8	9	
+List of [1][3]
+0	2	3	4	5	6	7	8	
+List of [1][4]
+0	2	0	4	5	6	7	
+List of [1][5]
+0	2	3	4	5	6	7	
+List of [1][6]
+0	2	3	4	5	6	0	
+List of [1][7]
+0	2	3	4	5	6	7	
+List of [1][8]
+0	2	3	4	5	6	7	
+List of [2][0]
+1	2	3	0	5	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	9	
+List of [2][2]
+0	2	3	4	5	6	7	8	
+List of [2][3]
+1	2	3	4	5	6	7	0	
+List of [2][4]
+1	2	0	4	5	6	7	8	
+List of [2][5]
+1	2	3	4	5	6	7	8	9	
+List of [2][6]
+1	2	3	4	5	6	0	8	
+List of [2][7]
+1	2	3	4	0	6	7	8	
+List of [2][8]
+1	2	3	4	0	6	7	8	
+List of [3][0]
+1	2	3	0	5	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	9	
+List of [3][2]
+0	2	3	4	5	6	7	8	
+List of [3][3]
+1	2	3	4	5	6	7	0	
+List of [3][4]
+1	2	0	4	5	6	7	8	
+List of [3][5]
+1	2	3	4	5	6	7	8	9	
+List of [3][6]
+1	2	3	4	0	6	0	
+List of [3][7]
+1	2	3	4	5	6	7	8	9	
+List of [3][8]
+1	2	3	4	5	6	7	8	9	
+List of [4][0]
+1	2	3	0	5	6	7	8	
+List of [4][1]
+1	2	3	4	5	6	7	8	9	
+List of [4][2]
+0	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	3	4	5	6	7	0	
+List of [4][4]
+1	2	0	4	5	6	7	8	
+List of [4][5]
+1	2	3	4	5	0	7	8	
+List of [4][6]
+1	2	3	4	0	0	
+List of [4][7]
+1	0	3	4	5	0	7	
+List of [4][8]
+1	0	3	4	5	0	7	
+List of [5][0]
+1	2	3	0	5	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	7	8	9	
+List of [5][2]
+0	2	3	4	5	6	7	8	
+List of [5][3]
+1	2	3	4	5	6	7	0	
+List of [5][4]
+1	2	0	4	0	0	
+List of [5][5]
+1	2	3	4	0	6	7	8	
+List of [5][6]
+1	0	3	4	0	6	
+List of [5][7]
+1	2	3	4	0	6	7	
+List of [5][8]
+1	2	3	4	0	6	7	
+List of [6][0]
+1	2	3	0	5	6	7	8	
+List of [6][1]
+1	2	3	4	5	6	7	8	9	
+List of [6][2]
+0	2	3	4	5	6	7	8	
+List of [6][3]
+1	2	3	4	0	6	7	
+List of [6][4]
+1	2	0	4	5	0	7	
+List of [6][5]
+1	2	3	4	5	6	7	8	9	
+List of [6][6]
+1	0	3	4	0	6	
+List of [6][7]
+1	2	3	4	5	6	7	8	9	
+List of [6][8]
+1	2	3	4	5	6	7	8	9	
+List of [7][0]
+1	2	3	0	5	6	7	8	
+List of [7][1]
+1	2	3	4	5	6	7	8	9	
+List of [7][2]
+0	2	3	4	5	6	7	8	
+List of [7][3]
+1	2	3	4	0	6	7	
+List of [7][4]
+1	2	0	4	5	0	7	
+List of [7][5]
+1	2	3	4	5	6	7	8	9	
+List of [7][6]
+1	0	3	4	0	6	
+List of [7][7]
+1	2	3	4	5	6	7	8	9	
+List of [7][8]
+1	2	3	4	5	0	7	8	
+List of [8][0]
+1	2	3	0	5	6	7	8	
+List of [8][1]
+1	2	3	4	5	6	7	8	9	
+List of [8][2]
+0	2	3	4	5	6	7	8	
+List of [8][3]
+1	2	3	4	0	6	7	
+List of [8][4]
+1	2	0	4	5	0	7	
+List of [8][5]
+1	2	3	4	5	6	7	8	9	
+List of [8][6]
+1	0	3	4	0	6	
+List of [8][7]
+1	2	3	4	5	0	7	8	
+List of [8][8]
+1	2	3	4	5	6	7	8	9	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	7	8	9	
+List of [0][2]
+1	2	3	0	5	6	7	8	
+List of [0][3]
+1	2	3	0	5	6	7	8	
+List of [0][4]
+1	2	3	0	5	6	7	8	
+List of [0][5]
+1	2	3	0	5	6	7	8	
+List of [0][6]
+1	2	3	0	5	6	7	8	
+List of [0][7]
+1	2	3	0	5	6	0	
+List of [0][8]
+1	2	0	0	5	6	
+List of [1][0]
+1	2	3	4	5	6	7	8	9	
+List of [1][1]
+1	2	3	0	5	6	7	8	
+List of [1][2]
+1	2	3	4	5	6	7	8	9	
+List of [1][3]
+1	2	3	4	5	6	7	8	9	
+List of [1][4]
+1	2	3	4	5	6	7	8	9	
+List of [1][5]
+1	2	3	4	5	6	7	8	9	
+List of [1][6]
+1	2	3	4	5	6	0	8	
+List of [1][7]
+1	2	0	4	5	6	7	8	
+List of [1][8]
+1	2	3	4	5	6	7	8	9	
+List of [2][0]
+1	2	3	4	5	6	7	8	9	
+List of [2][1]
+1	2	3	0	5	6	7	8	
+List of [2][2]
+1	2	3	4	5	6	7	8	9	
+List of [2][3]
+1	2	3	4	5	6	7	8	9	
+List of [2][4]
+1	2	3	4	5	6	7	8	9	
+List of [2][5]
+1	2	3	4	5	0	7	8	
+List of [2][6]
+1	2	3	4	5	0	0	
+List of [2][7]
+1	2	0	4	5	0	7	
+List of [2][8]
+1	2	3	4	5	0	7	8	
+List of [3][0]
+1	2	3	4	5	6	7	8	9	
+List of [3][1]
+1	2	3	0	5	6	7	8	
+List of [3][2]
+1	2	3	4	5	6	7	8	9	
+List of [3][3]
+1	2	3	4	5	6	7	8	9	
+List of [3][4]
+1	2	3	4	5	0	7	8	
+List of [3][5]
+1	2	3	4	5	0	7	8	
+List of [3][6]
+1	2	3	4	5	0	0	
+List of [3][7]
+1	2	0	4	5	0	7	
+List of [3][8]
+1	2	3	4	5	0	7	8	
+List of [4][0]
+1	2	3	4	5	6	7	8	9	
+List of [4][1]
+1	2	3	0	5	6	7	8	
+List of [4][2]
+1	2	3	4	5	6	7	8	9	
+List of [4][3]
+1	2	3	4	5	0	7	8	
+List of [4][4]
+1	2	3	4	5	0	7	8	
+List of [4][5]
+1	2	3	4	5	6	7	8	9	
+List of [4][6]
+1	2	3	4	5	6	0	8	
+List of [4][7]
+1	2	0	4	5	6	7	8	
+List of [4][8]
+1	2	3	4	5	6	7	8	9	
+List of [5][0]
+1	2	3	4	5	6	7	8	9	
+List of [5][1]
+1	2	3	0	5	6	7	8	
+List of [5][2]
+1	2	3	4	5	6	7	8	9	
+List of [5][3]
+1	2	3	4	5	0	7	8	
+List of [5][4]
+1	2	3	4	5	0	7	8	
+List of [5][5]
+1	2	3	4	5	6	7	8	9	
+List of [5][6]
+1	2	3	4	5	6	0	8	
+List of [5][7]
+1	2	0	4	5	6	7	8	
+List of [5][8]
+1	0	3	4	5	6	7	8	
+List of [6][0]
+1	2	3	4	5	6	7	8	9	
+List of [6][1]
+1	2	3	0	5	6	7	8	
+List of [6][2]
+1	2	3	4	5	6	7	8	9	
+List of [6][3]
+1	2	3	4	5	0	7	8	
+List of [6][4]
+1	2	3	4	5	0	7	8	
+List of [6][5]
+1	2	3	4	5	6	7	8	9	
+List of [6][6]
+1	2	3	4	5	6	0	8	
+List of [6][7]
+1	2	0	4	5	6	7	8	
+List of [6][8]
+1	0	3	4	0	6	7	
+List of [7][0]
+1	2	3	4	5	6	7	8	9	
+List of [7][1]
+1	2	3	0	5	6	7	8	
+List of [7][2]
+1	2	3	4	5	6	7	8	9	
+List of [7][3]
+1	2	3	4	5	0	7	8	
+List of [7][4]
+1	2	3	4	5	0	7	8	
+List of [7][5]
+1	2	3	4	5	6	7	8	9	
+List of [7][6]
+1	2	3	4	5	6	0	8	
+List of [7][7]
+1	2	0	4	5	6	7	8	
+List of [7][8]
+1	0	3	4	0	6	7	
+List of [8][0]
+1	2	3	4	5	6	7	8	9	
+List of [8][1]
+1	2	3	0	5	6	7	8	
+List of [8][2]
+1	2	3	4	5	6	7	8	9	
+List of [8][3]
+1	2	3	4	5	0	7	8	
+List of [8][4]
+1	2	3	4	5	0	7	8	
+List of [8][5]
+1	2	3	4	5	6	7	8	9	
+List of [8][6]
+1	2	3	4	5	6	0	8	
+List of [8][7]
+1	2	0	4	5	6	7	8	
+List of [8][8]
+1	0	3	4	0	6	7	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	7	8	9	
+List of [0][2]
+1	2	3	4	5	6	7	8	9	
+List of [0][3]
+1	2	3	4	5	6	7	8	9	
+List of [0][4]
+1	2	3	4	5	6	7	8	9	
+List of [0][5]
+1	2	3	4	5	6	7	8	9	
+List of [0][6]
+1	2	3	4	5	6	7	8	9	
+List of [0][7]
+1	2	3	4	5	6	7	8	9	
+List of [0][8]
+1	2	3	4	5	6	7	8	9	
+List of [1][0]
+1	2	3	4	5	6	7	8	9	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	6	7	8	9	
+List of [1][3]
+1	2	3	4	5	6	7	8	9	
+List of [1][4]
+1	2	3	4	5	0	7	8	
+List of [1][5]
+1	2	3	4	5	0	7	8	
+List of [1][6]
+1	2	3	4	5	0	7	8	
+List of [1][7]
+1	2	3	4	5	0	7	8	
+List of [1][8]
+1	2	3	4	5	0	7	8	
+List of [2][0]
+1	2	3	4	5	6	7	8	9	
+List of [2][1]
+1	2	3	4	5	6	7	8	9	
+List of [2][2]
+1	2	3	4	5	6	7	8	9	
+List of [2][3]
+1	2	3	4	5	0	7	8	
+List of [2][4]
+1	2	3	4	5	6	7	8	9	
+List of [2][5]
+1	2	3	4	5	6	7	8	9	
+List of [2][6]
+1	2	3	4	5	6	7	8	9	
+List of [2][7]
+1	2	3	4	5	6	7	8	9	
+List of [2][8]
+1	2	3	4	5	6	7	8	9	
+List of [3][0]
+1	2	3	4	5	6	7	8	9	
+List of [3][1]
+1	2	3	4	5	6	7	8	9	
+List of [3][2]
+1	2	3	4	5	6	7	8	9	
+List of [3][3]
+1	2	3	4	5	0	7	8	
+List of [3][4]
+1	2	3	4	5	6	7	8	9	
+List of [3][5]
+1	2	3	4	5	6	7	8	9	
+List of [3][6]
+1	2	3	4	5	6	7	8	9	
+List of [3][7]
+1	2	3	4	5	6	7	8	9	
+List of [3][8]
+1	2	3	4	5	6	7	8	9	
+List of [4][0]
+1	2	3	4	5	6	7	8	9	
+List of [4][1]
+1	2	3	4	5	6	7	8	9	
+List of [4][2]
+1	2	3	4	5	6	7	8	9	
+List of [4][3]
+1	2	3	4	5	0	7	8	
+List of [4][4]
+1	2	3	4	5	6	7	8	9	
+List of [4][5]
+1	2	3	4	5	6	7	8	9	
+List of [4][6]
+1	2	3	4	5	6	7	8	9	
+List of [4][7]
+1	2	3	4	5	6	7	8	9	
+List of [4][8]
+1	2	3	4	5	6	7	8	9	
+List of [5][0]
+1	2	3	4	5	6	7	8	9	
+List of [5][1]
+1	2	3	4	5	6	7	8	9	
+List of [5][2]
+1	2	3	4	5	6	7	8	9	
+List of [5][3]
+1	2	3	4	5	0	7	8	
+List of [5][4]
+1	2	3	4	0	6	7	8	
+List of [5][5]
+1	2	3	4	0	6	7	8	
+List of [5][6]
+1	2	3	4	0	6	7	8	
+List of [5][7]
+1	2	3	4	0	6	7	8	
+List of [5][8]
+1	2	3	4	0	6	7	8	
+List of [6][0]
+1	2	3	4	5	6	7	8	9	
+List of [6][1]
+1	2	3	4	5	6	7	8	9	
+List of [6][2]
+1	2	3	4	5	6	7	8	9	
+List of [6][3]
+1	2	3	4	0	0	7	
+List of [6][4]
+1	2	3	4	5	6	7	8	9	
+List of [6][5]
+1	2	3	4	5	6	7	8	9	
+List of [6][6]
+1	2	3	4	5	6	7	8	9	
+List of [6][7]
+1	2	3	4	5	6	7	8	9	
+List of [6][8]
+1	2	3	4	5	6	7	8	9	
+List of [7][0]
+1	2	3	4	5	6	7	8	9	
+List of [7][1]
+1	2	3	4	5	6	7	8	9	
+List of [7][2]
+1	2	3	4	5	6	7	8	9	
+List of [7][3]
+1	2	3	4	0	0	7	
+List of [7][4]
+1	2	3	4	0	6	7	8	
+List of [7][5]
+1	2	3	4	0	6	7	8	
+List of [7][6]
+1	2	3	4	0	6	7	8	
+List of [7][7]
+1	2	3	4	0	6	7	8	
+List of [7][8]
+1	2	3	4	0	6	7	
+List of [8][0]
+1	2	3	4	5	6	7	8	9	
+List of [8][1]
+1	2	3	0	5	6	7	8	
+List of [8][2]
+1	2	3	0	0	6	7	
+List of [8][3]
+1	2	3	0	0	0	
+List of [8][4]
+1	2	3	0	5	6	0	
+List of [8][5]
+1	2	3	0	5	6	0	
+List of [8][6]
+1	2	3	0	5	6	0	
+List of [8][7]
+1	2	3	0	5	6	0	
+List of [8][8]
+1	2	0	0	5	6	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	7	8	9	
+List of [0][2]
+1	2	3	4	5	6	7	8	9	
+List of [0][3]
+1	2	3	0	5	6	7	8	
+List of [0][4]
+1	2	3	0	5	6	7	8	
+List of [0][5]
+1	2	3	0	5	6	7	8	
+List of [0][6]
+1	2	3	0	5	6	0	
+List of [0][7]
+1	2	3	0	5	6	0	
+List of [0][8]
+1	2	3	0	5	6	0	
+List of [1][0]
+1	2	3	4	5	6	7	8	9	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	0	3	0	5	6	7	
+List of [1][3]
+1	0	3	4	5	6	7	8	
+List of [1][4]
+1	0	3	4	0	6	7	
+List of [1][5]
+1	0	3	4	0	6	
+List of [1][6]
+1	0	3	4	0	6	7	
+List of [1][7]
+1	0	3	4	0	6	7	
+List of [1][8]
+1	0	3	4	0	6	7	
+List of [2][0]
+1	2	3	4	5	6	7	8	9	
+List of [2][1]
+1	0	3	4	5	6	7	8	
+List of [2][2]
+1	2	3	0	5	6	7	8	
+List of [2][3]
+1	2	3	4	0	6	7	8	
+List of [2][4]
+1	2	3	4	5	6	7	8	9	
+List of [2][5]
+1	2	3	4	5	6	0	8	
+List of [2][6]
+1	2	3	4	5	6	7	8	9	
+List of [2][7]
+1	2	3	4	5	6	7	8	9	
+List of [2][8]
+1	2	3	4	5	6	7	8	9	
+List of [3][0]
+1	2	3	4	5	6	7	8	9	
+List of [3][1]
+1	0	3	4	5	6	7	8	
+List of [3][2]
+1	2	3	0	5	6	7	8	
+List of [3][3]
+1	2	3	4	0	6	7	8	
+List of [3][4]
+1	2	3	4	5	6	7	8	9	
+List of [3][5]
+1	2	3	4	5	6	0	8	
+List of [3][6]
+1	2	3	4	5	6	7	8	9	
+List of [3][7]
+1	2	3	4	5	6	7	8	9	
+List of [3][8]
+1	2	3	4	5	6	7	8	9	
+List of [4][0]
+1	2	3	4	5	6	7	8	9	
+List of [4][1]
+1	0	3	4	5	6	7	8	
+List of [4][2]
+1	2	3	0	5	6	7	8	
+List of [4][3]
+1	2	3	4	0	6	7	8	
+List of [4][4]
+1	2	3	4	5	6	7	8	9	
+List of [4][5]
+1	2	3	4	5	0	0	
+List of [4][6]
+1	2	3	4	5	0	7	8	
+List of [4][7]
+1	2	3	4	5	0	7	8	
+List of [4][8]
+1	2	3	4	5	0	7	8	
+List of [5][0]
+1	2	3	4	5	6	7	8	9	
+List of [5][1]
+1	0	3	4	5	6	7	8	
+List of [5][2]
+1	2	3	0	5	6	7	8	
+List of [5][3]
+1	2	3	4	0	6	7	8	
+List of [5][4]
+1	2	3	4	5	0	7	8	
+List of [5][5]
+1	2	3	4	5	6	0	8	
+List of [5][6]
+1	2	3	4	5	6	7	8	9	
+List of [5][7]
+1	2	3	4	5	6	7	8	9	
+List of [5][8]
+1	2	0	4	5	6	7	8	
+List of [6][0]
+1	2	3	4	5	6	7	8	9	
+List of [6][1]
+1	0	3	4	5	6	7	8	
+List of [6][2]
+1	2	3	0	5	6	7	8	
+List of [6][3]
+1	2	3	4	0	6	7	8	
+List of [6][4]
+1	2	3	4	5	0	7	8	
+List of [6][5]
+1	0	3	4	5	6	0	
+List of [6][6]
+1	0	3	4	5	6	7	8	
+List of [6][7]
+1	0	3	4	5	6	7	8	
+List of [6][8]
+1	0	0	4	5	6	
+List of [7][0]
+1	2	3	4	5	6	7	8	9	
+List of [7][1]
+1	0	3	4	5	6	7	8	
+List of [7][2]
+1	2	3	0	5	6	7	8	
+List of [7][3]
+1	2	3	4	0	6	7	8	
+List of [7][4]
+1	0	3	4	0	0	
+List of [7][5]
+1	0	3	4	0	6	
+List of [7][6]
+1	0	3	4	0	6	
+List of [7][7]
+1	0	3	4	0	6	
+List of [7][8]
+1	0	0	0	
+List of [8][0]
+1	2	3	4	5	6	7	8	9	
+List of [8][1]
+1	0	3	4	5	6	7	8	
+List of [8][2]
+1	2	3	0	0	6	7	
+List of [8][3]
+1	0	3	4	0	6	7	
+List of [8][4]
+1	0	3	4	5	0	
+List of [8][5]
+1	2	3	4	5	6	0	8	
+List of [8][6]
+1	2	3	4	5	6	7	8	9	
+List of [8][7]
+1	2	3	4	5	6	7	8	9	
+List of [8][8]
+1	2	0	0	5	6	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	7	8	9	
+List of [0][2]
+1	2	3	4	5	6	7	8	9	
+List of [0][3]
+1	2	3	4	5	6	7	8	9	
+List of [0][4]
+1	2	3	4	5	6	7	8	9	
+List of [0][5]
+1	2	3	4	5	6	7	8	9	
+List of [0][6]
+1	2	3	4	5	6	7	8	9	
+List of [0][7]
+1	2	3	4	5	6	0	8	
+List of [0][8]
+1	2	3	4	5	6	0	8	
+List of [1][0]
+1	2	3	4	5	6	7	8	9	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	6	7	8	9	
+List of [1][3]
+1	2	3	4	5	6	7	8	9	
+List of [1][4]
+1	2	0	4	5	6	7	8	
+List of [1][5]
+1	2	0	4	5	6	7	8	
+List of [1][6]
+1	2	0	4	5	6	0	
+List of [1][7]
+1	2	0	4	5	6	7	8	
+List of [1][8]
+1	0	0	4	5	6	7	
+List of [2][0]
+1	2	3	4	5	6	7	8	9	
+List of [2][1]
+1	2	3	4	5	6	7	8	9	
+List of [2][2]
+1	2	3	4	5	6	7	8	9	
+List of [2][3]
+1	2	0	4	5	6	7	8	
+List of [2][4]
+1	2	3	4	5	6	0	
+List of [2][5]
+1	2	3	4	5	6	0	
+List of [2][6]
+1	2	3	4	5	6	0	8	
+List of [2][7]
+1	2	3	4	5	6	0	
+List of [2][8]
+1	0	3	4	5	6	0	
+List of [3][0]
+1	2	3	4	5	6	7	8	9	
+List of [3][1]
+1	2	3	4	5	6	7	8	9	
+List of [3][2]
+1	2	3	4	5	6	7	8	
+List of [3][3]
+1	2	0	4	5	6	0	
+List of [3][4]
+1	2	3	4	5	6	7	8	9	
+List of [3][5]
+1	2	3	4	5	6	7	8	9	
+List of [3][6]
+1	2	3	4	5	6	0	8	
+List of [3][7]
+1	2	3	4	5	6	7	8	9	
+List of [3][8]
+1	0	3	4	5	6	7	8	
+List of [4][0]
+1	2	3	4	5	6	7	8	9	
+List of [4][1]
+1	2	3	4	5	6	7	8	9	
+List of [4][2]
+1	2	3	4	5	6	7	8	
+List of [4][3]
+1	2	0	4	5	6	0	
+List of [4][4]
+1	2	3	4	5	6	7	8	9	
+List of [4][5]
+1	2	3	4	5	6	7	8	9	
+List of [4][6]
+1	2	3	4	5	6	0	8	
+List of [4][7]
+1	2	3	4	5	6	7	8	9	
+List of [4][8]
+1	0	3	4	5	6	7	8	
+List of [5][0]
+1	2	3	4	5	6	7	8	9	
+List of [5][1]
+1	2	3	4	5	6	7	8	9	
+List of [5][2]
+1	2	3	4	5	6	7	8	
+List of [5][3]
+1	2	0	4	5	6	0	
+List of [5][4]
+1	2	3	4	5	6	7	8	9	
+List of [5][5]
+1	2	3	4	5	6	7	8	9	
+List of [5][6]
+1	2	3	4	5	6	0	8	
+List of [5][7]
+1	2	3	4	5	6	7	8	9	
+List of [5][8]
+1	0	3	4	5	6	7	8	
+List of [6][0]
+1	2	3	4	5	6	7	8	9	
+List of [6][1]
+1	2	3	4	5	6	7	8	9	
+List of [6][2]
+1	2	3	4	5	6	7	8	
+List of [6][3]
+1	2	0	4	5	6	0	
+List of [6][4]
+1	2	3	4	5	6	7	8	9	
+List of [6][5]
+1	2	3	4	5	6	0	8	
+List of [6][6]
+1	2	3	4	5	6	0	8	
+List of [6][7]
+1	2	3	4	5	6	0	8	
+List of [6][8]
+1	0	3	4	5	6	0	
+List of [7][0]
+1	2	3	4	5	6	7	8	9	
+List of [7][1]
+1	2	3	4	5	6	7	8	9	
+List of [7][2]
+1	2	3	4	5	6	7	8	
+List of [7][3]
+1	2	0	4	5	6	0	
+List of [7][4]
+1	2	3	4	5	6	0	8	
+List of [7][5]
+1	2	3	4	5	6	7	8	9	
+List of [7][6]
+1	2	3	4	5	6	0	8	
+List of [7][7]
+1	2	3	4	5	6	0	8	
+List of [7][8]
+1	0	3	4	5	0	
+List of [8][0]
+1	2	3	4	5	6	7	8	9	
+List of [8][1]
+1	2	3	4	5	6	7	8	9	
+List of [8][2]
+1	2	3	4	5	6	7	8	
+List of [8][3]
+1	2	0	4	5	6	0	
+List of [8][4]
+1	2	3	4	5	6	0	8	
+List of [8][5]
+1	2	3	4	5	6	0	8	
+List of [8][6]
+1	2	3	4	0	6	0	
+List of [8][7]
+1	2	3	4	0	6	7	8	
+List of [8][8]
+1	0	3	4	0	0	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	7	8	9	
+List of [0][2]
+1	2	3	4	5	6	7	8	9	
+List of [0][3]
+1	2	3	4	5	6	7	0	
+List of [0][4]
+1	2	3	4	5	6	7	0	
+List of [0][5]
+1	2	3	4	5	6	7	0	
+List of [0][6]
+1	2	3	4	5	6	7	0	
+List of [0][7]
+1	2	3	4	5	6	7	0	
+List of [0][8]
+1	2	3	4	5	6	7	0	
+List of [1][0]
+1	2	3	4	5	6	7	8	9	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	6	7	0	
+List of [1][3]
+1	2	3	4	5	6	7	0	
+List of [1][4]
+1	2	3	4	5	6	7	0	
+List of [1][5]
+1	2	3	4	5	6	7	0	
+List of [1][6]
+1	2	3	4	5	6	7	0	
+List of [1][7]
+1	2	3	0	5	6	7	
+List of [1][8]
+1	2	3	0	0	6	
+List of [2][0]
+1	2	3	4	5	6	7	8	9	
+List of [2][1]
+1	2	3	4	5	6	7	0	
+List of [2][2]
+1	2	3	4	5	6	7	0	
+List of [2][3]
+1	2	3	4	5	6	7	8	9	
+List of [2][4]
+1	2	3	4	5	6	7	8	9	
+List of [2][5]
+1	2	3	4	5	6	7	8	9	
+List of [2][6]
+1	2	3	0	5	6	7	8	
+List of [2][7]
+1	2	3	4	5	6	7	8	9	
+List of [2][8]
+1	2	3	4	0	6	0	
+List of [3][0]
+1	2	3	4	5	6	7	8	9	
+List of [3][1]
+1	2	3	4	5	0	7	
+List of [3][2]
+1	0	3	4	5	0	
+List of [3][3]
+1	0	3	4	5	0	7	
+List of [3][4]
+1	0	3	4	5	0	7	
+List of [3][5]
+1	0	3	4	5	0	7	
+List of [3][6]
+0	0	3	0	5	
+List of [3][7]
+0	0	3	4	5	0	
+List of [3][8]
+0	0	3	4	
+List of [4][0]
+1	2	3	4	5	0	7	8	
+List of [4][1]
+1	0	3	4	5	6	7	
+List of [4][2]
+1	2	3	0	5	6	7	
+List of [4][3]
+1	0	3	0	5	6	7	
+List of [4][4]
+1	0	3	0	5	6	7	
+List of [4][5]
+0	0	3	0	5	6	
+List of [4][6]
+1	0	3	0	5	0	
+List of [4][7]
+1	0	3	0	5	0	
+List of [4][8]
+1	0	3	0	0	
+List of [5][0]
+1	2	3	4	5	0	7	8	
+List of [5][1]
+1	0	3	0	5	6	
+List of [5][2]
+1	0	3	4	5	6	7	
+List of [5][3]
+1	2	3	4	5	6	7	8	9	
+List of [5][4]
+1	2	3	4	5	6	7	8	9	
+List of [5][5]
+0	2	3	4	5	0	7	
+List of [5][6]
+1	2	3	0	5	6	7	8	
+List of [5][7]
+1	2	3	4	5	6	7	8	9	
+List of [5][8]
+1	2	3	4	0	6	0	
+List of [6][0]
+1	2	3	4	5	0	7	8	
+List of [6][1]
+1	0	3	0	5	6	
+List of [6][2]
+1	0	3	4	5	6	7	
+List of [6][3]
+1	2	3	0	5	6	7	8	
+List of [6][4]
+1	2	3	0	5	6	7	8	
+List of [6][5]
+0	2	3	0	5	0	
+List of [6][6]
+1	2	3	0	5	6	7	8	
+List of [6][7]
+1	2	3	0	5	6	7	8	
+List of [6][8]
+1	2	0	0	0	
+List of [7][0]
+1	2	3	4	5	0	7	8	
+List of [7][1]
+1	0	3	0	5	6	
+List of [7][2]
+1	0	3	0	5	6	
+List of [7][3]
+1	2	3	4	5	6	7	8	9	
+List of [7][4]
+1	2	3	4	5	6	7	8	9	
+List of [7][5]
+0	2	3	4	5	0	7	
+List of [7][6]
+1	2	3	0	5	6	7	8	
+List of [7][7]
+1	2	3	4	5	6	7	8	9	
+List of [7][8]
+0	2	0	4	0	
+List of [8][0]
+1	2	3	4	5	0	7	8	
+List of [8][1]
+1	0	3	0	5	6	
+List of [8][2]
+1	0	3	0	5	6	
+List of [8][3]
+1	2	3	4	5	6	7	8	9	
+List of [8][4]
+1	2	3	4	5	6	7	8	9	
+List of [8][5]
+0	2	3	4	5	0	7	
+List of [8][6]
+1	2	3	0	5	6	7	8	
+List of [8][7]
+0	2	3	4	5	6	7	8	
+List of [8][8]
+1	2	0	4	0	6	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	0	4	5	6	7	8	
+List of [0][2]
+1	2	0	4	5	6	7	8	
+List of [0][3]
+1	2	0	4	5	0	7	
+List of [0][4]
+1	2	0	4	5	0	7	
+List of [0][5]
+0	2	0	4	5	0	
+List of [0][6]
+0	2	0	4	5	0	
+List of [0][7]
+0	2	0	4	5	0	
+List of [0][8]
+0	2	0	4	5	0	
+List of [1][0]
+1	2	0	4	5	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	0	7	8	
+List of [1][3]
+1	2	3	4	5	6	7	8	9	
+List of [1][4]
+0	2	3	4	5	6	7	8	
+List of [1][5]
+1	2	3	4	5	6	7	0	
+List of [1][6]
+0	2	3	4	5	6	7	
+List of [1][7]
+0	2	3	4	5	6	7	
+List of [1][8]
+0	2	3	0	5	
+List of [2][0]
+1	2	0	4	5	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	9	
+List of [2][2]
+1	2	3	4	5	0	7	8	
+List of [2][3]
+1	2	3	4	5	6	7	8	9	
+List of [2][4]
+0	2	3	4	5	6	7	
+List of [2][5]
+0	2	3	4	0	6	7	
+List of [2][6]
+1	2	3	4	0	6	7	8	
+List of [2][7]
+1	2	3	0	0	6	
+List of [2][8]
+1	0	3	4	0	6	
+List of [3][0]
+1	2	0	4	5	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	9	
+List of [3][2]
+1	2	3	4	5	0	7	8	
+List of [3][3]
+1	2	3	4	5	6	7	8	9	
+List of [3][4]
+0	2	3	4	0	6	
+List of [3][5]
+0	2	0	4	0	6	
+List of [3][6]
+1	2	0	4	0	
+List of [3][7]
+1	2	0	0	0	
+List of [3][8]
+0	0	0	4	
+List of [4][0]
+1	2	0	4	5	6	7	8	
+List of [4][1]
+1	2	3	4	5	6	7	8	9	
+List of [4][2]
+1	2	3	4	5	0	7	8	
+List of [4][3]
+1	2	3	4	0	6	7	8	
+List of [4][4]
+0	2	0	4	0	
+List of [4][5]
+0	2	3	4	5	0	7	
+List of [4][6]
+1	2	3	4	5	6	0	8	
+List of [4][7]
+0	2	3	0	5	6	7	
+List of [4][8]
+1	0	3	4	5	6	0	
+List of [5][0]
+1	2	0	4	5	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	7	8	9	
+List of [5][2]
+1	2	3	4	5	0	7	8	
+List of [5][3]
+1	2	3	4	0	6	7	8	
+List of [5][4]
+0	2	0	4	0	
+List of [5][5]
+0	2	3	4	5	0	7	
+List of [5][6]
+1	0	3	4	5	6	0	
+List of [5][7]
+0	0	3	0	5	6	
+List of [5][8]
+1	0	3	4	5	0	
+List of [6][0]
+1	2	0	4	5	6	7	8	
+List of [6][1]
+1	2	3	4	5	6	7	8	9	
+List of [6][2]
+1	2	3	4	5	0	7	8	
+List of [6][3]
+1	2	3	4	0	6	7	8	
+List of [6][4]
+0	2	0	4	0	
+List of [6][5]
+0	0	3	4	5	0	
+List of [6][6]
+0	2	3	4	5	6	0	
+List of [6][7]
+0	2	0	0	5	6	
+List of [6][8]
+0	0	0	4	
+List of [7][0]
+1	2	0	4	5	6	7	8	
+List of [7][1]
+1	2	3	4	5	6	7	8	9	
+List of [7][2]
+1	2	3	4	5	0	7	8	
+List of [7][3]
+0	2	3	4	0	6	7	
+List of [7][4]
+0	2	0	4	0	
+List of [7][5]
+0	0	3	4	5	0	
+List of [7][6]
+1	2	0	4	5	6	0	
+List of [7][7]
+0	2	3	0	5	6	7	
+List of [7][8]
+1	0	3	4	0	
+List of [8][0]
+1	2	0	4	5	6	7	8	
+List of [8][1]
+1	2	3	4	5	6	7	8	9	
+List of [8][2]
+1	2	3	4	5	0	7	8	
+List of [8][3]
+0	2	3	4	0	6	7	
+List of [8][4]
+0	2	0	4	0	
+List of [8][5]
+0	0	3	4	5	0	
+List of [8][6]
+1	2	0	4	5	6	0	
+List of [8][7]
+0	2	3	0	5	6	7	
+List of [8][8]
+1	0	3	4	0	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	0	3	4	5	6	7	8	
+List of [0][2]
+1	0	3	4	5	6	7	8	
+List of [0][3]
+1	0	3	4	5	6	7	8	
+List of [0][4]
+1	0	3	4	5	6	7	8	
+List of [0][5]
+1	0	3	4	5	6	7	8	
+List of [0][6]
+1	0	3	4	5	6	7	8	
+List of [0][7]
+1	0	3	4	5	6	7	8	
+List of [0][8]
+1	0	3	4	5	6	7	8	
+List of [1][0]
+1	0	3	4	5	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	6	7	8	9	
+List of [1][3]
+1	2	3	4	5	6	7	8	9	
+List of [1][4]
+1	2	3	4	5	6	7	8	9	
+List of [1][5]
+1	2	3	4	5	6	7	8	9	
+List of [1][6]
+1	2	3	4	5	6	7	8	9	
+List of [1][7]
+1	2	3	4	5	6	7	8	9	
+List of [1][8]
+1	2	3	4	5	6	7	8	9	
+List of [2][0]
+1	0	3	4	5	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	9	
+List of [2][2]
+1	2	3	4	5	6	7	8	9	
+List of [2][3]
+1	2	3	4	5	6	7	8	9	
+List of [2][4]
+1	2	3	4	5	6	7	8	9	
+List of [2][5]
+1	2	3	4	5	6	7	8	9	
+List of [2][6]
+1	2	3	4	5	6	7	8	9	
+List of [2][7]
+1	2	3	4	0	6	7	8	
+List of [2][8]
+1	2	3	4	0	0	7	
+List of [3][0]
+1	0	3	4	5	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	9	
+List of [3][2]
+1	2	3	4	5	6	7	8	9	
+List of [3][3]
+1	2	3	4	5	6	7	8	9	
+List of [3][4]
+1	2	3	4	5	6	7	8	9	
+List of [3][5]
+1	2	3	4	5	6	7	8	9	
+List of [3][6]
+1	2	3	4	0	6	0	
+List of [3][7]
+1	2	3	4	5	0	0	
+List of [3][8]
+1	2	3	4	5	6	0	8	
+List of [4][0]
+1	0	3	4	5	6	7	8	
+List of [4][1]
+1	2	3	4	5	6	7	8	9	
+List of [4][2]
+1	2	3	4	5	6	7	8	9	
+List of [4][3]
+1	2	3	4	5	6	7	8	9	
+List of [4][4]
+1	2	3	4	5	6	7	8	9	
+List of [4][5]
+1	2	3	4	5	6	0	8	
+List of [4][6]
+1	2	3	4	0	6	7	8	
+List of [4][7]
+1	2	3	4	5	0	7	8	
+List of [4][8]
+1	2	0	4	5	6	7	8	
+List of [5][0]
+1	0	3	4	5	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	7	8	9	
+List of [5][2]
+1	2	3	4	5	6	7	8	9	
+List of [5][3]
+1	2	3	4	5	6	7	8	9	
+List of [5][4]
+1	2	3	4	5	6	7	8	9	
+List of [5][5]
+1	2	3	4	5	6	0	8	
+List of [5][6]
+1	2	3	4	0	6	7	8	
+List of [5][7]
+1	2	3	4	5	0	7	8	
+List of [5][8]
+1	2	0	4	5	6	7	8	
+List of [6][0]
+1	0	3	4	5	6	7	8	
+List of [6][1]
+1	2	3	4	5	6	7	8	9	
+List of [6][2]
+1	2	3	4	5	6	7	8	9	
+List of [6][3]
+1	2	3	4	5	6	7	8	9	
+List of [6][4]
+1	2	3	4	5	6	7	8	9	
+List of [6][5]
+1	2	0	4	5	6	0	
+List of [6][6]
+1	2	0	4	0	6	7	
+List of [6][7]
+1	2	0	4	5	0	7	
+List of [6][8]
+1	2	0	4	5	6	7	8	
+List of [7][0]
+1	0	3	4	5	6	7	8	
+List of [7][1]
+1	2	3	4	5	6	7	8	9	
+List of [7][2]
+1	2	3	4	5	6	7	8	9	
+List of [7][3]
+1	2	3	4	5	6	7	8	9	
+List of [7][4]
+1	2	0	4	5	6	7	8	
+List of [7][5]
+1	2	3	4	5	6	0	8	
+List of [7][6]
+1	2	3	4	0	6	7	8	
+List of [7][7]
+1	2	3	4	5	0	7	8	
+List of [7][8]
+1	2	0	4	5	6	7	8	
+List of [8][0]
+1	0	3	4	5	6	7	8	
+List of [8][1]
+1	2	3	4	5	6	7	8	9	
+List of [8][2]
+1	2	3	4	5	6	7	8	9	
+List of [8][3]
+1	2	3	4	5	6	7	8	
+List of [8][4]
+1	2	0	4	5	6	7	8	
+List of [8][5]
+1	2	3	4	5	6	0	8	
+List of [8][6]
+1	2	3	4	0	6	7	8	
+List of [8][7]
+1	2	3	4	5	0	7	8	
+List of [8][8]
+1	2	0	4	5	6	7	8	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	0	6	7	8	
+List of [0][2]
+1	2	3	4	0	6	7	8	
+List of [0][3]
+1	2	3	4	0	6	7	8	
+List of [0][4]
+1	2	3	4	0	6	7	8	
+List of [0][5]
+1	2	3	4	0	6	7	8	
+List of [0][6]
+1	2	3	4	0	6	7	8	
+List of [0][7]
+1	2	3	4	0	6	7	8	
+List of [0][8]
+1	2	3	4	0	6	7	8	
+List of [1][0]
+1	2	3	4	0	6	7	8	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	6	7	8	9	
+List of [1][3]
+1	2	3	4	5	6	7	8	9	
+List of [1][4]
+1	2	3	4	5	6	7	8	9	
+List of [1][5]
+1	2	3	4	5	6	7	8	9	
+List of [1][6]
+1	2	3	4	5	6	7	8	9	
+List of [1][7]
+1	2	3	4	5	6	7	8	9	
+List of [1][8]
+1	2	3	4	5	6	7	8	9	
+List of [2][0]
+1	2	3	4	0	6	7	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	9	
+List of [2][2]
+1	2	3	4	5	6	7	8	9	
+List of [2][3]
+1	2	3	4	5	6	7	8	9	
+List of [2][4]
+1	2	3	4	5	6	7	8	9	
+List of [2][5]
+1	2	3	4	5	6	7	8	9	
+List of [2][6]
+1	2	3	4	5	6	7	8	9	
+List of [2][7]
+1	2	3	4	5	6	7	8	9	
+List of [2][8]
+1	2	3	4	5	6	7	8	9	
+List of [3][0]
+1	2	3	4	0	6	7	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	9	
+List of [3][2]
+1	2	3	4	5	6	7	8	9	
+List of [3][3]
+1	2	3	4	5	6	7	8	9	
+List of [3][4]
+1	2	3	4	5	6	7	8	9	
+List of [3][5]
+1	2	3	4	5	6	7	8	9	
+List of [3][6]
+1	2	3	4	5	6	7	8	9	
+List of [3][7]
+1	2	3	4	5	6	7	8	9	
+List of [3][8]
+1	2	3	4	5	6	7	8	9	
+List of [4][0]
+1	2	3	4	0	6	7	8	
+List of [4][1]
+1	2	3	4	5	6	7	8	9	
+List of [4][2]
+1	2	3	4	5	6	7	8	9	
+List of [4][3]
+1	2	3	4	5	6	7	0	
+List of [4][4]
+1	2	3	4	5	6	7	0	
+List of [4][5]
+1	2	3	4	5	6	7	0	
+List of [4][6]
+1	2	3	4	5	6	7	0	
+List of [4][7]
+1	2	3	4	5	6	7	0	
+List of [4][8]
+1	2	3	4	5	6	7	0	
+List of [5][0]
+1	2	3	4	0	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	7	8	9	
+List of [5][2]
+1	2	3	4	5	6	7	0	
+List of [5][3]
+0	2	3	4	5	6	7	8	
+List of [5][4]
+0	2	3	4	5	6	7	8	
+List of [5][5]
+0	2	3	4	5	0	7	
+List of [5][6]
+0	2	3	4	5	0	7	
+List of [5][7]
+0	2	3	4	5	0	7	
+List of [5][8]
+0	2	0	4	5	0	
+List of [6][0]
+1	2	3	4	0	6	7	8	
+List of [6][1]
+1	2	3	4	5	6	7	8	9	
+List of [6][2]
+0	2	3	4	5	6	7	
+List of [6][3]
+1	2	3	4	5	6	7	8	9	
+List of [6][4]
+1	2	3	4	5	0	7	8	
+List of [6][5]
+1	2	3	4	5	6	7	8	9	
+List of [6][6]
+1	2	3	4	5	6	7	8	9	
+List of [6][7]
+1	2	0	0	5	6	7	
+List of [6][8]
+1	2	3	0	5	6	7	8	
+List of [7][0]
+1	2	3	4	0	6	7	8	
+List of [7][1]
+1	2	3	4	5	6	7	8	
+List of [7][2]
+0	0	3	4	5	6	
+List of [7][3]
+1	0	3	4	5	6	
+List of [7][4]
+1	0	3	4	5	0	
+List of [7][5]
+1	0	3	4	5	6	
+List of [7][6]
+1	0	3	0	5	6	
+List of [7][7]
+1	0	0	4	5	6	
+List of [7][8]
+1	0	3	4	5	6	
+List of [8][0]
+1	2	3	4	0	6	7	8	
+List of [8][1]
+1	0	0	4	5	6	7	
+List of [8][2]
+0	2	0	4	5	
+List of [8][3]
+1	2	0	4	5	0	7	
+List of [8][4]
+1	2	0	4	5	0	7	
+List of [8][5]
+1	2	0	4	5	0	7	
+List of [8][6]
+1	2	0	0	5	0	
+List of [8][7]
+1	2	0	4	5	0	
+List of [8][8]
+1	2	0	4	5	0	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	7	8	9	
+List of [0][2]
+1	2	3	4	5	6	7	8	9	
+List of [0][3]
+1	2	3	4	5	6	7	8	9	
+List of [0][4]
+1	2	3	4	5	6	0	8	
+List of [0][5]
+1	2	3	4	5	6	0	8	
+List of [0][6]
+1	2	3	4	5	6	0	8	
+List of [0][7]
+1	2	3	4	5	6	0	8	
+List of [0][8]
+1	2	3	4	5	6	0	8	
+List of [1][0]
+1	2	3	4	5	6	7	8	9	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+0	2	3	4	5	6	7	8	
+List of [1][3]
+0	2	3	4	5	6	0	
+List of [1][4]
+0	2	0	4	5	6	7	
+List of [1][5]
+0	2	0	4	5	6	7	
+List of [1][6]
+0	2	0	4	5	6	7	
+List of [1][7]
+0	2	0	4	5	6	7	
+List of [1][8]
+0	2	0	4	5	6	7	
+List of [2][0]
+1	2	3	4	5	6	7	8	9	
+List of [2][1]
+0	2	3	4	5	6	7	8	
+List of [2][2]
+1	2	3	4	5	6	7	8	9	
+List of [2][3]
+1	2	0	4	5	6	0	
+List of [2][4]
+1	2	3	4	5	6	7	8	9	
+List of [2][5]
+1	2	3	4	5	6	7	8	9	
+List of [2][6]
+1	2	3	4	5	6	7	8	9	
+List of [2][7]
+1	2	3	4	5	6	7	8	9	
+List of [2][8]
+1	2	3	4	5	6	7	8	9	
+List of [3][0]
+1	2	3	4	5	6	7	8	9	
+List of [3][1]
+0	2	3	4	5	6	7	8	
+List of [3][2]
+1	2	3	4	5	6	7	8	9	
+List of [3][3]
+1	2	0	4	5	6	0	
+List of [3][4]
+1	2	3	4	5	6	7	8	9	
+List of [3][5]
+1	2	3	4	5	6	7	8	9	
+List of [3][6]
+1	2	3	4	5	6	7	8	9	
+List of [3][7]
+1	2	3	4	5	6	7	8	9	
+List of [3][8]
+1	2	3	4	5	6	7	8	9	
+List of [4][0]
+1	2	3	4	5	6	7	8	9	
+List of [4][1]
+0	2	3	4	5	6	7	8	
+List of [4][2]
+1	2	3	4	5	6	7	8	9	
+List of [4][3]
+1	2	0	4	5	6	0	
+List of [4][4]
+1	2	3	4	5	6	7	8	9	
+List of [4][5]
+1	2	3	4	5	6	7	8	9	
+List of [4][6]
+1	2	3	4	5	6	7	8	9	
+List of [4][7]
+1	2	3	4	5	6	7	8	9	
+List of [4][8]
+1	2	3	4	5	6	7	8	9	
+List of [5][0]
+1	2	3	4	5	6	7	8	9	
+List of [5][1]
+0	2	3	4	5	6	7	8	
+List of [5][2]
+1	2	3	4	5	6	7	8	9	
+List of [5][3]
+1	2	0	4	5	6	0	
+List of [5][4]
+1	2	3	4	5	6	7	8	9	
+List of [5][5]
+1	2	3	4	5	6	7	8	9	
+List of [5][6]
+1	2	3	4	5	6	7	8	9	
+List of [5][7]
+1	2	3	4	5	6	7	8	9	
+List of [5][8]
+1	2	3	4	5	6	7	8	9	
+List of [6][0]
+1	2	3	4	5	6	7	8	9	
+List of [6][1]
+0	2	3	4	5	6	7	8	
+List of [6][2]
+1	2	3	4	5	6	7	8	9	
+List of [6][3]
+1	2	0	4	5	6	0	
+List of [6][4]
+1	2	3	4	5	6	7	8	9	
+List of [6][5]
+1	2	3	4	5	6	7	8	9	
+List of [6][6]
+1	2	3	4	5	6	7	8	9	
+List of [6][7]
+1	2	3	4	5	6	7	8	9	
+List of [6][8]
+1	2	3	4	5	6	7	8	9	
+List of [7][0]
+1	2	3	4	5	6	7	8	9	
+List of [7][1]
+0	2	3	4	5	6	7	8	
+List of [7][2]
+1	2	3	4	5	6	7	8	9	
+List of [7][3]
+1	2	0	4	5	6	0	
+List of [7][4]
+1	2	3	4	5	6	7	8	9	
+List of [7][5]
+1	2	3	4	5	0	7	8	
+List of [7][6]
+1	2	3	4	5	0	7	8	
+List of [7][7]
+1	2	3	4	5	0	7	8	
+List of [7][8]
+1	2	3	4	5	0	7	8	
+List of [8][0]
+1	2	3	4	5	6	7	8	9	
+List of [8][1]
+0	2	3	4	5	6	7	8	
+List of [8][2]
+1	2	3	4	5	6	7	8	9	
+List of [8][3]
+1	2	0	4	5	6	0	
+List of [8][4]
+1	2	3	4	5	0	7	8	
+List of [8][5]
+1	2	3	4	5	6	7	8	9	
+List of [8][6]
+1	2	3	4	5	6	7	8	9	
+List of [8][7]
+1	2	3	4	5	6	7	8	9	
+List of [8][8]
+1	2	3	4	5	6	7	8	9	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	7	8	9	
+List of [0][2]
+1	2	3	4	5	6	7	8	9	
+List of [0][3]
+1	2	3	4	5	6	7	8	9	
+List of [0][4]
+1	2	3	4	5	6	7	8	9	
+List of [0][5]
+1	2	3	4	5	6	7	8	9	
+List of [0][6]
+1	2	3	4	5	6	7	8	9	
+List of [0][7]
+1	2	3	4	5	6	7	8	9	
+List of [0][8]
+1	2	3	4	5	6	7	8	9	
+List of [1][0]
+1	2	3	4	5	6	7	8	9	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	6	7	8	9	
+List of [1][3]
+1	2	3	4	5	6	7	8	9	
+List of [1][4]
+1	2	3	4	5	6	7	8	9	
+List of [1][5]
+1	2	3	4	5	6	7	8	9	
+List of [1][6]
+1	2	3	4	5	6	7	8	9	
+List of [1][7]
+1	2	3	4	5	6	7	8	9	
+List of [1][8]
+1	2	3	4	0	0	7	
+List of [2][0]
+1	2	3	4	5	6	7	8	9	
+List of [2][1]
+1	2	3	4	5	6	7	8	9	
+List of [2][2]
+1	2	3	4	5	0	7	8	
+List of [2][3]
+1	2	3	4	5	0	7	8	
+List of [2][4]
+1	0	3	4	5	0	7	
+List of [2][5]
+1	0	3	4	5	0	7	
+List of [2][6]
+1	0	3	4	5	0	7	
+List of [2][7]
+1	0	3	4	0	0	
+List of [2][8]
+1	0	3	4	5	0	
+List of [3][0]
+1	2	3	4	5	6	7	8	9	
+List of [3][1]
+1	2	3	4	5	0	7	8	
+List of [3][2]
+1	2	3	4	5	6	7	8	9	
+List of [3][3]
+1	0	3	4	5	6	7	8	
+List of [3][4]
+1	2	3	4	5	0	7	8	
+List of [3][5]
+1	2	3	4	0	0	7	
+List of [3][6]
+1	2	3	4	0	0	7	
+List of [3][7]
+1	2	3	4	0	0	7	
+List of [3][8]
+1	2	3	4	0	0	
+List of [4][0]
+1	2	3	4	5	6	7	8	9	
+List of [4][1]
+1	2	3	4	5	0	7	8	
+List of [4][2]
+1	2	3	4	5	6	7	8	9	
+List of [4][3]
+1	0	3	4	5	0	7	
+List of [4][4]
+1	2	3	4	0	6	7	8	
+List of [4][5]
+1	2	3	4	5	6	7	8	9	
+List of [4][6]
+1	2	3	4	5	6	7	8	9	
+List of [4][7]
+1	2	3	4	0	6	7	8	
+List of [4][8]
+1	2	3	4	5	0	7	
+List of [5][0]
+1	2	3	4	5	6	7	8	9	
+List of [5][1]
+1	2	3	4	5	0	7	8	
+List of [5][2]
+1	2	3	4	5	6	7	8	9	
+List of [5][3]
+1	0	3	4	5	0	7	
+List of [5][4]
+1	2	3	4	0	6	7	8	
+List of [5][5]
+1	2	3	4	5	6	7	8	9	
+List of [5][6]
+1	2	3	4	5	6	7	8	9	
+List of [5][7]
+1	2	3	4	0	6	7	8	
+List of [5][8]
+1	2	3	4	5	0	7	
+List of [6][0]
+1	2	3	4	5	6	7	8	9	
+List of [6][1]
+1	2	3	4	5	0	7	8	
+List of [6][2]
+1	2	3	4	5	6	7	8	9	
+List of [6][3]
+1	0	3	4	5	0	7	
+List of [6][4]
+1	2	3	4	0	6	7	8	
+List of [6][5]
+1	2	3	4	5	6	7	8	9	
+List of [6][6]
+1	2	3	4	5	6	7	8	9	
+List of [6][7]
+1	2	3	4	0	6	7	8	
+List of [6][8]
+1	2	3	4	5	0	7	
+List of [7][0]
+1	2	3	4	5	6	7	8	9	
+List of [7][1]
+1	2	3	4	5	0	7	8	
+List of [7][2]
+1	2	3	4	5	6	7	8	9	
+List of [7][3]
+1	0	3	4	5	0	7	
+List of [7][4]
+1	2	3	4	0	6	7	8	
+List of [7][5]
+1	2	3	4	5	6	7	8	9	
+List of [7][6]
+1	2	3	4	5	6	7	8	9	
+List of [7][7]
+1	2	3	4	0	6	7	8	
+List of [7][8]
+1	2	3	4	5	0	7	
+List of [8][0]
+1	2	3	4	5	6	7	8	9	
+List of [8][1]
+1	2	3	4	5	0	7	
+List of [8][2]
+1	2	3	4	5	6	7	0	
+List of [8][3]
+1	0	3	4	5	0	7	
+List of [8][4]
+1	2	3	4	0	6	7	
+List of [8][5]
+1	2	3	4	5	6	7	0	
+List of [8][6]
+1	2	3	4	5	0	7	
+List of [8][7]
+1	2	3	4	0	0	
+List of [8][8]
+1	2	3	4	5	0	7	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	7	8	9	
+List of [0][2]
+1	2	3	4	5	6	7	8	9	
+List of [0][3]
+1	2	3	4	5	6	7	8	9	
+List of [0][4]
+1	2	3	4	5	6	7	8	9	
+List of [0][5]
+1	2	3	4	5	6	7	8	9	
+List of [0][6]
+1	2	3	4	5	6	7	8	9	
+List of [0][7]
+1	2	3	4	5	6	7	8	9	
+List of [0][8]
+1	2	3	4	5	6	7	8	9	
+List of [1][0]
+1	2	3	4	5	6	7	8	9	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	6	7	8	9	
+List of [1][3]
+1	2	3	4	5	6	7	8	9	
+List of [1][4]
+1	2	3	4	5	6	7	8	9	
+List of [1][5]
+1	2	3	4	5	6	7	8	9	
+List of [1][6]
+1	2	3	4	5	6	7	8	9	
+List of [1][7]
+1	2	3	4	5	6	7	8	9	
+List of [1][8]
+1	2	3	4	5	6	7	8	9	
+List of [2][0]
+1	2	3	4	5	6	7	8	9	
+List of [2][1]
+1	2	3	4	5	6	7	8	9	
+List of [2][2]
+1	2	3	4	5	6	7	8	9	
+List of [2][3]
+1	2	3	4	5	6	7	8	9	
+List of [2][4]
+1	2	3	4	5	6	7	8	9	
+List of [2][5]
+1	2	3	4	5	6	7	8	9	
+List of [2][6]
+1	2	3	4	5	6	7	8	9	
+List of [2][7]
+1	2	3	4	5	6	7	8	9	
+List of [2][8]
+1	2	3	4	5	6	7	8	9	
+List of [3][0]
+1	2	3	4	5	6	7	8	9	
+List of [3][1]
+1	2	3	4	5	6	7	8	9	
+List of [3][2]
+1	2	3	4	5	6	7	8	9	
+List of [3][3]
+1	2	3	4	5	6	7	8	9	
+List of [3][4]
+1	2	3	4	5	6	7	8	9	
+List of [3][5]
+1	2	3	4	5	6	7	8	9	
+List of [3][6]
+1	2	3	4	5	6	7	8	9	
+List of [3][7]
+1	2	3	4	5	6	7	8	9	
+List of [3][8]
+1	2	3	4	5	6	7	8	9	
+List of [4][0]
+1	2	3	4	5	6	7	8	9	
+List of [4][1]
+1	2	3	4	5	6	7	8	9	
+List of [4][2]
+1	2	3	4	5	6	7	8	9	
+List of [4][3]
+1	2	3	4	5	6	7	8	9	
+List of [4][4]
+1	2	3	4	5	6	7	8	9	
+List of [4][5]
+1	2	3	4	5	6	7	8	9	
+List of [4][6]
+1	2	3	4	5	6	7	8	9	
+List of [4][7]
+1	2	3	4	5	6	7	8	9	
+List of [4][8]
+1	2	3	4	5	6	7	8	9	
+List of [5][0]
+1	2	3	4	5	6	7	8	9	
+List of [5][1]
+1	2	3	4	5	6	7	8	9	
+List of [5][2]
+1	2	3	4	5	6	7	8	9	
+List of [5][3]
+1	2	3	4	5	6	7	8	9	
+List of [5][4]
+1	2	3	4	5	6	7	8	9	
+List of [5][5]
+1	2	3	4	5	6	7	8	9	
+List of [5][6]
+1	2	3	4	5	6	7	8	9	
+List of [5][7]
+1	2	3	4	5	6	7	8	9	
+List of [5][8]
+1	2	3	4	5	6	7	8	9	
+List of [6][0]
+1	2	3	4	5	6	7	8	9	
+List of [6][1]
+1	2	3	4	5	6	7	8	9	
+List of [6][2]
+1	2	3	4	5	6	7	8	9	
+List of [6][3]
+1	2	3	4	5	6	7	8	9	
+List of [6][4]
+1	2	3	4	5	6	7	8	9	
+List of [6][5]
+1	2	3	4	5	6	7	8	
+List of [6][6]
+1	2	3	4	5	6	7	8	
+List of [6][7]
+1	2	3	4	5	6	7	8	
+List of [6][8]
+1	2	3	4	5	6	7	8	
+List of [7][0]
+1	2	3	4	5	6	7	8	9	
+List of [7][1]
+1	2	3	4	5	6	7	8	9	
+List of [7][2]
+1	2	3	4	5	6	7	8	9	
+List of [7][3]
+1	2	3	4	5	6	7	8	9	
+List of [7][4]
+1	2	3	0	5	6	7	
+List of [7][5]
+1	2	3	0	5	6	7	8	
+List of [7][6]
+1	2	3	0	5	6	7	8	
+List of [7][7]
+1	2	3	0	5	6	7	8	
+List of [7][8]
+1	2	3	0	5	6	7	8	
+List of [8][0]
+1	2	3	4	5	6	7	8	9	
+List of [8][1]
+1	2	3	4	5	6	7	8	9	
+List of [8][2]
+1	2	3	4	5	6	7	8	9	
+List of [8][3]
+1	2	3	0	5	6	7	8	
+List of [8][4]
+1	0	3	4	5	6	7	
+List of [8][5]
+1	0	3	4	5	6	7	8	
+List of [8][6]
+1	0	3	4	5	6	7	8	
+List of [8][7]
+1	0	3	4	5	6	7	8	
+List of [8][8]
+1	0	3	4	5	6	7	8	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	7	8	9	
+List of [0][2]
+1	2	3	4	5	6	7	8	9	
+List of [0][3]
+1	2	3	4	5	6	7	8	9	
+List of [0][4]
+1	2	3	4	5	6	7	8	9	
+List of [0][5]
+1	2	3	4	5	6	7	8	9	
+List of [0][6]
+1	2	3	4	5	6	7	8	9	
+List of [0][7]
+1	2	3	4	5	6	7	8	9	
+List of [0][8]
+1	2	3	4	5	6	7	8	9	
+List of [1][0]
+1	2	3	4	5	6	7	8	9	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	6	7	8	9	
+List of [1][3]
+1	2	3	4	5	6	0	8	
+List of [1][4]
+1	2	3	4	5	6	0	8	
+List of [1][5]
+1	2	3	4	5	6	0	8	
+List of [1][6]
+1	2	3	4	5	6	0	8	
+List of [1][7]
+1	2	3	4	5	6	0	8	
+List of [1][8]
+1	2	3	4	5	6	0	8	
+List of [2][0]
+1	2	3	4	5	6	7	8	9	
+List of [2][1]
+1	2	3	4	5	6	7	8	9	
+List of [2][2]
+1	2	3	0	5	6	0	
+List of [2][3]
+1	2	3	0	5	6	7	8	
+List of [2][4]
+1	2	3	0	5	6	7	8	
+List of [2][5]
+1	2	3	0	5	6	7	8	
+List of [2][6]
+1	2	3	0	5	6	7	8	
+List of [2][7]
+1	2	3	0	5	6	7	8	
+List of [2][8]
+1	2	3	0	5	6	7	8	
+List of [3][0]
+1	2	3	4	5	6	7	8	9	
+List of [3][1]
+1	2	3	0	5	6	7	8	
+List of [3][2]
+1	2	3	4	0	6	0	
+List of [3][3]
+1	2	3	4	0	6	7	8	
+List of [3][4]
+1	2	3	4	0	6	7	8	
+List of [3][5]
+1	2	3	4	0	6	7	8	
+List of [3][6]
+1	2	3	4	0	6	7	8	
+List of [3][7]
+1	2	3	4	0	6	7	8	
+List of [3][8]
+1	2	3	4	0	6	7	8	
+List of [4][0]
+1	2	3	4	5	6	7	8	9	
+List of [4][1]
+1	2	3	0	0	6	7	
+List of [4][2]
+1	2	3	4	5	6	0	8	
+List of [4][3]
+1	2	3	4	5	6	7	8	9	
+List of [4][4]
+1	2	0	4	5	6	7	8	
+List of [4][5]
+1	2	0	4	5	6	7	
+List of [4][6]
+0	2	0	4	5	6	7	
+List of [4][7]
+0	2	0	4	5	6	7	
+List of [4][8]
+0	2	0	4	5	6	7	
+List of [5][0]
+1	2	3	4	5	6	7	8	9	
+List of [5][1]
+1	2	3	0	0	6	7	
+List of [5][2]
+1	2	3	4	5	6	0	8	
+List of [5][3]
+1	2	0	4	5	6	7	8	
+List of [5][4]
+1	2	3	4	5	6	7	8	9	
+List of [5][5]
+0	2	3	4	5	6	7	
+List of [5][6]
+1	2	0	4	5	6	7	8	
+List of [5][7]
+1	2	0	4	5	6	7	8	
+List of [5][8]
+1	2	0	4	5	6	7	8	
+List of [6][0]
+1	2	3	4	5	6	7	8	9	
+List of [6][1]
+1	2	3	0	0	6	7	
+List of [6][2]
+1	2	3	4	5	6	0	8	
+List of [6][3]
+1	2	0	4	5	6	7	8	
+List of [6][4]
+1	2	3	4	5	6	7	8	9	
+List of [6][5]
+0	2	0	4	5	6	
+List of [6][6]
+1	2	3	4	5	6	7	8	9	
+List of [6][7]
+1	2	3	4	5	6	7	8	9	
+List of [6][8]
+1	2	3	4	5	6	7	8	9	
+List of [7][0]
+1	2	3	4	5	6	7	8	9	
+List of [7][1]
+1	2	3	0	0	6	7	
+List of [7][2]
+1	2	3	4	5	6	0	8	
+List of [7][3]
+1	2	0	4	5	6	7	8	
+List of [7][4]
+1	2	3	4	5	6	7	8	9	
+List of [7][5]
+0	2	0	4	5	6	
+List of [7][6]
+1	2	3	4	5	6	7	8	9	
+List of [7][7]
+1	2	3	4	5	6	7	8	9	
+List of [7][8]
+1	2	3	4	5	6	7	8	9	
+List of [8][0]
+1	2	3	4	5	6	7	8	9	
+List of [8][1]
+0	2	3	0	0	6	
+List of [8][2]
+0	2	3	4	5	6	0	
+List of [8][3]
+0	2	0	4	5	6	7	
+List of [8][4]
+0	2	3	4	5	6	7	8	
+List of [8][5]
+0	2	0	4	5	6	
+List of [8][6]
+0	2	3	4	5	6	7	8	
+List of [8][7]
+0	2	3	4	5	6	7	8	
+List of [8][8]
+0	2	3	0	5	6	7	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	7	8	9	
+List of [0][2]
+1	2	3	4	5	6	7	8	9	
+List of [0][3]
+1	2	3	4	5	6	7	8	9	
+List of [0][4]
+1	0	3	4	5	6	7	8	
+List of [0][5]
+1	0	3	4	5	6	7	8	
+List of [0][6]
+1	0	0	4	5	6	7	
+List of [0][7]
+1	0	0	4	5	6	7	
+List of [0][8]
+1	0	0	4	5	6	7	
+List of [1][0]
+1	2	3	4	5	6	7	8	9	
+List of [1][1]
+1	2	3	4	5	6	0	8	
+List of [1][2]
+1	2	3	4	5	6	0	8	
+List of [1][3]
+1	0	3	4	5	6	0	
+List of [1][4]
+1	2	3	4	5	6	0	8	
+List of [1][5]
+1	2	0	4	5	6	0	
+List of [1][6]
+1	2	3	4	5	6	0	8	
+List of [1][7]
+1	2	3	4	5	6	0	8	
+List of [1][8]
+1	2	3	4	5	6	0	8	
+List of [2][0]
+1	2	3	4	5	6	0	8	
+List of [2][1]
+1	2	3	4	5	6	7	8	9	
+List of [2][2]
+1	2	3	4	5	6	7	8	9	
+List of [2][3]
+1	0	3	4	5	6	7	8	
+List of [2][4]
+1	2	3	4	5	6	7	8	9	
+List of [2][5]
+1	2	0	4	5	6	7	8	
+List of [2][6]
+1	2	3	4	5	6	7	8	9	
+List of [2][7]
+1	2	3	4	5	6	7	8	9	
+List of [2][8]
+1	2	3	4	5	6	7	8	9	
+List of [3][0]
+1	2	3	4	5	6	0	8	
+List of [3][1]
+1	2	3	4	5	6	7	8	9	
+List of [3][2]
+1	2	3	4	5	6	7	8	9	
+List of [3][3]
+1	0	3	4	5	6	7	8	
+List of [3][4]
+1	2	3	4	5	6	7	8	9	
+List of [3][5]
+1	2	0	4	5	6	7	8	
+List of [3][6]
+1	2	3	4	5	6	7	8	9	
+List of [3][7]
+1	2	3	4	0	6	7	8	
+List of [3][8]
+1	2	3	4	0	6	0	
+List of [4][0]
+1	2	3	4	5	6	0	8	
+List of [4][1]
+1	2	3	4	5	0	7	8	
+List of [4][2]
+1	2	3	4	5	0	7	8	
+List of [4][3]
+1	0	3	4	5	0	7	
+List of [4][4]
+1	2	3	4	5	0	7	8	
+List of [4][5]
+1	2	0	4	5	0	7	
+List of [4][6]
+1	2	3	4	0	0	7	
+List of [4][7]
+1	2	3	4	5	0	7	8	
+List of [4][8]
+1	2	3	4	5	0	0	
+List of [5][0]
+1	2	3	4	5	0	0	
+List of [5][1]
+1	2	3	4	5	6	7	8	9	
+List of [5][2]
+1	2	3	4	5	6	7	8	9	
+List of [5][3]
+1	0	3	4	0	6	7	
+List of [5][4]
+1	2	3	4	0	6	7	8	
+List of [5][5]
+1	2	0	4	0	6	7	
+List of [5][6]
+1	2	3	4	0	6	7	8	
+List of [5][7]
+1	2	3	4	0	6	7	8	
+List of [5][8]
+1	2	3	4	0	6	0	
+List of [6][0]
+1	2	3	4	5	0	0	
+List of [6][1]
+1	2	3	4	5	6	7	8	9	
+List of [6][2]
+1	2	3	0	0	6	7	
+List of [6][3]
+1	0	3	0	5	6	7	
+List of [6][4]
+1	2	3	0	5	6	7	8	
+List of [6][5]
+1	2	0	0	5	6	7	
+List of [6][6]
+1	2	3	0	0	6	7	
+List of [6][7]
+1	2	3	0	5	6	7	8	
+List of [6][8]
+1	2	3	0	5	6	0	
+List of [7][0]
+1	2	3	4	5	0	0	
+List of [7][1]
+1	2	3	0	5	6	7	8	
+List of [7][2]
+1	2	3	4	0	6	7	8	
+List of [7][3]
+1	0	3	4	5	6	7	8	
+List of [7][4]
+1	2	3	4	0	6	7	8	
+List of [7][5]
+1	2	0	4	0	6	7	
+List of [7][6]
+1	2	3	4	0	6	7	
+List of [7][7]
+1	2	3	4	0	6	7	
+List of [7][8]
+1	2	3	4	0	6	0	
+List of [8][0]
+1	2	3	4	5	0	0	
+List of [8][1]
+1	2	3	0	5	6	7	8	
+List of [8][2]
+1	2	3	4	0	6	7	8	
+List of [8][3]
+1	0	3	4	0	6	7	
+List of [8][4]
+1	2	3	4	5	6	7	8	9	
+List of [8][5]
+1	2	0	4	5	6	7	
+List of [8][6]
+1	2	3	4	0	6	7	8	
+List of [8][7]
+1	2	3	4	5	6	7	8	9	
+List of [8][8]
+1	2	3	4	5	6	0	8	
+List of [0][0]
+1	2	3	4	5	6	7	8	9	
+List of [0][1]
+1	2	3	4	5	6	7	8	9	
+List of [0][2]
+1	2	3	4	5	6	7	8	9	
+List of [0][3]
+1	2	3	4	5	6	7	8	9	
+List of [0][4]
+1	2	3	4	5	6	7	8	9	
+List of [0][5]
+1	2	3	4	5	6	7	8	9	
+List of [0][6]
+1	2	3	4	5	6	7	8	9	
+List of [0][7]
+1	2	3	4	5	6	7	8	9	
+List of [0][8]
+1	2	3	4	5	6	7	8	9	
+List of [1][0]
+1	2	3	4	5	6	7	8	9	
+List of [1][1]
+1	2	3	4	5	6	7	8	9	
+List of [1][2]
+1	2	3	4	5	6	7	8	9	
+List of [1][3]
+1	2	3	4	5	6	7	8	9	
+List of [1][4]
+1	2	3	4	5	6	7	8	9	
+List of [1][5]
+1	2	3	4	5	6	7	8	9	
+List of [1][6]
+1	2	3	4	5	6	7	8	9	
+List of [1][7]
+1	2	3	4	5	6	7	8	9	
+List of [1][8]
+1	2	3	4	5	6	7	8	9	
+List of [2][0]
+1	2	3	4	5	6	7	8	9	
+List of [2][1]
+1	2	3	4	5	6	7	8	9	
+List of [2][2]
+1	2	3	4	5	6	7	8	9	
+List of [2][3]
+1	2	3	4	5	6	7	8	9	
+List of [2][4]
+1	2	3	4	5	6	7	8	9	
+List of [2][5]
+1	2	3	4	5	6	7	8	9	
+List of [2][6]
+1	2	3	4	5	6	7	8	9	
+List of [2][7]
+1	2	3	4	5	6	7	8	9	
+List of [2][8]
+0	2	3	4	5	6	7	8	
+List of [3][0]
+1	2	3	4	5	6	7	8	9	
+List of [3][1]
+1	2	3	4	5	6	7	8	9	
+List of [3][2]
+1	2	3	4	5	6	7	8	9	
+List of [3][3]
+1	2	3	0	5	6	7	8	
+List of [3][4]
+1	2	3	0	5	6	7	8	
+List of [3][5]
+1	2	3	0	5	6	7	8	
+List of [3][6]
+1	2	3	0	5	6	7	8	
+List of [3][7]
+0	2	3	0	5	6	7	
+List of [3][8]
+1	2	3	0	5	6	7	8	
+List of [4][0]
+1	2	3	4	5	6	7	8	9	
+List of [4][1]
+1	2	0	4	5	6	7	8	
+List of [4][2]
+1	2	0	0	5	6	7	
+List of [4][3]
+1	2	0	4	5	6	7	
+List of [4][4]
+1	2	0	4	0	6	
+List of [4][5]
+1	2	0	4	0	6	
+List of [4][6]
+1	2	0	4	0	6	
+List of [4][7]
+0	2	0	4	0	6	
+List of [4][8]
+1	2	0	4	0	6	
+List of [5][0]
+1	2	0	4	5	6	7	8	
+List of [5][1]
+1	2	3	4	5	6	7	0	
+List of [5][2]
+1	2	0	0	5	6	7	
+List of [5][3]
+1	2	0	4	0	6	7	
+List of [5][4]
+1	2	0	4	5	6	7	8	
+List of [5][5]
+1	2	0	4	5	6	7	8	
+List of [5][6]
+1	2	0	4	5	6	7	8	
+List of [5][7]
+0	2	0	4	5	6	7	
+List of [5][8]
+1	2	0	4	5	6	7	8	
+List of [6][0]
+1	2	0	4	5	6	7	8	
+List of [6][1]
+1	2	0	4	5	6	7	
+List of [6][2]
+1	2	3	0	5	6	7	
+List of [6][3]
+1	2	3	4	0	6	7	
+List of [6][4]
+1	2	0	4	5	6	7	
+List of [6][5]
+1	2	0	4	5	6	7	
+List of [6][6]
+1	2	0	4	5	6	7	
+List of [6][7]
+0	2	0	4	5	6	
+List of [6][8]
+1	2	0	4	5	6	7	
+List of [7][0]
+1	2	0	4	5	6	7	
+List of [7][1]
+1	2	0	4	5	6	7	
+List of [7][2]
+1	2	3	0	5	6	7	8	
+List of [7][3]
+1	2	0	4	0	6	7	
+List of [7][4]
+1	2	3	4	5	6	0	8	
+List of [7][5]
+1	2	3	4	5	6	0	8	
+List of [7][6]
+1	2	3	4	5	6	0	8	
+List of [7][7]
+0	2	3	4	5	6	0	
+List of [7][8]
+1	2	3	4	5	6	0	8	
+List of [8][0]
+1	2	0	4	5	6	7	
+List of [8][1]
+1	2	0	4	5	6	7	
+List of [8][2]
+1	2	3	0	5	6	7	8	
+List of [8][3]
+1	2	0	0	0	
+List of [8][4]
+1	2	3	0	0	6	7	
+List of [8][5]
+1	2	3	0	0	6	7	
+List of [8][6]
+1	2	3	0	0	6	7	
+List of [8][7]
+0	2	3	0	0	6	
+List of [8][8]
+1	2	3	0	0	6	7	
 ::: Board 1
 Took 248 calls
 [3][2][1][4]
@@ -336,8 +9656,8 @@ Took 1360 calls
 [6][4][5][1][2][3]
 
 ::: Board 43
-Took 1000068 calls.
-NO SOLUTION!
+Overflow! :: 1000068 calls.
+Can't solve this board!
 
 ::: Board 44
 Took 765218 calls
@@ -385,12 +9705,12 @@ Took 6047 calls
 [6][2][5][3][1][4]
 
 ::: Board 49
-Took 1000111 calls.
-NO SOLUTION!
+Overflow! :: 1000111 calls.
+Can't solve this board!
 
 ::: Board 50
-Took 1000076 calls.
-NO SOLUTION!
+Overflow! :: 1000076 calls.
+Can't solve this board!
 
 ::: Board 51
 Took 23602 calls
@@ -403,16 +9723,16 @@ Took 23602 calls
 [4][6][5][1][3][7][2]
 
 ::: Board 52
-Took 1000097 calls.
-NO SOLUTION!
+Overflow! :: 1000097 calls.
+Can't solve this board!
 
 ::: Board 53
-Took 1000097 calls.
-NO SOLUTION!
+Overflow! :: 1000097 calls.
+Can't solve this board!
 
 ::: Board 54
-Took 1000062 calls.
-NO SOLUTION!
+Overflow! :: 1000062 calls.
+Can't solve this board!
 
 ::: Board 55
 Took 5983 calls
@@ -465,8 +9785,8 @@ Took 59376 calls
 [7][5][6][4][1][3][2]
 
 ::: Board 60
-Took 1000090 calls.
-NO SOLUTION!
+Overflow! :: 1000090 calls.
+Can't solve this board!
 
 ::: Board 61
 Took 3070 calls
@@ -479,8 +9799,8 @@ Took 3070 calls
 [6][5][4][2][3][7][1]
 
 ::: Board 62
-Took 1000069 calls.
-NO SOLUTION!
+Overflow! :: 1000069 calls.
+Can't solve this board!
 
 ::: Board 63
 Took 1183 calls
@@ -503,20 +9823,20 @@ Took 7253 calls
 [6][7][4][5][3][2][1]
 
 ::: Board 65
-Took 1000144 calls.
-NO SOLUTION!
+Overflow! :: 1000144 calls.
+Can't solve this board!
 
 ::: Board 66
-Took 1000056 calls.
-NO SOLUTION!
+Overflow! :: 1000056 calls.
+Can't solve this board!
 
 ::: Board 67
-Took 1000080 calls.
-NO SOLUTION!
+Overflow! :: 1000080 calls.
+Can't solve this board!
 
 ::: Board 68
-Took 1000128 calls.
-NO SOLUTION!
+Overflow! :: 1000128 calls.
+Can't solve this board!
 
 ::: Board 69
 Took 4105 calls
@@ -530,16 +9850,16 @@ Took 4105 calls
 [8][3][7][6][4][5][2][1]
 
 ::: Board 70
-Took 1000136 calls.
-NO SOLUTION!
+Overflow! :: 1000136 calls.
+Can't solve this board!
 
 ::: Board 71
-Took 1000136 calls.
-NO SOLUTION!
+Overflow! :: 1000136 calls.
+Can't solve this board!
 
 ::: Board 72
-Took 1000144 calls.
-NO SOLUTION!
+Overflow! :: 1000144 calls.
+Can't solve this board!
 
 ::: Board 73
 Took 51108 calls
@@ -553,20 +9873,20 @@ Took 51108 calls
 [5][6][8][7][3][1][4][2]
 
 ::: Board 74
-Took 1000104 calls.
-NO SOLUTION!
+Overflow! :: 1000104 calls.
+Can't solve this board!
 
 ::: Board 75
-Took 1000168 calls.
-NO SOLUTION!
+Overflow! :: 1000168 calls.
+Can't solve this board!
 
 ::: Board 76
-Took 1000168 calls.
-NO SOLUTION!
+Overflow! :: 1000168 calls.
+Can't solve this board!
 
 ::: Board 77
-Took 1000176 calls.
-NO SOLUTION!
+Overflow! :: 1000176 calls.
+Can't solve this board!
 
 ::: Board 78
 Took 75409 calls
@@ -580,16 +9900,16 @@ Took 75409 calls
 [8][6][7][5][3][2][1][4]
 
 ::: Board 79
-Took 1000184 calls.
-NO SOLUTION!
+Overflow! :: 1000184 calls.
+Can't solve this board!
 
 ::: Board 80
-Took 1000144 calls.
-NO SOLUTION!
+Overflow! :: 1000144 calls.
+Can't solve this board!
 
 ::: Board 81
-Took 1000161 calls.
-NO SOLUTION!
+Overflow! :: 1000161 calls.
+Can't solve this board!
 
 ::: Board 82
 Took 287257 calls
@@ -604,16 +9924,16 @@ Took 287257 calls
 [7][6][3][2][8][9][4][5][1]
 
 ::: Board 83
-Took 1000233 calls.
-NO SOLUTION!
+Overflow! :: 1000233 calls.
+Can't solve this board!
 
 ::: Board 84
-Took 1000197 calls.
-NO SOLUTION!
+Overflow! :: 1000197 calls.
+Can't solve this board!
 
 ::: Board 85
-Took 1000188 calls.
-NO SOLUTION!
+Overflow! :: 1000188 calls.
+Can't solve this board!
 
 ::: Board 86
 Took 28790 calls
@@ -628,36 +9948,36 @@ Took 28790 calls
 [9][7][8][6][5][4][3][1][2]
 
 ::: Board 87
-Took 1000206 calls.
-NO SOLUTION!
+Overflow! :: 1000206 calls.
+Can't solve this board!
 
 ::: Board 88
-Took 1000278 calls.
-NO SOLUTION!
+Overflow! :: 1000278 calls.
+Can't solve this board!
 
 ::: Board 89
-Took 1000215 calls.
-NO SOLUTION!
+Overflow! :: 1000215 calls.
+Can't solve this board!
 
 ::: Board 90
-Took 1000179 calls.
-NO SOLUTION!
+Overflow! :: 1000179 calls.
+Can't solve this board!
 
 ::: Board 91
-Took 1000125 calls.
-NO SOLUTION!
+Overflow! :: 1000125 calls.
+Can't solve this board!
 
 ::: Board 92
-Took 1000107 calls.
-NO SOLUTION!
+Overflow! :: 1000107 calls.
+Can't solve this board!
 
 ::: Board 93
-Took 1000125 calls.
-NO SOLUTION!
+Overflow! :: 1000125 calls.
+Can't solve this board!
 
 ::: Board 94
-Took 1000116 calls.
-NO SOLUTION!
+Overflow! :: 1000116 calls.
+Can't solve this board!
 
 ::: Board 95
 Took 193411 calls
@@ -672,22 +9992,22 @@ Took 193411 calls
 [8][9][6][4][5][2][7][1][3]
 
 ::: Board 96
-Took 1000215 calls.
-NO SOLUTION!
+Overflow! :: 1000215 calls.
+Can't solve this board!
 
 ::: Board 97
-Took 1000152 calls.
-NO SOLUTION!
+Overflow! :: 1000152 calls.
+Can't solve this board!
 
 ::: Board 98
-Took 1000134 calls.
-NO SOLUTION!
+Overflow! :: 1000134 calls.
+Can't solve this board!
 
 ::: Board 99
-Took 1000125 calls.
-NO SOLUTION!
+Overflow! :: 1000125 calls.
+Can't solve this board!
 
 ::: Board 100
-Took 1000116 calls.
-NO SOLUTION!
+Overflow! :: 1000116 calls.
+Can't solve this board!
 

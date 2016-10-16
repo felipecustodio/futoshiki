@@ -5,8 +5,11 @@
 
 typedef struct list {
 
+    // possible values
     int* vector;
+    // number of possible values
     int size;
+    // vector size is always board size
 
 } LIST;
 
@@ -35,32 +38,40 @@ typedef struct board {
 /*
 * list functions
 */
-
-LIST* initList(LIST* list) {
-    list->vector = NULL;
-    list->size = 0;
-    return list;
-}
-
-LIST* remove(LIST* list, int value) {
+LIST* initList(LIST* list, int n) {
     int i;
-    int aux;
-    while (aux != value) {
-        aux = list->vector[i];
-        i++;
+    list = (LIST*)malloc(sizeof(LIST));
+    // list has n members
+    list->vector = (int*)malloc(sizeof(int) * n);
+    // add possible values to list
+    for (i = 0; i < n; i++) {
+        list->vector[i] = i + 1;
     }
-    list->vector[i] = 0;
+    list->size = n;
     return list;
 }
 
-LIST* add(LIST* list, int value) {
-    int i = 0;
-    int aux = -1;
-    while (aux != 0) {
-        aux = list->vector[i];
-        i++;
+LIST* listRemove(LIST* list, int value) {
+    int i;
+    for (i = 0; i < list->size; i++) {
+        if (list->vector[i] == value) {
+            list->vector[i] = 0;
+            list->size--;
+            break;
+        }
     }
-    list->vector[i] = value;
+    return list;
+}
+
+LIST* listAdd(LIST* list, int value) {
+    int i;
+    for (i = 0; i < list->size; i++) {
+        if (list->vector[i] == 0) {
+            list->vector[i] = value;
+            list->size++;
+            break;
+        }
+    }
     return list;
 }
 
@@ -89,9 +100,26 @@ BOARD* initBoard(int n) {
             board->matrix[i][j].r = 0;
             board->matrix[i][j].restrictions = NULL;
             board->matrix[i][j].filled = FALSE;
+            board->matrix[i][j].fw = initList(board->matrix[i][j].fw, n);
         }
     }
     return board;
+}
+
+BOARD* updateLists(BOARD* b, int x, int y, int value) {
+    int i;
+    // remove current value from cells that conflict with current cell
+    for (i = 0; i < b->n; i++) {
+        // check horizontally
+        if (i != y) {
+            b->matrix[x][i].fw = listRemove(b->matrix[x][i].fw, value);
+        }
+        // check vertically
+        if (i != x) {
+            b->matrix[i][y].fw = listRemove(b->matrix[i][y].fw, value);
+        }
+    }
+    return b;
 }
 
 // TODO: This is probably very wrong
@@ -99,25 +127,79 @@ BOARD* destroyBoard(BOARD* board) {
     int i, j, k;
     int aux;
     for (i = 0; i < board->n; i++) {
-        // percorrer colunas
+        // free columns (cells)
         for (j = 0; j < board->n; j++) {
-            // liberar restrictions de [i][j]
+            // free restriction list for current cell
             aux = board->matrix[i][j].r;
-            for(k = 0; k < aux; k++) {
+            for (k = 0; k < aux; k++) {
                 free(board->matrix[i][j].restrictions[k]);
                 board->matrix[i][j].restrictions[k] = NULL;
             }
             free(board->matrix[i][j].restrictions);
             board->matrix[i][j].restrictions = NULL;
         }
+        // free line
         free(board->matrix[i]);
         board->matrix[i] = NULL;
     }
+    // free board
     free(board->matrix);
     board->matrix = NULL;
     free(board);
     board = NULL;
     return board;
+}
+
+// READ BOARDS
+BOARD** readBoards(int n) {
+    int i, j, k;
+    BOARD** b = NULL;
+    // board dimensions, number of restrictions
+    int d, r;
+    // restriction coordinates
+    int x1, y1, x2, y2;
+
+    b = (BOARD**)malloc(sizeof(BOARD*) * n);
+    for (i = 0; i < n; i++) {
+        // get size of board
+        scanf("%d", &d);
+        // allocate memory for new board
+        b[i] = initBoard(d);
+        // get number of restrictions
+        scanf("%d", &r);
+
+        // read board
+        for (j = 0; j < d; j++) {
+            for (k = 0; k < d; k++) {
+                // read current value
+                scanf("%d", &(b[i]->matrix[j][k].value));
+                // checks if value is predefined
+                if (b[i]->matrix[j][k].value != 0) {
+                    // if value is predefined, we need to update the forward checking lists
+                    b[i]->matrix[j][k].filled = TRUE;
+                    // update FW lists for this column and line
+                    b[i] = updateLists(b[i], j, k, b[i]->matrix[j][k].value);
+                }
+            }
+        }
+
+        // read restrictions
+        for (j = 0; j < r; j++) {
+            // get restriction coordinates
+            scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
+            // add more restrictions for current position
+            b[i]->matrix[x1-1][y1-1].restrictions = (int**)realloc(b[i]->matrix[x1-1][y1-1].restrictions, sizeof(int*) * b[i]->matrix[x1-1][y1-1].r + 1);
+            // allocate memory for x,y coordinates
+            b[i]->matrix[x1-1][y1-1].restrictions[b[i]->matrix[x1-1][y1-1].r] = (int*)malloc(sizeof(int) * 2);
+            // update coordinates to indices
+            b[i]->matrix[x1-1][y1-1].restrictions[b[i]->matrix[x1-1][y1-1].r][0] = x2-1;
+            b[i]->matrix[x1-1][y1-1].restrictions[b[i]->matrix[x1-1][y1-1].r][1] = y2-1;
+            // increase number of restrictions
+            b[i]->matrix[x1-1][y1-1].r += 1;
+        }
+    }
+    // all boards read successfully
+    return b;
 }
 
 /*
@@ -204,49 +286,58 @@ bool futoshiki_simple(BOARD** b, int x, int y, int* calls) {
     return FALSE;
 }
 
-// Backtrack with MRV
-
 // Backtrack with Forward Checking
-
-// Backtrack with Minimal Conflicts
-
-// READ BOARDS
-BOARD** readBoards(int n) {
-    int i, j, k;
-    BOARD** b = NULL;
-    int d, r;
-    int x1, y1, x2, y2;
-
-    b = (BOARD**)malloc(sizeof(BOARD*) * n);
-    for (i = 0; i < n; i++) {
-        // get size of board
-        scanf("%d", &d);
-        // allocate memory for new board
-        b[i] = initBoard(d);
-        // get number of restrictions
-        scanf("%d", &r);
-        // read board
-        for (j = 0; j < d; j++) {
-            for (k = 0; k < d; k++) {
-                scanf("%d", &(b[i]->matrix[j][k].value));
-                if (b[i]->matrix[j][k].value != 0) {
-                    b[i]->matrix[j][k].filled = TRUE;
+bool futoshiki_fw(BOARD** b, int x, int y, int* calls) {
+    int i;
+    // check if recursive calls reached overflow
+    if (*calls >= OVERFLOW) {
+        return FALSE;
+    }
+    // check if has reached end of board
+    if (x >= (*b)->n || y >= (*b)->n) {
+        return TRUE;
+    }
+    // try possible values
+    for (i = 1; i <= (*b)->n; i++) {
+        // check if cell is occupied
+        if ((*b)->matrix[x][y].value == 0) {
+            // don't change pre-filled values
+            if (!((*b)->matrix[x][y].filled)) {
+                (*b)->matrix[x][y].value = i;
+                (*calls)++;
+            }
+        }
+        // check if value isn't already used
+        if (isValid(*b, x, y)) {
+            // checks if reached last column
+            if (y == (*b)->n-1) {
+                // goes to next line
+                if (futoshiki_simple(b, x+1, 0, calls)) {
+                    // placement was successful
+                    return TRUE;
+                }
+            } else {
+                // goes to next column
+                if (futoshiki_simple(b, x, y+1, calls)) {
+                    // placement was sucessful
+                    return TRUE;
                 }
             }
         }
-        // read restrictions
-        for (j = 0; j < r; j++) {
-            scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
-            b[i]->matrix[x1-1][y1-1].restrictions = (int**)realloc(b[i]->matrix[x1-1][y1-1].restrictions, sizeof(int*) * b[i]->matrix[x1-1][y1-1].r + 1);
-            b[i]->matrix[x1-1][y1-1].restrictions[b[i]->matrix[x1-1][y1-1].r] = (int*)malloc(sizeof(int) * 2);
-            b[i]->matrix[x1-1][y1-1].restrictions[b[i]->matrix[x1-1][y1-1].r][0] = x2-1;
-            b[i]->matrix[x1-1][y1-1].restrictions[b[i]->matrix[x1-1][y1-1].r][1] = y2-1;
-            b[i]->matrix[x1-1][y1-1].r += 1;
+        // reset current value
+        // don't change pre-filled values
+        if (!((*b)->matrix[x][y].filled)) {
+            (*b)->matrix[x][y].value = 0;
         }
-        // malloc na lista de forward checking de tamanho b[i]->n
-        // colocar n valores na lista
     }
-    return b;
+    // none of the placements were successful
+    // something must be wrong, backtrack
+    return FALSE;
+}
+
+// Backtrack with Forward Checking + Minimal Remaining Values
+bool futoshiki(BOARD** b, int x, int y) {
+    return FALSE;
 }
 
 int main(int argc, char const *argv[]) {
@@ -272,16 +363,29 @@ int main(int argc, char const *argv[]) {
         printf("\n");
     }
 
-    for (i = 0; i < n; i++) {
-        printf("Liberando tabuleiro #%d\n", i);
-        boards[i] = destroyBoard(boards[i]);
-        if (boards[i] == NULL) {
-            printf("Liberado\n");
-        } else {
-            printf("Não liberado\n");
-        }
-    }
-    free(boards);
+    // // DESTROY MEMORY
+    // int j, k;
+    // for (i = 0; i < n; i++) {
+    //     int aux;
+    //     for (i = 0; i < boards[i]->n; i++) {
+    //         for (j = 0; j < boards[i]->n; j++) {
+    //             aux = boards[i]->matrix[i][j].r;
+    //             for(k = 0; k < aux; k++) {
+    //                 free(boards[i]->matrix[i][j].restrictions[k]);
+    //                 boards[i]->matrix[i][j].restrictions[k] = NULL;
+    //             }
+    //             free(boards[i]->matrix[i][j].restrictions);
+    //             boards[i]->matrix[i][j].restrictions = NULL;
+    //         }
+    //         free(boards[i]->matrix[i]);
+    //         boards[i]->matrix[i] = NULL;
+    //     }
+    //     free(boards[i]->matrix);
+    //     boards[i]->matrix = NULL;
+    //     free(boards[i]);
+    //     boards[i] = NULL;
+    // }
+    // free(boards);
 
     return 0;
 }
