@@ -1,0 +1,8 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 63.66      1.15     1.15                             isValid
+ 34.88      1.78     0.63                             futoshiki_simple
+  1.11      1.80     0.02                             destroyBoard

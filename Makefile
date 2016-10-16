@@ -14,7 +14,7 @@ clear:
 	clear
 
 compile: futoshiki.o
-	$(CC) -g -o $(BINARY) futoshiki.o
+	$(CC) -pg -o $(BINARY) futoshiki.o
 
 futoshiki.o:
 	$(CC) -c -I $(INCLUDES) ./src/futoshiki.c

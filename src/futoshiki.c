@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #include "globals.h"
 
 typedef struct cell {
@@ -192,6 +193,7 @@ BOARD** readBoards(int n) {
 }
 
 int main(int argc, char const *argv[]) {
+
     printf("\tFUTOSHIKI 不等式\n\n");
     int i;
     int calls;
@@ -200,12 +202,14 @@ int main(int argc, char const *argv[]) {
     BOARD** boards = readBoards(n);
     for (i = 0; i < n; i++) {
         calls = 0;
-        printf("::: Board %d\n", i);
+        printf("::: Board %d\n", i+1);
         if (futoshiki_simple(&boards[i], 0, 0, &calls)) {
             printf("Took %d calls\n", calls);
             printBoard(boards[i]);
         } else {
-            printf("Took %d calls.\n", calls);
+            if (calls >= OVERFLOW) {
+                printf("Overflow. Took %d calls.\n", calls);
+            }
             printf("NO SOLUTION!\n");
         }
         printf("\n");
