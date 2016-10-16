@@ -5,7 +5,7 @@
 
 typedef struct list {
 
-    int* list;
+    int* vector;
     int size;
 
 } LIST;
@@ -19,6 +19,9 @@ typedef struct cell {
     int value;
     bool filled; // determines if cell is pre-filled
 
+    // possible values for use with heuristics
+    LIST* fw;
+
 } CELL;
 
 typedef struct board {
@@ -30,10 +33,36 @@ typedef struct board {
 } BOARD;
 
 /*
-*
+* list functions
 */
 
+LIST* initList(LIST* list) {
+    list->vector = NULL;
+    list->size = 0;
+    return list;
+}
 
+LIST* remove(LIST* list, int value) {
+    int i;
+    int aux;
+    while (aux != value) {
+        aux = list->vector[i];
+        i++;
+    }
+    list->vector[i] = 0;
+    return list;
+}
+
+LIST* add(LIST* list, int value) {
+    int i = 0;
+    int aux = -1;
+    while (aux != 0) {
+        aux = list->vector[i];
+        i++;
+    }
+    list->vector[i] = value;
+    return list;
+}
 
 /*
 * board functions
