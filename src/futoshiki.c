@@ -3,6 +3,13 @@
 #include <time.h>
 #include "globals.h"
 
+typedef struct list {
+
+    int* list;
+    int size;
+
+} LIST;
+
 typedef struct cell {
 
     // number of restrictions
@@ -21,6 +28,12 @@ typedef struct board {
     CELL** matrix;
 
 } BOARD;
+
+/*
+*
+*/
+
+
 
 /*
 * board functions
@@ -61,15 +74,18 @@ BOARD* destroyBoard(BOARD* board) {
         for (j = 0; j < board->n; j++) {
             // liberar restrictions de [i][j]
             aux = board->matrix[i][j].r;
-            for(k = 0; k < aux; k++){
+            for(k = 0; k < aux; k++) {
                 free(board->matrix[i][j].restrictions[k]);
+                board->matrix[i][j].restrictions[k] = NULL;
             }
             free(board->matrix[i][j].restrictions);
+            board->matrix[i][j].restrictions = NULL;
         }
         free(board->matrix[i]);
         board->matrix[i] = NULL;
     }
     free(board->matrix);
+    board->matrix = NULL;
     free(board);
     board = NULL;
     return board;
@@ -226,8 +242,15 @@ int main(int argc, char const *argv[]) {
     }
 
     for (i = 0; i < n; i++) {
+        printf("Liberando tabuleiro #%d\n", i);
         boards[i] = destroyBoard(boards[i]);
+        if (boards[i] == NULL) {
+            printf("Liberado\n");
+        } else {
+            printf("Não liberado\n");
+        }
     }
+    free(boards);
 
     return 0;
 }
