@@ -51,9 +51,9 @@ LIST* initList(LIST* list, int n) {
     return list;
 }
 
-LIST* listRemove(LIST* list, int value) {
+LIST* listRemove(LIST* list, int value, int n) {
     int i;
-    for (i = 0; i < list->size; i++) {
+    for (i = 0; i < n; i++) {
         if (list->vector[i] == value) {
             list->vector[i] = 0;
             list->size--;
@@ -63,9 +63,9 @@ LIST* listRemove(LIST* list, int value) {
     return list;
 }
 
-LIST* listAdd(LIST* list, int value) {
+LIST* listAdd(LIST* list, int value, int n) {
     int i;
-    for (i = 0; i < list->size; i++) {
+    for (i = 0; i < n; i++) {
         if (list->vector[i] == 0) {
             list->vector[i] = value;
             list->size++;
@@ -73,6 +73,37 @@ LIST* listAdd(LIST* list, int value) {
         }
     }
     return list;
+}
+
+BOARD* updateLists(BOARD* b, int x, int y, int flag, int value) {
+    int i;
+    // flag 0: remove value flag 1: add value
+    if (flag) {
+        // add current value from cells that conflict with current cell
+        for (i = 0; i < b->n; i++) {
+            // check horizontally
+            if (i != y) {
+                b->matrix[x][i].fw = listAdd(b->matrix[x][i].fw, value, b->n);
+            }
+            // check vertically
+            if (i != x) {
+                b->matrix[i][y].fw = listAdd(b->matrix[i][y].fw, value, b->n);
+            }
+        }
+    } else {
+        // remove current value from cells that conflict with current cell
+        for (i = 0; i < b->n; i++) {
+            // check horizontally
+            if (i != y) {
+                b->matrix[x][i].fw = listRemove(b->matrix[x][i].fw, value, b->n);
+            }
+            // check vertically
+            if (i != x) {
+                b->matrix[i][y].fw = listRemove(b->matrix[i][y].fw, value, b->n);
+            }
+        }
+    }
+    return b;
 }
 
 /*
@@ -104,22 +135,6 @@ BOARD* initBoard(int n) {
         }
     }
     return board;
-}
-
-BOARD* updateLists(BOARD* b, int x, int y, int value) {
-    int i;
-    // remove current value from cells that conflict with current cell
-    for (i = 0; i < b->n; i++) {
-        // check horizontally
-        if (i != y) {
-            b->matrix[x][i].fw = listRemove(b->matrix[x][i].fw, value);
-        }
-        // check vertically
-        if (i != x) {
-            b->matrix[i][y].fw = listRemove(b->matrix[i][y].fw, value);
-        }
-    }
-    return b;
 }
 
 // TODO: This is probably very wrong
@@ -178,7 +193,7 @@ BOARD** readBoards(int n) {
                     // if value is predefined, we need to update the forward checking lists
                     b[i]->matrix[j][k].filled = TRUE;
                     // update FW lists for this column and line
-                    b[i] = updateLists(b[i], j, k, b[i]->matrix[j][k].value);
+                    b[i] = updateLists(b[i], j, k, 0, b[i]->matrix[j][k].value);
                 }
             }
         }
@@ -258,7 +273,7 @@ bool futoshiki_simple(BOARD** b, int x, int y, int* calls) {
                 (*calls)++;
             }
         }
-        // check if value isn't already used
+        // check if value isn't already placed in conflicting cells
         if (isValid(*b, x, y)) {
             // checks if reached last column
             if (y == (*b)->n-1) {
@@ -288,50 +303,6 @@ bool futoshiki_simple(BOARD** b, int x, int y, int* calls) {
 
 // Backtrack with Forward Checking
 bool futoshiki_fw(BOARD** b, int x, int y, int* calls) {
-    int i;
-    // check if recursive calls reached overflow
-    if (*calls >= OVERFLOW) {
-        return FALSE;
-    }
-    // check if has reached end of board
-    if (x >= (*b)->n || y >= (*b)->n) {
-        return TRUE;
-    }
-    // try possible values
-    for (i = 1; i <= (*b)->n; i++) {
-        // check if cell is occupied
-        if ((*b)->matrix[x][y].value == 0) {
-            // don't change pre-filled values
-            if (!((*b)->matrix[x][y].filled)) {
-                (*b)->matrix[x][y].value = i;
-                (*calls)++;
-            }
-        }
-        // check if value isn't already used
-        if (isValid(*b, x, y)) {
-            // checks if reached last column
-            if (y == (*b)->n-1) {
-                // goes to next line
-                if (futoshiki_simple(b, x+1, 0, calls)) {
-                    // placement was successful
-                    return TRUE;
-                }
-            } else {
-                // goes to next column
-                if (futoshiki_simple(b, x, y+1, calls)) {
-                    // placement was sucessful
-                    return TRUE;
-                }
-            }
-        }
-        // reset current value
-        // don't change pre-filled values
-        if (!((*b)->matrix[x][y].filled)) {
-            (*b)->matrix[x][y].value = 0;
-        }
-    }
-    // none of the placements were successful
-    // something must be wrong, backtrack
     return FALSE;
 }
 
@@ -342,26 +313,38 @@ bool futoshiki(BOARD** b, int x, int y) {
 
 int main(int argc, char const *argv[]) {
 
+    // benchmarking
+    clock_t start_t, end_t, total_t;
+    float delta_t = 0.0;
+
     printf("\tFUTOSHIKI 不等式\n\n");
     int i;
     int calls;
     int n = 0;
     scanf("%d", &n);
     BOARD** boards = readBoards(n);
+    // start timer
+    start_t = clock();
     for (i = 0; i < n; i++) {
         calls = 0;
         printf("::: Board %d\n", i+1);
         if (futoshiki_simple(&boards[i], 0, 0, &calls)) {
-            printf("Took %d calls\n", calls);
+            printf(":: %d calls\n", calls);
             printBoard(boards[i]);
         } else {
             if (calls >= OVERFLOW) {
-                printf("Overflow! :: %d calls.\n", calls);
+                printf("::: ｏｖｅｒｆｌｏｗ\n");
+                printf(":: %d calls.\n", calls);
             }
             printf("Can't solve this board!\n");
         }
         printf("\n");
     }
+    // end timer
+    end_t = clock();
+    // human readable time
+    delta_t = ((float)(end_t - start_t) / 1000000.0 ) * CLOCKS_PER_SEC;
+    printf("::: Total time %lf\n", delta_t);
 
     // // DESTROY MEMORY
     // int j, k;
@@ -387,5 +370,6 @@ int main(int argc, char const *argv[]) {
     // }
     // free(boards);
 
+    printf("PROGRAM FINISHED.\n");
     return 0;
 }
