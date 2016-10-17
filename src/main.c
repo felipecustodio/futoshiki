@@ -16,24 +16,80 @@ int main(int argc, char const *argv[]) {
     int i;
     int calls;
     int n = 0;
+    int menu;
+
+    //Menu
+    printf("::: Choose solver function:\n");
+    printf("1 :: Backtracking without heuristics\n");
+    printf("2 :: Backtracking with forward checking\n");
+    printf("3 :: Backtracking with forward checking + MRV\n");
+    scanf("%d", &menu);
+
     scanf("%d", &n);
     BOARD** boards = readBoards(n);
     // start timer
     start_t = clock();
-    for (i = 0; i < n; i++) {
-        calls = 0;
-        printf("::: Board %d\n", i+1);
-        if (futoshiki_simple(&boards[i], 0, 0, &calls)) {
-            printf(":: %d calls\n", calls);
-            printBoard(boards[i]);
-        } else {
-            if (calls >= OVERFLOW) {
-                printf("::: ｏｖｅｒｆｌｏｗ\n");
-                printf(":: %d calls.\n", calls);
-            }
-            printf("Can't solve this board!\n");
-        }
-        printf("\n");
+    	
+
+    switch(menu){
+        //Backtracking without heuristcs
+        case 1:
+            for (i = 0; i < n; i++) {
+    			calls = 0;
+		        printf("::: Board %d\n", i+1);    
+		        if (futoshiki_simple(&boards[i], 0, 0, &calls)) {
+		            printf(":: %d calls\n", calls);
+		            printBoard(boards[i]);
+		        } else {
+		            if (calls >= OVERFLOW) {
+		                printf("::: ｏｖｅｒｆｌｏｗ\n");
+		                printf(":: %d calls.\n", calls);
+		            }
+		            printf("Can't solve this board!\n");
+		        }
+		        printf("\n");
+ 			}
+ 			break;
+
+ 		//Bactracking with forward checking
+ 		case 2:
+            for (i = 0; i < n; i++) {
+    			calls = 0;
+		        printf("::: Board %d\n", i+1);    
+		        if (futoshiki_fw(&boards[i], 0, 0, &calls)) {
+		            printf(":: %d calls\n", calls);
+		            printBoard(boards[i]);
+		        } else {
+		            if (calls >= OVERFLOW) {
+		                printf("::: ｏｖｅｒｆｌｏｗ\n");
+		                printf(":: %d calls.\n", calls);
+		            }
+		            printf("Can't solve this board!\n");
+		        }
+		        printf("\n");
+ 			}
+ 			break;
+
+ 		//Bactracking with forward checking + MRV
+ 		/*case 3:
+            for (i = 0; i < n; i++) {
+    			calls = 0;
+		        printf("::: Board %d\n", i+1);    
+		        if (futoshiki(&boards[i], 0, 0, &calls)) {
+		            printf(":: %d calls\n", calls);
+		            printBoard(boards[i]);
+		        } else {
+		            if (calls >= OVERFLOW) {
+		                printf("::: ｏｖｅｒｆｌｏｗ\n");
+		                printf(":: %d calls.\n", calls);
+		            }
+		            printf("Can't solve this board!\n");
+		        }
+		        printf("\n");
+ 			}
+ 			break;*/
+
+
     }
     // end timer
     end_t = clock();

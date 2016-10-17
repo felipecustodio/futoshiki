@@ -54,6 +54,7 @@ bool futoshiki_simple(BOARD** b, int x, int y, int* calls) {
     return FALSE;
 }
 
+//Forward checcking
 bool futoshiki_fw(BOARD** b, int x, int y, int* calls) {
     int i;
     // check if recursive calls reached overflow

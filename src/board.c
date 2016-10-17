@@ -8,7 +8,7 @@
 
 
 /*
-* list functions
+* List functions
 */
 
 LIST* initList(LIST* list, int n) {
