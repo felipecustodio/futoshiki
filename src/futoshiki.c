@@ -162,6 +162,7 @@ BOARD** readBoards(int n) {
     // restriction coordinates
     int x1, y1, x2, y2;
 
+    // allocate a vector of boards
     b = (BOARD**)malloc(sizeof(BOARD*) * n);
     for (i = 0; i < n; i++) {
         // get size of board
@@ -366,12 +367,12 @@ int main(int argc, char const *argv[]) {
     // benchmarking
     clock_t start_t, end_t, total_t;
     float delta_t = 0.0;
+    int calls;
     int solved = 0;
 
     // printf("\tFUTOSHIKI 不等式\n\n");
     printf("board,calls,status\n");
     int i;
-    int calls;
     long int total_calls = 0;
     int n = 0;
     scanf("%d", &n);
