@@ -5,6 +5,7 @@ BINARY = ./build/futoshiki
 all: clean compile clear run
 
 run:
+	# $(BINARY) < ./test/fwtest.in
 	$(BINARY) < ./test/futoshiki.dat
 
 clean:
