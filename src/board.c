@@ -3,6 +3,7 @@
 #include <time.h>
 #include "globals.h"
 #include "board.h"
+#include "futoshiki.h"
 
 
 

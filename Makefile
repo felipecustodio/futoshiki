@@ -13,12 +13,15 @@ clean:
 clear:
 	clear
 
-compile: board.o futoshiki.o
-	$(CC) -pg -o $(BINARY) board.o futoshiki.o 
+compile: main.o board.o futoshiki.o
+	$(CC) -pg -o $(BINARY) main.o board.o futoshiki.o 
 
 board.o:
 	$(CC) -c -I $(INCLUDES) ./src/board.c
 
 futoshiki.o:
 	$(CC) -c -I $(INCLUDES) ./src/futoshiki.c
+
+main.o:
+	$(CC) -c -I $(INCLUDES) ./src/main.c
 
