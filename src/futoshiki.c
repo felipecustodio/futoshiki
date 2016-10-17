@@ -52,7 +52,7 @@ LIST* initList(LIST* list, int n) {
 }
 
 LIST* listRemove(LIST* list, int value, int n) {
-    list->vector[value-1] = value;
+    list->vector[value-1] = 0;
     list->size--;
     return list;
 }
@@ -408,7 +408,6 @@ bool futoshiki(BOARD** b, int x, int y, int* calls) {
                 }
                 if (isValid(*b, x, y)) {
                     // find next position with minimum remaining values
-                    printf("FIND MRV\n");
                     findMRV(*b, &x, &y);
                     futoshiki(b, x, y, calls);
                 }
@@ -422,7 +421,6 @@ bool futoshiki(BOARD** b, int x, int y, int* calls) {
             }
         } else {
             // find next position with minimum remaining values
-            printf("FIND MRV\n");
             findMRV(*b, &x, &y);
             futoshiki(b, x, y, calls);
         }
@@ -448,7 +446,7 @@ int main(int argc, char const *argv[]) {
     for (i = 0; i < n; i++) {
         calls = 0;
         printf("::: Board %d\n", i+1);
-        if (futoshiki(&boards[i], 0, 0, &calls)) {
+        if (futoshiki_fw(&boards[i], 0, 0, &calls)) {
             solved++;
             printf(":: %d calls\n", calls);
             printBoard(boards[i]);
