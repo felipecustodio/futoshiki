@@ -38,4 +38,23 @@ struct board {
 
 };
 
+
+//List functions
+LIST* initList(LIST* list, int n);
+LIST* listRemove(LIST* list, int value, int n);
+LIST* listAdd(LIST* list, int value, int n);
+BOARD* updateLists(BOARD* b, int x, int y, int flag, int value);
+
+
+//Board functions
+void printBoard(BOARD* board);
+BOARD* initBoard(int n);
+BOARD* destroyBoard(BOARD* board);
+BOARD** readBoards(int n);
+
+//Game functions
+bool isValid(BOARD* board, int x, int y);
+
+
+
 #endif
