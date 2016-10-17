@@ -3,8 +3,6 @@
 #include <time.h>
 #include "globals.h"
 
-// merge
-
 typedef struct list {
 
     // possible values
@@ -243,20 +241,25 @@ bool isValid(BOARD* board, int x, int y) {
     return TRUE;
 }
 
+// TODO THIS IS VERY VERY WRONG PROBABLY
 void findMRV(BOARD* b, int* x, int* y) {
     int i;
     // get current forward checking list size
     int aux = b->matrix[*x][*y].fw->size;
     // find position that has a smaller list
-    for (i = 0; i < b->n; i++) {
+    for (i = *y; i < b->n; i++) {
         // check horizontally
-        if (i != (*y) && b->matrix[(*x)][i].fw->size < aux) {
+        if (i != (*y) && b->matrix[(*x)][i].fw->size <= aux) {
             *y = i;
+            printf("Found MRV at [%d][%d]\n", *x, i);
             break;
         }
+    }
+    for (i = *x; i < b->n; i++) {
         // check vertically
-        if (i != (*x) && b->matrix[i][(*y)].value < aux) {
+        if (i != (*x) && b->matrix[i][(*y)].value <= aux) {
             *x = i;
+            printf("Found MRV at [%d][%d]\n", i, *y);
             break;
         }
     }
@@ -404,20 +407,10 @@ bool futoshiki(BOARD** b, int x, int y, int* calls) {
                     *b = updateLists(*b, x, y, 0, (*b)->matrix[x][y].value);
                 }
                 if (isValid(*b, x, y)) {
-                    // checks if reached last column
-                    if (y == (*b)->n-1) {
-                        // goes to next line
-                        if (futoshiki(b, x+1, 0, calls)) {
-                            // placement was successful
-                            return TRUE;
-                        }
-                    } else {
-                        // goes to next column
-                        if (futoshiki(b, x, y+1, calls)) {
-                            // placement was sucessful
-                            return TRUE;
-                        }
-                    }
+                    // find next position with minimum remaining values
+                    printf("FIND MRV\n");
+                    findMRV(*b, &x, &y);
+                    futoshiki(b, x, y, calls);
                 }
             }
             // reset value
@@ -428,20 +421,10 @@ bool futoshiki(BOARD** b, int x, int y, int* calls) {
                 (*b)->matrix[x][y].value = 0;
             }
         } else {
-            // checks if reached last column
-            if (y == (*b)->n-1) {
-                // goes to next line
-                if (futoshiki(b, x+1, 0, calls)) {
-                    // placement was successful
-                    return TRUE;
-                }
-            } else {
-                // goes to next column
-                if (futoshiki(b, x, y+1, calls)) {
-                    // placement was sucessful
-                    return TRUE;
-                }
-            }
+            // find next position with minimum remaining values
+            printf("FIND MRV\n");
+            findMRV(*b, &x, &y);
+            futoshiki(b, x, y, calls);
         }
     }
     return FALSE;
@@ -465,7 +448,7 @@ int main(int argc, char const *argv[]) {
     for (i = 0; i < n; i++) {
         calls = 0;
         printf("::: Board %d\n", i+1);
-        if (futoshiki_fw(&boards[i], 0, 0, &calls)) {
+        if (futoshiki(&boards[i], 0, 0, &calls)) {
             solved++;
             printf(":: %d calls\n", calls);
             printBoard(boards[i]);
@@ -483,35 +466,7 @@ int main(int argc, char const *argv[]) {
     end_t = clock();
     // human readable time
     delta_t = ((float)(end_t - start_t) / 1000000000000.0F ) * CLOCKS_PER_SEC;
-    printf("Finished in %lf seconds.\n", delta_t);
-
-    // printf("PROGRAM FINISHED.\n");
-    // printf("::: Total calls for successful cases: %ld\n", total_calls);
-    // printf("::: Solved %d/%d boards\n", solved, n);
-
-    // // DESTROY MEMORY
-    // int j, k;
-    // for (i = 0; i < n; i++) {
-    //     int aux;
-    //     for (i = 0; i < boards[i]->n; i++) {
-    //         for (j = 0; j < boards[i]->n; j++) {
-    //             aux = boards[i]->matrix[i][j].r;
-    //             for(k = 0; k < aux; k++) {
-    //                 free(boards[i]->matrix[i][j].restrictions[k]);
-    //                 boards[i]->matrix[i][j].restrictions[k] = NULL;
-    //             }
-    //             free(boards[i]->matrix[i][j].restrictions);
-    //             boards[i]->matrix[i][j].restrictions = NULL;
-    //         }
-    //         free(boards[i]->matrix[i]);
-    //         boards[i]->matrix[i] = NULL;
-    //     }
-    //     free(boards[i]->matrix);
-    //     boards[i]->matrix = NULL;
-    //     free(boards[i]);
-    //     boards[i] = NULL;
-    // }
-    // free(boards);
-
+    printf("PROGRAM FINISHED.\n");
+    printf("Solved %d/%d boards in %lf seconds.\n", solved, n, delta_t);
     return 0;
 }
