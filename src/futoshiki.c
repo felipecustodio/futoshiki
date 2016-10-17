@@ -3,6 +3,8 @@
 #include <time.h>
 #include "globals.h"
 
+// merge
+
 typedef struct list {
 
     // possible values
