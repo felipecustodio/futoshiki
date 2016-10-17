@@ -63,35 +63,35 @@ LIST* listAdd(LIST* list, int value, int n) {
     return list;
 }
 
-void updateLists(BOARD** b, int x, int y, int flag, int value) {
+BOARD* updateLists(BOARD* b, int x, int y, int flag, int value) {
     int i;
-    // flag 0: remove value
-    // flag 1: add value
+    // flag 0: remove value flag 1: add value
     if (flag) {
         // add current value from cells that conflict with current cell
-        for (i = 0; i < (*b)->n; i++) {
+        for (i = 0; i < b->n; i++) {
             // check horizontally
             if (i != y) {
-                (*b)->matrix[x][i].fw = listAdd((*b)->matrix[x][i].fw, value, (*b)->n);
+                b->matrix[x][i].fw = listAdd(b->matrix[x][i].fw, value, b->n);
             }
             // check vertically
             if (i != x) {
-                (*b)->matrix[i][y].fw = listAdd((*b)->matrix[i][y].fw, value, (*b)->n);
+                b->matrix[i][y].fw = listAdd(b->matrix[i][y].fw, value, b->n);
             }
         }
     } else {
         // remove current value from cells that conflict with current cell
-        for (i = 0; i < (*b)->n; i++) {
+        for (i = 0; i < b->n; i++) {
             // check horizontally
             if (i != y) {
-                (*b)->matrix[x][i].fw = listRemove((*b)->matrix[x][i].fw, value, (*b)->n);
+                b->matrix[x][i].fw = listRemove(b->matrix[x][i].fw, value, b->n);
             }
             // check vertically
             if (i != x) {
-                (*b)->matrix[i][y].fw = listRemove((*b)->matrix[i][y].fw, value, (*b)->n);
+                b->matrix[i][y].fw = listRemove(b->matrix[i][y].fw, value, b->n);
             }
         }
     }
+    return b;
 }
 
 /*
@@ -182,7 +182,7 @@ BOARD** readBoards(int n) {
                     // if value is predefined, we need to update the forward checking lists
                     b[i]->matrix[j][k].filled = TRUE;
                     // update FW lists for this column and line
-                    updateLists(&b[i], j, k, 0, b[i]->matrix[j][k].value);
+                    b[i] = updateLists(b[i], j, k, 0, b[i]->matrix[j][k].value);
                 }
             }
         }
@@ -241,6 +241,27 @@ bool isValid(BOARD* board, int x, int y) {
     return TRUE;
 }
 
+void findMRV(BOARD* b, int* x, int* y) {
+    int i;
+    // get current forward checking list size
+    int aux = b->matrix[*x][*y].fw->size;
+    // find position that has a smaller list
+    for (i = 0; i < b->n; i++) {
+        // check horizontally
+        if (i != (*y) && b->matrix[(*x)][i].fw->size < aux) {
+            *y = i;
+            break;
+        }
+        // check vertically
+        if (i != (*x) && b->matrix[i][(*y)].value < aux) {
+            *x = i;
+            break;
+        }
+    }
+
+}
+
+
 // BACKTRACKING - SIMPLE, NO HEURISTICS
 bool futoshiki_simple(BOARD** b, int x, int y, int* calls) {
     int i;
@@ -290,7 +311,7 @@ bool futoshiki_simple(BOARD** b, int x, int y, int* calls) {
     return FALSE;
 }
 
-// Backtrack with Forward Checking
+// BACKTRACK WITH FORWARD CHECKING HEURISTIC
 bool futoshiki_fw(BOARD** b, int x, int y, int* calls) {
     int i;
     // check if recursive calls reached overflow
@@ -311,7 +332,7 @@ bool futoshiki_fw(BOARD** b, int x, int y, int* calls) {
                     (*b)->matrix[x][y].value = (*b)->matrix[x][y].fw->vector[i];
                     (*calls)++;
                     // update forward checking lists (remove current value) of line and column
-                    updateLists(b, x, y, 0, (*b)->matrix[x][y].value);
+                    *b = updateLists(*b, x, y, 0, (*b)->matrix[x][y].value);
                 }
                 if (isValid(*b, x, y)) {
                     // checks if reached last column
@@ -333,7 +354,7 @@ bool futoshiki_fw(BOARD** b, int x, int y, int* calls) {
             // reset value
             if (!((*b)->matrix[x][y].filled)) {
                 // reset lists
-                updateLists(b, x, y, 1, (*b)->matrix[x][y].value);
+                *b = updateLists(*b, x, y, 1, (*b)->matrix[x][y].value);
                 // reset value
                 (*b)->matrix[x][y].value = 0;
             }
@@ -357,8 +378,70 @@ bool futoshiki_fw(BOARD** b, int x, int y, int* calls) {
     return FALSE;
 }
 
-// Backtrack with Forward Checking + Minimal Remaining Values
-bool futoshiki(BOARD** b, int x, int y) {
+// BACKTRACK WITH FORWARD CHECKING + MINIMAL REMAINING VALUES
+bool futoshiki(BOARD** b, int x, int y, int* calls) {
+    int i;
+    // check if recursive calls reached overflow
+    if (*calls >= OVERFLOW) {
+        return FALSE;
+    }
+    // check if has reached end of board
+    if (x >= (*b)->n || y >= (*b)->n) {
+        return TRUE;
+    }
+    // check if position is free and domain is not empty
+        for (i = 0; i < (*b)->n; i++) {
+            if ((*b)->matrix[x][y].value == 0 && (*b)->matrix[x][y].fw->size > 0) {
+            // get first valid value in forward checking list
+            if ((*b)->matrix[x][y].fw->vector[i] != 0) {
+                // don't overwrite prefilled values
+                if (!((*b)->matrix[x][y].filled)) {
+                    (*b)->matrix[x][y].value = (*b)->matrix[x][y].fw->vector[i];
+                    (*calls)++;
+                    // update forward checking lists (remove current value) of line and column
+                    *b = updateLists(*b, x, y, 0, (*b)->matrix[x][y].value);
+                }
+                if (isValid(*b, x, y)) {
+                    // checks if reached last column
+                    if (y == (*b)->n-1) {
+                        // goes to next line
+                        if (futoshiki(b, x+1, 0, calls)) {
+                            // placement was successful
+                            return TRUE;
+                        }
+                    } else {
+                        // goes to next column
+                        if (futoshiki(b, x, y+1, calls)) {
+                            // placement was sucessful
+                            return TRUE;
+                        }
+                    }
+                }
+            }
+            // reset value
+            if (!((*b)->matrix[x][y].filled)) {
+                // reset lists
+                updateLists(*b, x, y, 1, (*b)->matrix[x][y].value);
+                // reset value
+                (*b)->matrix[x][y].value = 0;
+            }
+        } else {
+            // checks if reached last column
+            if (y == (*b)->n-1) {
+                // goes to next line
+                if (futoshiki(b, x+1, 0, calls)) {
+                    // placement was successful
+                    return TRUE;
+                }
+            } else {
+                // goes to next column
+                if (futoshiki(b, x, y+1, calls)) {
+                    // placement was sucessful
+                    return TRUE;
+                }
+            }
+        }
+    }
     return FALSE;
 }
 
@@ -370,10 +453,8 @@ int main(int argc, char const *argv[]) {
     int calls;
     int solved = 0;
 
-    // printf("\tFUTOSHIKI 不等式\n\n");
-    printf("board,calls,status\n");
+    printf("\tFUTOSHIKI 不等式\n\n");
     int i;
-    long int total_calls = 0;
     int n = 0;
     scanf("%d", &n);
     BOARD** boards = readBoards(n);
@@ -381,21 +462,17 @@ int main(int argc, char const *argv[]) {
     start_t = clock();
     for (i = 0; i < n; i++) {
         calls = 0;
-        // printf("::: Board %d\n", i+1);
-        printf("%d,", i+1);
+        printf("::: Board %d\n", i+1);
         if (futoshiki_fw(&boards[i], 0, 0, &calls)) {
             solved++;
-            // printf(":: %d calls\n", calls);
-            printf("%d,success", calls);
-            // printBoard(boards[i]);
-            total_calls += calls;
+            printf(":: %d calls\n", calls);
+            printBoard(boards[i]);
         } else {
             if (calls >= OVERFLOW) {
-                // printf("::: ｏｖｅｒｆｌｏｗ\n");
-                // printf(":: %d calls.\n", calls);
-                printf("%d,overflow", calls);
+                printf("::: ｏｖｅｒｆｌｏｗ\n");
+                printf(":: %d calls.\n", calls);
             }
-            // printf("Can't solve this board!\n");
+            printf("[ ! ] No solution\n");
         }
         printf("\n");
     }
@@ -403,7 +480,8 @@ int main(int argc, char const *argv[]) {
     // end timer
     end_t = clock();
     // human readable time
-    delta_t = ((float)(end_t - start_t) / 1000000.0F ) * CLOCKS_PER_SEC;
+    delta_t = ((float)(end_t - start_t) / 1000000000000.0F ) * CLOCKS_PER_SEC;
+    printf("Finished in %lf seconds.\n", delta_t);
 
     // printf("PROGRAM FINISHED.\n");
     // printf("::: Total calls for successful cases: %ld\n", total_calls);
