@@ -2,54 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include "globals.h"
+#include "board.h"
 
-typedef struct list {
 
-    // possible values
-    int* vector;
-    // number of possible values
-    int size;
-    // vector size is always board size
 
-} LIST;
 
-typedef struct cell {
 
-    // number of restrictions
-    int r;
-    // restriction coordinates
-    int** restrictions;
-    int value;
-    bool filled; // determines if cell is pre-filled
 
-    // possible values for use with heuristics
-    LIST* fw;
-
-} CELL;
-
-typedef struct board {
-
-    // board size
-    int n;
-    CELL** matrix;
-
-} BOARD;
-
-/*
-* list functions
-*/
-LIST* initList(LIST* list, int n) {
-    int i;
-    list = (LIST*)malloc(sizeof(LIST));
-    // list has n members
-    list->vector = (int*)malloc(sizeof(int) * n);
-    // add possible values to list
-    for (i = 0; i < n; i++) {
-        list->vector[i] = i + 1;
-    }
-    list->size = n;
-    return list;
-}
 
 LIST* listRemove(LIST* list, int value, int n) {
     int i;
