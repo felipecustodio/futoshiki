@@ -6,8 +6,8 @@ all: clean compile clear run
 
 run:
 	# run and test input file
-	# $(BINARY) < ./test/futoshiki.dat
-	$(BINARY) < ./test/fwtest.in
+	$(BINARY) < ./test/futoshiki.dat
+	# $(BINARY) < ./test/fwtest.in
 
 clean:
 	rm *.o
