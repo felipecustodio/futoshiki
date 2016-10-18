@@ -65,7 +65,8 @@ LIST* listAdd(LIST* list, int value, int n) {
 
 BOARD* updateLists(BOARD* b, int x, int y, int flag, int value) {
     int i;
-    // flag 0: remove value flag 1: add value
+    // flag 0: remove value
+    // flag 1: add value
     if (flag) {
         // add current value from cells that conflict with current cell
         for (i = 0; i < b->n; i++) {
@@ -79,6 +80,7 @@ BOARD* updateLists(BOARD* b, int x, int y, int flag, int value) {
             }
         }
     } else {
+        b->matrix[x][y].fw->size = b->n + 1;
         // remove current value from cells that conflict with current cell
         for (i = 0; i < b->n; i++) {
             // check horizontally
@@ -241,31 +243,31 @@ bool isValid(BOARD* board, int x, int y) {
     return TRUE;
 }
 
-// TODO THIS IS VERY VERY WRONG PROBABLY
-void findMRV(BOARD* b, int* x, int* y) {
+// Find position with smallest number of possible values
+void findMRV(BOARD* b, int _x, int _y, int* x, int* y) {
     int i;
-    // get current forward checking list size
-    int aux = b->matrix[*x][*y].fw->size;
-    // find position that has a smaller list
-    for (i = *y; i < b->n; i++) {
-        // check horizontally
-        if (i != (*y) && b->matrix[(*x)][i].fw->size <= aux) {
+    int aux = b->n + 1;
+    *x = _x;
+    *y = _y;
+    // search for smallest value in line
+    for (i = 0; i < b->n; i++) {
+        if (b->matrix[_x][i].fw->size > 0 && b->matrix[_x][i].fw->size <= aux) {
+            aux = b->matrix[_x][i].fw->size;
             *y = i;
-            printf("Found MRV at [%d][%d]\n", *x, i);
-            break;
+            *x = _x;
         }
     }
-    for (i = *x; i < b->n; i++) {
-        // check vertically
-        if (i != (*x) && b->matrix[i][(*y)].value <= aux) {
+    // search for smallest value in column
+    for (i = 0; i < b->n; i++) {
+        if (b->matrix[i][_y].fw->size > 0 && b->matrix[_x][i].fw->size < aux) {
+            aux = b->matrix[i][_y].fw->size;
+            *y = _y;
             *x = i;
-            printf("Found MRV at [%d][%d]\n", i, *y);
-            break;
         }
     }
-
+    printBoard(b);
+    printf("Aux: %d\tPosition [%d][%d]\n", aux, *x, *y);
 }
-
 
 // BACKTRACKING - SIMPLE, NO HEURISTICS
 bool futoshiki_simple(BOARD** b, int x, int y, int* calls) {
@@ -386,6 +388,8 @@ bool futoshiki_fw(BOARD** b, int x, int y, int* calls) {
 // BACKTRACK WITH FORWARD CHECKING + MINIMAL REMAINING VALUES
 bool futoshiki(BOARD** b, int x, int y, int* calls) {
     int i;
+    int _x;
+    int _y;
     // check if recursive calls reached overflow
     if (*calls >= OVERFLOW) {
         return FALSE;
@@ -395,8 +399,8 @@ bool futoshiki(BOARD** b, int x, int y, int* calls) {
         return TRUE;
     }
     // check if position is free and domain is not empty
-        for (i = 0; i < (*b)->n; i++) {
-            if ((*b)->matrix[x][y].value == 0 && (*b)->matrix[x][y].fw->size > 0) {
+    for (i = 0; i < (*b)->n; i++) {
+        if ((*b)->matrix[x][y].value == 0 && (*b)->matrix[x][y].fw->size > 0) {
             // get first valid value in forward checking list
             if ((*b)->matrix[x][y].fw->vector[i] != 0) {
                 // don't overwrite prefilled values
@@ -408,7 +412,7 @@ bool futoshiki(BOARD** b, int x, int y, int* calls) {
                 }
                 if (isValid(*b, x, y)) {
                     // find next position with minimum remaining values
-                    findMRV(*b, &x, &y);
+                    findMRV(*b, x, y, &_x, &_y);
                     futoshiki(b, x, y, calls);
                 }
             }
@@ -418,11 +422,11 @@ bool futoshiki(BOARD** b, int x, int y, int* calls) {
                 updateLists(*b, x, y, 1, (*b)->matrix[x][y].value);
                 // reset value
                 (*b)->matrix[x][y].value = 0;
-            }
-        } else {
+            } else {
             // find next position with minimum remaining values
-            findMRV(*b, &x, &y);
+            findMRV(*b, x, y, &_x, &_y);
             futoshiki(b, x, y, calls);
+            }
         }
     }
     return FALSE;
@@ -431,7 +435,7 @@ bool futoshiki(BOARD** b, int x, int y, int* calls) {
 int main(int argc, char const *argv[]) {
 
     // benchmarking
-    clock_t start_t, end_t, total_t;
+    clock_t start_t, end_t;
     float delta_t = 0.0;
     int calls;
     int solved = 0;
@@ -446,7 +450,7 @@ int main(int argc, char const *argv[]) {
     for (i = 0; i < n; i++) {
         calls = 0;
         printf("::: Board %d\n", i+1);
-        if (futoshiki_fw(&boards[i], 0, 0, &calls)) {
+        if (futoshiki_simple(&boards[i], 0, 0, &calls)) {
             solved++;
             printf(":: %d calls\n", calls);
             printBoard(boards[i]);
