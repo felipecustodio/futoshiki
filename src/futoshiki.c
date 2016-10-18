@@ -3,36 +3,26 @@
 #include <time.h>
 #include "globals.h"
 
-// merge
-
 typedef struct list {
 
-    // possible values
-    int* vector;
-    // number of possible values
-    int size;
-    // vector size is always board size
+    int* vector; // list of possible values
+    int size; // number of possible values
 
 } LIST;
 
 typedef struct cell {
 
-    // number of restrictions
-    int r;
-    // restriction coordinates
-    int** restrictions;
-    int value;
+    int r; // number of restrictions
+    int** restrictions; // restriction coordinates
+    int value; // current value
     bool filled; // determines if cell is pre-filled
-
-    // possible values for use with heuristics
-    LIST* fw;
+    LIST* fw; // list of possible values
 
 } CELL;
 
 typedef struct board {
 
-    // board size
-    int n;
+    int n; // board dimensions
     CELL** matrix;
 
 } BOARD;
@@ -54,29 +44,64 @@ LIST* initList(LIST* list, int n) {
 }
 
 LIST* listRemove(LIST* list, int value, int n) {
-    list->vector[value-1] = value;
-    list->size--;
+    if (list->vector[value-1] != 0) {
+        list->vector[value-1] = 0;
+        if (list->size < n + 1) {
+            list->size--;
+        }
+    }
     return list;
 }
 
 LIST* listAdd(LIST* list, int value, int n) {
-    list->vector[value-1] = value;
-    list->size++;
+    if (list->vector[value-1] == 0) {
+        list->vector[value-1] = value;
+        if (list->size < n + 1) {
+            list->size++;
+        }
+    }
     return list;
+}
+
+LIST* resetList(LIST* list, int n) {
+    int i;
+    list->size = 0;
+    for (i = 0; i < n; i++) {
+        if (list->vector[i] != 0) {
+            list->size++;
+        }
+    }
+    return list;
+}
+
+void printStep(BOARD* b, int x, int y) {
+    int i, j;
+    for (i = 0; i < b->n; i++) {
+        for (j = 0; j < b->n; j++) {
+            if (i == x && j == y) {
+                printf("X ");
+            } else {
+                printf("%d ", b->matrix[i][j].value);
+            }
+        }
+        printf("\n");
+    }
+    printf("\n\n");
 }
 
 BOARD* updateLists(BOARD* b, int x, int y, int flag, int value) {
     int i;
-    // flag 0: remove value flag 1: add value
+    // flag 0: remove value
+    // flag 1: add value
     if (flag) {
         // add current value from cells that conflict with current cell
         for (i = 0; i < b->n; i++) {
             // check horizontally
-            if (i != y) {
+            if (value > 0) {
                 b->matrix[x][i].fw = listAdd(b->matrix[x][i].fw, value, b->n);
             }
             // check vertically
-            if (i != x) {
+            if (value > 0) {
                 b->matrix[i][y].fw = listAdd(b->matrix[i][y].fw, value, b->n);
             }
         }
@@ -84,11 +109,11 @@ BOARD* updateLists(BOARD* b, int x, int y, int flag, int value) {
         // remove current value from cells that conflict with current cell
         for (i = 0; i < b->n; i++) {
             // check horizontally
-            if (i != y) {
+            if (value > 0) {
                 b->matrix[x][i].fw = listRemove(b->matrix[x][i].fw, value, b->n);
             }
             // check vertically
-            if (i != x) {
+            if (value > 0) {
                 b->matrix[i][y].fw = listRemove(b->matrix[i][y].fw, value, b->n);
             }
         }
@@ -243,26 +268,35 @@ bool isValid(BOARD* board, int x, int y) {
     return TRUE;
 }
 
-void findMRV(BOARD* b, int* x, int* y) {
-    int i;
-    // get current forward checking list size
-    int aux = b->matrix[*x][*y].fw->size;
-    // find position that has a smaller list
+void printMRV(BOARD *b) {
+    int i, j;
     for (i = 0; i < b->n; i++) {
-        // check horizontally
-        if (i != (*y) && b->matrix[(*x)][i].fw->size < aux) {
-            *y = i;
-            break;
+        for (j = 0; j < b->n; j++) {
+            printf("%d ", b->matrix[i][j].fw->size);
         }
-        // check vertically
-        if (i != (*x) && b->matrix[i][(*y)].value < aux) {
-            *x = i;
-            break;
-        }
+        printf("\n");
     }
-
+    printf("\n\n");
 }
 
+void findMRV(BOARD* b, int _x, int _y, int* x, int* y) {
+    int i, j;
+    int aux = b->n + 1;
+    *x = _x;
+    *y = _y;
+    printf("Tabelas de MVR:\n");
+    printMRV(b);
+    // search for smallest value in line
+    for (i = 0; i < b->n; i++) {
+        for (j = 0; j < b->n; j++) {
+            if (b->matrix[i][j].fw->size < aux) {
+                aux = b->matrix[i][j].fw->size;
+                *y = j;
+                *x = i;
+            }
+        }
+    }
+}
 
 // BACKTRACKING - SIMPLE, NO HEURISTICS
 bool futoshiki_simple(BOARD** b, int x, int y, int* calls) {
@@ -383,74 +417,86 @@ bool futoshiki_fw(BOARD** b, int x, int y, int* calls) {
 // BACKTRACK WITH FORWARD CHECKING + MINIMAL REMAINING VALUES
 bool futoshiki(BOARD** b, int x, int y, int* calls) {
     int i;
+    int _x;
+    int _y;
+    int aux; // stores previous list size in case of reset
     // check if recursive calls reached overflow
     if (*calls >= OVERFLOW) {
         return FALSE;
     }
-    // check if has reached end of board
-    if (x >= (*b)->n || y >= (*b)->n) {
-        return TRUE;
-    }
+
+    // verifies if complete
+    findMRV((*b), x, y, &_x, &_y);
+    if (_x == x && _y == y && x != 0 && y != 0) return TRUE;
+    _x = x;
+    _y = y;
+
     // check if position is free and domain is not empty
-        for (i = 0; i < (*b)->n; i++) {
-            if ((*b)->matrix[x][y].value == 0 && (*b)->matrix[x][y].fw->size > 0) {
+    for (i = 0; i < (*b)->n; i++) {
+        printf("Testando valores da lista na posição\n");
+        if ((*b)->matrix[x][y].value == 0 && (*b)->matrix[x][y].fw->size > 0) {
             // get first valid value in forward checking list
             if ((*b)->matrix[x][y].fw->vector[i] != 0) {
                 // don't overwrite prefilled values
                 if (!((*b)->matrix[x][y].filled)) {
+                    printf("Colocando %d em [%d][%d]\n", (*b)->matrix[x][y].fw->vector[i], x, y);
                     (*b)->matrix[x][y].value = (*b)->matrix[x][y].fw->vector[i];
+                    printf("Tabuleiro:\n");
+                    printBoard(*b);
+                    printf("\n");
                     (*calls)++;
                     // update forward checking lists (remove current value) of line and column
+                    printf("Atualizando listas\n");
                     *b = updateLists(*b, x, y, 0, (*b)->matrix[x][y].value);
+                    (*b)->matrix[x][y].fw->size = (*b)->n + 1;
+                    printf("Tabela de MVR:\n");
+                    printMRV(*b);
                 }
                 if (isValid(*b, x, y)) {
-                    // checks if reached last column
-                    if (y == (*b)->n-1) {
-                        // goes to next line
-                        if (futoshiki(b, x+1, 0, calls)) {
-                            // placement was successful
-                            return TRUE;
-                        }
-                    } else {
-                        // goes to next column
-                        if (futoshiki(b, x, y+1, calls)) {
-                            // placement was sucessful
-                            return TRUE;
-                        }
-                    }
+                    // find next position with minimum remaining values
+                    printf("Valor passou nas restrições\n");
+                    printf("Encontrar próxima posição\n");
+                    findMRV(*b, x, y, &_x, &_y);
+                    printf("Chamada para [%d][%d]\n", _x, _y);
+                    futoshiki(b, _x, _y, calls);
+                } else {
+                    printf("Valor não obedece restrição\n");
                 }
             }
             // reset value
             if (!((*b)->matrix[x][y].filled)) {
+                printf("Valor %d não era válido\n", (*b)->matrix[x][y].fw->vector[i]);
                 // reset lists
-                updateLists(*b, x, y, 1, (*b)->matrix[x][y].value);
-                // reset value
-                (*b)->matrix[x][y].value = 0;
-            }
-        } else {
-            // checks if reached last column
-            if (y == (*b)->n-1) {
-                // goes to next line
-                if (futoshiki(b, x+1, 0, calls)) {
-                    // placement was successful
-                    return TRUE;
+                if ((*b)->matrix[x][y].value > 0) {
+                    printf("Readicionando %d às listas\n", (*b)->matrix[x][y].value);
+                    updateLists(*b, x, y, 1, (*b)->matrix[x][y].value);
+                    printf("Tabela de MVR:\n");
+                    printMRV(*b);
+                    // reset value
+                    printf("Resetando posição [%d][%d]\n", x, y);
+                    (*b)->matrix[x][y].value = 0;
+                    printf("Resetando tamanho da lista\n");
+                    // find size of list
+                    (*b)->matrix[x][y].fw = resetList((*b)->matrix[x][y].fw, (*b)->n);
                 }
             } else {
-                // goes to next column
-                if (futoshiki(b, x, y+1, calls)) {
-                    // placement was sucessful
-                    return TRUE;
-                }
+                // find next position with minimum remaining values
+                printf("Valor pré-definido, ignorar\n");
+                printf("Encontrar próxima posição\n");
+                findMRV(*b, x, y, &_x, &_y);
+                printf("Chamada para [%d][%d]\n", _x, _y);
+                futoshiki(b, _x, _y, calls);
             }
         }
     }
+    printf("Backtrack...\n");
     return FALSE;
 }
 
 int main(int argc, char const *argv[]) {
 
     // benchmarking
-    clock_t start_t, end_t, total_t;
+    clock_t start_t, end_t;
     float delta_t = 0.0;
     int calls;
     int solved = 0;
@@ -462,56 +508,36 @@ int main(int argc, char const *argv[]) {
     BOARD** boards = readBoards(n);
     // start timer
     start_t = clock();
+    // printf("board, calls, status\n");
     for (i = 0; i < n; i++) {
         calls = 0;
         printf("::: Board %d\n", i+1);
-        if (futoshiki_fw(&boards[i], 0, 0, &calls)) {
+        // printf("%d,",i+1);
+        if (futoshiki(&boards[i], 0, 0, &calls)) {
             solved++;
             printf(":: %d calls\n", calls);
+            // printf("%d,", calls);
+            // printf("solved\n");
             printBoard(boards[i]);
         } else {
             if (calls >= OVERFLOW) {
                 printf("::: ｏｖｅｒｆｌｏｗ\n");
                 printf(":: %d calls.\n", calls);
+                // printf("%d,", calls);
             }
             printf("[ ! ] No solution\n");
+            // printf("overflow\n");
         }
-        printf("\n");
+        // printf("\n");
     }
-
     // end timer
     end_t = clock();
     // human readable time
     delta_t = ((float)(end_t - start_t) / 1000000000000.0F ) * CLOCKS_PER_SEC;
-    printf("Finished in %lf seconds.\n", delta_t);
-
     // printf("PROGRAM FINISHED.\n");
-    // printf("::: Total calls for successful cases: %ld\n", total_calls);
-    // printf("::: Solved %d/%d boards\n", solved, n);
-
-    // // DESTROY MEMORY
-    // int j, k;
-    // for (i = 0; i < n; i++) {
-    //     int aux;
-    //     for (i = 0; i < boards[i]->n; i++) {
-    //         for (j = 0; j < boards[i]->n; j++) {
-    //             aux = boards[i]->matrix[i][j].r;
-    //             for(k = 0; k < aux; k++) {
-    //                 free(boards[i]->matrix[i][j].restrictions[k]);
-    //                 boards[i]->matrix[i][j].restrictions[k] = NULL;
-    //             }
-    //             free(boards[i]->matrix[i][j].restrictions);
-    //             boards[i]->matrix[i][j].restrictions = NULL;
-    //         }
-    //         free(boards[i]->matrix[i]);
-    //         boards[i]->matrix[i] = NULL;
-    //     }
-    //     free(boards[i]->matrix);
-    //     boards[i]->matrix = NULL;
-    //     free(boards[i]);
-    //     boards[i] = NULL;
-    // }
-    // free(boards);
-
+    // printf("heuristic,boards,solved time\n");
+    // printf("forward checking,%d,%lf\n", solved, delta_t);
+    printf("\nFINISHED.\n");
+    printf("Solved %d/%d boards in %lf seconds.\n\n", solved, n, delta_t);
     return 0;
 }
