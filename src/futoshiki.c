@@ -419,7 +419,6 @@ bool futoshiki(BOARD** b, int x, int y, int* calls) {
     int i;
     int _x;
     int _y;
-    int aux; // stores previous list size in case of reset
     // check if recursive calls reached overflow
     if (*calls >= OVERFLOW) {
         return FALSE;
@@ -431,9 +430,10 @@ bool futoshiki(BOARD** b, int x, int y, int* calls) {
     _x = x;
     _y = y;
 
-    // check if position is free and domain is not empty
+    // test values in forward check list
     for (i = 0; i < (*b)->n; i++) {
         printf("Testando valores da lista na posição\n");
+        // check if position is free and domain is not empty
         if ((*b)->matrix[x][y].value == 0 && (*b)->matrix[x][y].fw->size > 0) {
             // get first valid value in forward checking list
             if ((*b)->matrix[x][y].fw->vector[i] != 0) {
@@ -513,7 +513,7 @@ int main(int argc, char const *argv[]) {
         calls = 0;
         printf("::: Board %d\n", i+1);
         // printf("%d,",i+1);
-        if (futoshiki(&boards[i], 0, 0, &calls)) {
+        if (futoshiki_simple(&boards[i], 0, 0, &calls)) {
             solved++;
             printf(":: %d calls\n", calls);
             // printf("%d,", calls);
