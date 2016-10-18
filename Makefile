@@ -6,8 +6,8 @@ all: clean compile clear run
 
 run:
 	# run and test input file
-	$(BINARY) < ./test/futoshiki.dat
-	# $(BINARY) < ./test/fwtest.in
+	# $(BINARY) < ./test/futoshiki.dat
+	$(BINARY) < ./test/fwtest.in
 
 clean:
 	rm *.o
@@ -20,8 +20,8 @@ compile: futoshiki.o
 
 futoshiki.o:
 	# Ultra fast compilation
-	$(CC) -c -pg -O3 -I $(INCLUDES) ./src/futoshiki.c
+	# $(CC) -c -pg -O3 -I $(INCLUDES) ./src/futoshiki.c
 	# Fast compilation
 	# $(CC) -c -O2 -I $(INCLUDES) ./src/futoshiki.c
 	# Regular compilation
-	# $(CC) -c -I $(INCLUDES) ./src/futoshiki.c
+	$(CC) -c -I $(INCLUDES) ./src/futoshiki.c

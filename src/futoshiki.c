@@ -513,7 +513,8 @@ int main(int argc, char const *argv[]) {
         calls = 0;
         printf("::: Board %d\n", i+1);
         // printf("%d,",i+1);
-        if (futoshiki_simple(&boards[i], 0, 0, &calls)) {
+        printf("Chamando Futoshiki com Heurísticas\n");
+        if (futoshiki(&boards[i], 0, 0, &calls)) {
             solved++;
             printf(":: %d calls\n", calls);
             // printf("%d,", calls);
