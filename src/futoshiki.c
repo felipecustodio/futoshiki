@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "globals.h"
-
+//ola
 typedef struct list {
 
     // possible values
