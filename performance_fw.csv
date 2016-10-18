@@ -1,0 +1,113 @@
+rm *.o
+# Ultra fast compilation
+gcc -c -O3 -I ./includes ./src/futoshiki.c
+# Fast compilation
+# gcc -c -O2 -I ./includes ./src/futoshiki.c
+# Regular compilation
+# gcc -c -I ./includes ./src/futoshiki.c
+gcc -pg -o ./build/futoshiki futoshiki.o
+clear
+[H[2J./build/futoshiki < ./test/futoshiki.dat
+board, calls, status
+1,150,solved
+2,16,solved
+3,683,solved
+4,37,solved
+5,489,solved
+6,132,solved
+7,36,solved
+8,18,solved
+9,211,solved
+10,482,solved
+11,36,solved
+12,22,solved
+13,20,solved
+14,28,solved
+15,15,solved
+16,201,solved
+17,82,solved
+18,6513,solved
+19,795,solved
+20,51,solved
+21,768,solved
+22,1704,solved
+23,71,solved
+24,7707,solved
+25,266,solved
+26,692,solved
+27,849,solved
+28,30,solved
+29,49880,solved
+30,130,solved
+31,532,solved
+32,1182,solved
+33,72514,solved
+34,216,solved
+35,1494,solved
+36,103,solved
+37,23799,solved
+38,93,solved
+39,87,solved
+40,1305,solved
+41,851,solved
+42,638,solved
+43,1101,solved
+44,6743,solved
+45,198940,solved
+46,5951,solved
+47,665,solved
+48,4118,solved
+49,59443,solved
+50,1000065,overflow
+51,12866,solved
+52,1000092,overflow
+53,1000103,overflow
+54,1000087,overflow
+55,1000100,overflow
+56,544834,solved
+57,134,solved
+58,1454,solved
+59,622,solved
+60,1000082,overflow
+61,1595,solved
+62,1000066,overflow
+63,446,solved
+64,589,solved
+65,1000155,overflow
+66,1000052,overflow
+67,1000078,overflow
+68,1000117,overflow
+69,2031,solved
+70,509589,solved
+71,5286,solved
+72,22132,solved
+73,31046,solved
+74,1000113,overflow
+75,1000161,overflow
+76,1000155,overflow
+77,1000168,overflow
+78,31472,solved
+79,1000161,overflow
+80,1000131,overflow
+81,1000150,overflow
+82,155648,solved
+83,1000210,overflow
+84,1000181,overflow
+85,1000178,overflow
+86,13977,solved
+87,1000197,overflow
+88,1000264,overflow
+89,1000163,overflow
+90,765679,solved
+91,1000210,overflow
+92,468887,solved
+93,1000118,overflow
+94,1000102,overflow
+95,88050,solved
+96,320952,solved
+97,1000131,overflow
+98,1000109,overflow
+99,1000111,overflow
+100,1000082,overflow
+heuristic,boards,solved time
+forward checking,69,3.051773

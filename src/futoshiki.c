@@ -440,35 +440,42 @@ int main(int argc, char const *argv[]) {
     int calls;
     int solved = 0;
 
-    printf("\tFUTOSHIKI 不等式\n\n");
+    // printf("\tFUTOSHIKI 不等式\n\n");
     int i;
     int n = 0;
     scanf("%d", &n);
     BOARD** boards = readBoards(n);
     // start timer
     start_t = clock();
+    printf("board, calls, status\n");
     for (i = 0; i < n; i++) {
         calls = 0;
-        printf("::: Board %d\n", i+1);
-        if (futoshiki_simple(&boards[i], 0, 0, &calls)) {
+        // printf("::: Board %d\n", i+1);
+        printf("%d,",i+1);
+        if (futoshiki_fw(&boards[i], 0, 0, &calls)) {
             solved++;
-            printf(":: %d calls\n", calls);
-            printBoard(boards[i]);
+            // printf(":: %d calls\n", calls);
+            printf("%d,", calls);
+            printf("solved\n");
+            // printBoard(boards[i]);
         } else {
             if (calls >= OVERFLOW) {
-                printf("::: ｏｖｅｒｆｌｏｗ\n");
-                printf(":: %d calls.\n", calls);
+                // printf("::: ｏｖｅｒｆｌｏｗ\n");
+                // printf(":: %d calls.\n", calls);
+                printf("%d,", calls);
             }
-            printf("[ ! ] No solution\n");
+            // printf("[ ! ] No solution\n");
+            printf("overflow\n");
         }
-        printf("\n");
+        // printf("\n");
     }
-
     // end timer
     end_t = clock();
     // human readable time
     delta_t = ((float)(end_t - start_t) / 1000000000000.0F ) * CLOCKS_PER_SEC;
-    printf("PROGRAM FINISHED.\n");
-    printf("Solved %d/%d boards in %lf seconds.\n", solved, n, delta_t);
+    // printf("PROGRAM FINISHED.\n");
+    printf("heuristic,boards,solved time\n");
+    printf("forward checking,%d,%lf\n", solved, delta_t);
+    // printf("Solved %d/%d boards in %lf seconds.\n", solved, n, delta_t);
     return 0;
 }
