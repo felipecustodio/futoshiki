@@ -1,0 +1,120 @@
+rm *.o
+# Ultra fast compilation
+gcc -c -pg -O3 -I ./includes ./src/futoshiki.c
+# gcc -c -pg -O3 -I ./includes ./src/backup3.c
+# Fast compilation
+# gcc -c -O2 -I ./includes ./src/futoshiki.c
+# Regular compilation
+# gcc -c -I ./includes ./src/futoshiki.c
+gcc -pg -o ./build/futoshiki futoshiki.o
+clear
+[H[2J# run and test input file
+./build/futoshiki < ./test/futoshiki.dat
+[H[2J	FUTOSHIKI 不等式
+
+board, calls, status
+1,248,solved
+2,40,solved
+3,986,solved
+4,71,solved
+5,784,solved
+6,228,solved
+7,83,solved
+8,47,solved
+9,334,solved
+10,757,solved
+11,77,solved
+12,43,solved
+13,44,solved
+14,49,solved
+15,37,solved
+16,336,solved
+17,192,solved
+18,11299,solved
+19,1337,solved
+20,933,solved
+21,1287,solved
+22,31363,solved
+23,182,solved
+24,12244,solved
+25,525,solved
+26,1100,solved
+27,1534,solved
+28,81,solved
+29,83654,solved
+30,271,solved
+31,912,solved
+32,1880,solved
+33,94831,solved
+34,563,solved
+35,3128,solved
+36,274,solved
+37,37041,solved
+38,204,solved
+39,215,solved
+40,1968,solved
+41,2091,solved
+42,1360,solved
+43,1000068,overflow
+44,765218,solved
+45,390866,solved
+46,9103,solved
+47,1471,solved
+48,6047,solved
+49,1000111,overflow
+50,1000076,overflow
+51,23602,solved
+52,1000097,overflow
+53,1000097,overflow
+54,1000062,overflow
+55,5983,solved
+56,572994,solved
+57,274626,solved
+58,5287,solved
+59,59376,solved
+60,1000090,overflow
+61,3070,solved
+62,1000069,overflow
+63,1183,solved
+64,7253,solved
+65,1000144,overflow
+66,1000056,overflow
+67,1000080,overflow
+68,1000128,overflow
+69,4105,solved
+70,1000136,overflow
+71,1000136,overflow
+72,1000144,overflow
+73,51108,solved
+74,1000104,overflow
+75,1000168,overflow
+76,1000168,overflow
+77,1000176,overflow
+78,75409,solved
+79,1000184,overflow
+80,1000144,overflow
+81,1000161,overflow
+82,287257,solved
+83,1000233,overflow
+84,1000197,overflow
+85,1000188,overflow
+86,28790,solved
+87,1000206,overflow
+88,1000278,overflow
+89,1000215,overflow
+90,1000179,overflow
+91,1000125,overflow
+92,1000107,overflow
+93,1000125,overflow
+94,1000116,overflow
+95,193411,solved
+96,1000215,overflow
+97,1000152,overflow
+98,1000134,overflow
+99,1000125,overflow
+100,1000116,overflow
+
+FINISHED.
+Solved 62/100 boards in 1.241696 seconds.
+
+# ./build/futoshiki < ./test/fwtest.in
